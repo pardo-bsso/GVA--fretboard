@@ -1,0 +1,23 @@
+; Kai-Martins project config for gEDA and friends
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(reset-component-library)   ; don't use system symbols
+(reset-source-library)     ; don't use system schematics
+
+; Allow to source symbols from the current working directory
+(define current-working-directory ".")
+(component-library current-working-directory)
+(source-library  current-working-directory)
+
+; Allow to source symbols from the local copy of geda-symbols
+(define gedasymbols "/home/pardo/geda/symbols")
+(component-library "/home/pardo/geda/simbolos")
+(component-library (build-path gedasymbols "titleblock"))
+(component-library (build-path gedasymbols "power"))
+(component-library (build-path gedasymbols "misc"))
+(component-library (build-path gedasymbols "digital"))
+(component-library (build-path gedasymbols "connector"))
+(component-library (build-path gedasymbols "block"))
+(component-library (build-path gedasymbols "analog/diode"))
+(component-library (build-path gedasymbols "analog"))
+

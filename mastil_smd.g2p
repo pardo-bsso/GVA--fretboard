@@ -1,0 +1,7 @@
+schematics mastil_smd.sch
+output-name mastil_smd
+skip-m4
+verbose
+elements-dir /home/pardo/geda/footprints
+use-files
+

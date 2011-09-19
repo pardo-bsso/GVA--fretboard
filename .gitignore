@@ -1,0 +1,12 @@
+
+# To be ignored by git:
+*~
+*-
+PCB.*.save
+PCB.*.backup
+*.bak
+*.bak?
+*.new.pcb
+*.cmd
+\#*#
+
