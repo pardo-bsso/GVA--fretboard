@@ -98,7 +98,9 @@ footprint=none
 T 20600 57100 5 8 0 0 0 0 1
 symversion=1.0
 T 19900 55900 5 10 1 1 0 0 1
-net=cuerda1
+net=cuerda1:1
+T 19900 55900 5 10 0 0 0 0 1
+net=cuerda1:1
 }
 C 19900 54900 1 0 0 in.sym
 {
@@ -109,7 +111,8 @@ footprint=none
 T 20600 56100 5 8 0 0 0 0 1
 symversion=1.0
 T 19900 54900 5 10 1 1 0 0 1
-net=cuerda2
+net=cuerda2:1
+netname=cuerda2
 }
 C 19900 53900 1 0 0 in.sym
 {
@@ -120,7 +123,7 @@ footprint=none
 T 20600 55100 5 8 0 0 0 0 1
 symversion=1.0
 T 19900 53900 5 10 1 1 0 0 1
-net=cuerda3
+net=cuerda3:1
 }
 C 19900 52900 1 0 0 in.sym
 {
@@ -131,7 +134,7 @@ footprint=none
 T 20600 54100 5 8 0 0 0 0 1
 symversion=1.0
 T 19900 52900 5 10 1 1 0 0 1
-net=cuerda4
+net=cuerda4:1
 }
 C 19900 51900 1 0 0 in.sym
 {
@@ -142,7 +145,7 @@ footprint=none
 T 20600 53100 5 8 0 0 0 0 1
 symversion=1.0
 T 19900 51900 5 10 1 1 0 0 1
-net=cuerda5
+net=cuerda5:1
 }
 C 19900 50900 1 0 0 in.sym
 {
@@ -153,7 +156,7 @@ footprint=none
 T 20600 52100 5 8 0 0 0 0 1
 symversion=1.0
 T 19900 50900 5 10 1 1 0 0 1
-net=cuerda5
+net=cuerda6:1
 }
 C 21400 49900 1 0 0 in.sym
 {
@@ -164,7 +167,7 @@ footprint=none
 T 22100 51100 5 8 0 0 0 0 1
 symversion=1.0
 T 21400 49900 5 10 1 1 0 0 1
-net=traste00
+net=traste00:1
 }
 N 21300 56000 21000 56000 4
 N 21000 55000 21300 55000 4
@@ -254,7 +257,9 @@ footprint=none
 T 23600 57100 5 8 0 0 0 0 1
 symversion=1.0
 T 22900 55900 5 10 1 1 0 0 1
-net=cuerda1
+net=cuerda1:1
+T 22900 55900 5 10 0 0 0 0 1
+net=cuerda1:1
 }
 C 22900 54900 1 0 0 in.sym
 {
@@ -265,7 +270,8 @@ footprint=none
 T 23600 56100 5 8 0 0 0 0 1
 symversion=1.0
 T 22900 54900 5 10 1 1 0 0 1
-net=cuerda2
+net=cuerda2:1
+netname=cuerda2
 }
 C 22900 53900 1 0 0 in.sym
 {
@@ -276,7 +282,7 @@ footprint=none
 T 23600 55100 5 8 0 0 0 0 1
 symversion=1.0
 T 22900 53900 5 10 1 1 0 0 1
-net=cuerda3
+net=cuerda3:1
 }
 C 22900 52900 1 0 0 in.sym
 {
@@ -287,7 +293,7 @@ footprint=none
 T 23600 54100 5 8 0 0 0 0 1
 symversion=1.0
 T 22900 52900 5 10 1 1 0 0 1
-net=cuerda4
+net=cuerda4:1
 }
 C 22900 51900 1 0 0 in.sym
 {
@@ -298,7 +304,7 @@ footprint=none
 T 23600 53100 5 8 0 0 0 0 1
 symversion=1.0
 T 22900 51900 5 10 1 1 0 0 1
-net=cuerda5
+net=cuerda5:1
 }
 C 22900 50900 1 0 0 in.sym
 {
@@ -309,7 +315,7 @@ footprint=none
 T 23600 52100 5 8 0 0 0 0 1
 symversion=1.0
 T 22900 50900 5 10 1 1 0 0 1
-net=cuerda5
+net=cuerda6:1
 }
 C 24400 49900 1 0 0 in.sym
 {
@@ -320,7 +326,7 @@ footprint=none
 T 25100 51100 5 8 0 0 0 0 1
 symversion=1.0
 T 24400 49900 5 10 1 1 0 0 1
-net=traste01
+net=traste01:1
 }
 N 24300 56000 24000 56000 4
 N 24000 55000 24300 55000 4
@@ -410,7 +416,9 @@ footprint=none
 T 26600 57100 5 8 0 0 0 0 1
 symversion=1.0
 T 25900 55900 5 10 1 1 0 0 1
-net=cuerda1
+net=cuerda1:1
+T 25900 55900 5 10 0 0 0 0 1
+net=cuerda1:1
 }
 C 25900 54900 1 0 0 in.sym
 {
@@ -421,7 +429,8 @@ footprint=none
 T 26600 56100 5 8 0 0 0 0 1
 symversion=1.0
 T 25900 54900 5 10 1 1 0 0 1
-net=cuerda2
+net=cuerda2:1
+netname=cuerda2
 }
 C 25900 53900 1 0 0 in.sym
 {
@@ -432,7 +441,7 @@ footprint=none
 T 26600 55100 5 8 0 0 0 0 1
 symversion=1.0
 T 25900 53900 5 10 1 1 0 0 1
-net=cuerda3
+net=cuerda3:1
 }
 C 25900 52900 1 0 0 in.sym
 {
@@ -443,7 +452,7 @@ footprint=none
 T 26600 54100 5 8 0 0 0 0 1
 symversion=1.0
 T 25900 52900 5 10 1 1 0 0 1
-net=cuerda4
+net=cuerda4:1
 }
 C 25900 51900 1 0 0 in.sym
 {
@@ -454,7 +463,7 @@ footprint=none
 T 26600 53100 5 8 0 0 0 0 1
 symversion=1.0
 T 25900 51900 5 10 1 1 0 0 1
-net=cuerda5
+net=cuerda5:1
 }
 C 25900 50900 1 0 0 in.sym
 {
@@ -465,7 +474,7 @@ footprint=none
 T 26600 52100 5 8 0 0 0 0 1
 symversion=1.0
 T 25900 50900 5 10 1 1 0 0 1
-net=cuerda5
+net=cuerda6:1
 }
 C 27400 49900 1 0 0 in.sym
 {
@@ -476,7 +485,7 @@ footprint=none
 T 28100 51100 5 8 0 0 0 0 1
 symversion=1.0
 T 27400 49900 5 10 1 1 0 0 1
-net=traste02
+net=traste02:1
 }
 N 27300 56000 27000 56000 4
 N 27000 55000 27300 55000 4
@@ -566,7 +575,7 @@ footprint=none
 T 29600 57100 5 8 0 0 0 0 1
 symversion=1.0
 T 28900 55900 5 10 1 1 0 0 1
-net=cuerda1
+net=cuerda1:1
 }
 C 28900 54900 1 0 0 in.sym
 {
@@ -577,7 +586,8 @@ footprint=none
 T 29600 56100 5 8 0 0 0 0 1
 symversion=1.0
 T 28900 54900 5 10 1 1 0 0 1
-net=cuerda2
+net=cuerda2:1
+netname=cuerda2
 }
 C 28900 53900 1 0 0 in.sym
 {
@@ -588,7 +598,7 @@ footprint=none
 T 29600 55100 5 8 0 0 0 0 1
 symversion=1.0
 T 28900 53900 5 10 1 1 0 0 1
-net=cuerda3
+net=cuerda3:1
 }
 C 28900 52900 1 0 0 in.sym
 {
@@ -599,7 +609,7 @@ footprint=none
 T 29600 54100 5 8 0 0 0 0 1
 symversion=1.0
 T 28900 52900 5 10 1 1 0 0 1
-net=cuerda4
+net=cuerda4:1
 }
 C 28900 51900 1 0 0 in.sym
 {
@@ -610,7 +620,7 @@ footprint=none
 T 29600 53100 5 8 0 0 0 0 1
 symversion=1.0
 T 28900 51900 5 10 1 1 0 0 1
-net=cuerda5
+net=cuerda5:1
 }
 C 28900 50900 1 0 0 in.sym
 {
@@ -621,7 +631,7 @@ footprint=none
 T 29600 52100 5 8 0 0 0 0 1
 symversion=1.0
 T 28900 50900 5 10 1 1 0 0 1
-net=cuerda5
+net=cuerda6:1
 }
 C 30400 49900 1 0 0 in.sym
 {
@@ -632,7 +642,7 @@ footprint=none
 T 31100 51100 5 8 0 0 0 0 1
 symversion=1.0
 T 30400 49900 5 10 1 1 0 0 1
-net=traste03
+net=traste03:1
 }
 N 30300 56000 30000 56000 4
 N 30000 55000 30300 55000 4
@@ -722,7 +732,7 @@ footprint=none
 T 32600 57100 5 8 0 0 0 0 1
 symversion=1.0
 T 31900 55900 5 10 1 1 0 0 1
-net=cuerda1
+net=cuerda1:1
 }
 C 31900 54900 1 0 0 in.sym
 {
@@ -733,7 +743,8 @@ footprint=none
 T 32600 56100 5 8 0 0 0 0 1
 symversion=1.0
 T 31900 54900 5 10 1 1 0 0 1
-net=cuerda2
+net=cuerda2:1
+netname=cuerda2
 }
 C 31900 53900 1 0 0 in.sym
 {
@@ -744,7 +755,7 @@ footprint=none
 T 32600 55100 5 8 0 0 0 0 1
 symversion=1.0
 T 31900 53900 5 10 1 1 0 0 1
-net=cuerda3
+net=cuerda3:1
 }
 C 31900 52900 1 0 0 in.sym
 {
@@ -755,7 +766,7 @@ footprint=none
 T 32600 54100 5 8 0 0 0 0 1
 symversion=1.0
 T 31900 52900 5 10 1 1 0 0 1
-net=cuerda4
+net=cuerda4:1
 }
 C 31900 51900 1 0 0 in.sym
 {
@@ -766,7 +777,7 @@ footprint=none
 T 32600 53100 5 8 0 0 0 0 1
 symversion=1.0
 T 31900 51900 5 10 1 1 0 0 1
-net=cuerda5
+net=cuerda5:1
 }
 C 31900 50900 1 0 0 in.sym
 {
@@ -777,7 +788,7 @@ footprint=none
 T 32600 52100 5 8 0 0 0 0 1
 symversion=1.0
 T 31900 50900 5 10 1 1 0 0 1
-net=cuerda5
+net=cuerda6:1
 }
 C 33400 49900 1 0 0 in.sym
 {
@@ -788,7 +799,7 @@ footprint=none
 T 34100 51100 5 8 0 0 0 0 1
 symversion=1.0
 T 33400 49900 5 10 1 1 0 0 1
-net=traste04
+net=traste04:1
 }
 N 33300 56000 33000 56000 4
 N 33000 55000 33300 55000 4
@@ -878,7 +889,7 @@ footprint=none
 T 35600 57100 5 8 0 0 0 0 1
 symversion=1.0
 T 34900 55900 5 10 1 1 0 0 1
-net=cuerda1
+net=cuerda1:1
 }
 C 34900 54900 1 0 0 in.sym
 {
@@ -889,7 +900,8 @@ footprint=none
 T 35600 56100 5 8 0 0 0 0 1
 symversion=1.0
 T 34900 54900 5 10 1 1 0 0 1
-net=cuerda2
+net=cuerda2:1
+netname=cuerda2
 }
 C 34900 53900 1 0 0 in.sym
 {
@@ -900,7 +912,7 @@ footprint=none
 T 35600 55100 5 8 0 0 0 0 1
 symversion=1.0
 T 34900 53900 5 10 1 1 0 0 1
-net=cuerda3
+net=cuerda3:1
 }
 C 34900 52900 1 0 0 in.sym
 {
@@ -911,7 +923,7 @@ footprint=none
 T 35600 54100 5 8 0 0 0 0 1
 symversion=1.0
 T 34900 52900 5 10 1 1 0 0 1
-net=cuerda4
+net=cuerda4:1
 }
 C 34900 51900 1 0 0 in.sym
 {
@@ -922,7 +934,7 @@ footprint=none
 T 35600 53100 5 8 0 0 0 0 1
 symversion=1.0
 T 34900 51900 5 10 1 1 0 0 1
-net=cuerda5
+net=cuerda5:1
 }
 C 34900 50900 1 0 0 in.sym
 {
@@ -933,7 +945,7 @@ footprint=none
 T 35600 52100 5 8 0 0 0 0 1
 symversion=1.0
 T 34900 50900 5 10 1 1 0 0 1
-net=cuerda5
+net=cuerda6:1
 }
 C 36400 49900 1 0 0 in.sym
 {
@@ -944,7 +956,7 @@ footprint=none
 T 37100 51100 5 8 0 0 0 0 1
 symversion=1.0
 T 36400 49900 5 10 1 1 0 0 1
-net=traste05
+net=traste05:1
 }
 N 36300 56000 36000 56000 4
 N 36000 55000 36300 55000 4
@@ -1034,7 +1046,7 @@ footprint=none
 T 38600 57100 5 8 0 0 0 0 1
 symversion=1.0
 T 37900 55900 5 10 1 1 0 0 1
-net=cuerda1
+net=cuerda1:1
 }
 C 37900 54900 1 0 0 in.sym
 {
@@ -1045,7 +1057,8 @@ footprint=none
 T 38600 56100 5 8 0 0 0 0 1
 symversion=1.0
 T 37900 54900 5 10 1 1 0 0 1
-net=cuerda2
+net=cuerda2:1
+netname=cuerda2
 }
 C 37900 53900 1 0 0 in.sym
 {
@@ -1056,7 +1069,7 @@ footprint=none
 T 38600 55100 5 8 0 0 0 0 1
 symversion=1.0
 T 37900 53900 5 10 1 1 0 0 1
-net=cuerda3
+net=cuerda3:1
 }
 C 37900 52900 1 0 0 in.sym
 {
@@ -1067,7 +1080,7 @@ footprint=none
 T 38600 54100 5 8 0 0 0 0 1
 symversion=1.0
 T 37900 52900 5 10 1 1 0 0 1
-net=cuerda4
+net=cuerda4:1
 }
 C 37900 51900 1 0 0 in.sym
 {
@@ -1078,7 +1091,7 @@ footprint=none
 T 38600 53100 5 8 0 0 0 0 1
 symversion=1.0
 T 37900 51900 5 10 1 1 0 0 1
-net=cuerda5
+net=cuerda5:1
 }
 C 37900 50900 1 0 0 in.sym
 {
@@ -1089,7 +1102,7 @@ footprint=none
 T 38600 52100 5 8 0 0 0 0 1
 symversion=1.0
 T 37900 50900 5 10 1 1 0 0 1
-net=cuerda5
+net=cuerda6:1
 }
 C 39400 49900 1 0 0 in.sym
 {
@@ -1100,7 +1113,7 @@ footprint=none
 T 40100 51100 5 8 0 0 0 0 1
 symversion=1.0
 T 39400 49900 5 10 1 1 0 0 1
-net=traste06
+net=traste06:1
 }
 N 39300 56000 39000 56000 4
 N 39000 55000 39300 55000 4
@@ -1190,7 +1203,7 @@ footprint=none
 T 41600 57100 5 8 0 0 0 0 1
 symversion=1.0
 T 40900 55900 5 10 1 1 0 0 1
-net=cuerda1
+net=cuerda1:1
 }
 C 40900 54900 1 0 0 in.sym
 {
@@ -1201,7 +1214,8 @@ footprint=none
 T 41600 56100 5 8 0 0 0 0 1
 symversion=1.0
 T 40900 54900 5 10 1 1 0 0 1
-net=cuerda2
+net=cuerda2:1
+netname=cuerda2
 }
 C 40900 53900 1 0 0 in.sym
 {
@@ -1212,7 +1226,7 @@ footprint=none
 T 41600 55100 5 8 0 0 0 0 1
 symversion=1.0
 T 40900 53900 5 10 1 1 0 0 1
-net=cuerda3
+net=cuerda3:1
 }
 C 40900 52900 1 0 0 in.sym
 {
@@ -1223,7 +1237,7 @@ footprint=none
 T 41600 54100 5 8 0 0 0 0 1
 symversion=1.0
 T 40900 52900 5 10 1 1 0 0 1
-net=cuerda4
+net=cuerda4:1
 }
 C 40900 51900 1 0 0 in.sym
 {
@@ -1234,7 +1248,7 @@ footprint=none
 T 41600 53100 5 8 0 0 0 0 1
 symversion=1.0
 T 40900 51900 5 10 1 1 0 0 1
-net=cuerda5
+net=cuerda5:1
 }
 C 40900 50900 1 0 0 in.sym
 {
@@ -1245,7 +1259,7 @@ footprint=none
 T 41600 52100 5 8 0 0 0 0 1
 symversion=1.0
 T 40900 50900 5 10 1 1 0 0 1
-net=cuerda5
+net=cuerda6:1
 }
 C 42400 49900 1 0 0 in.sym
 {
@@ -1256,7 +1270,7 @@ footprint=none
 T 43100 51100 5 8 0 0 0 0 1
 symversion=1.0
 T 42400 49900 5 10 1 1 0 0 1
-net=traste07
+net=traste07:1
 }
 N 42300 56000 42000 56000 4
 N 42000 55000 42300 55000 4
@@ -1346,7 +1360,7 @@ footprint=none
 T 44600 57100 5 8 0 0 0 0 1
 symversion=1.0
 T 43900 55900 5 10 1 1 0 0 1
-net=cuerda1
+net=cuerda1:1
 }
 C 43900 54900 1 0 0 in.sym
 {
@@ -1357,7 +1371,8 @@ footprint=none
 T 44600 56100 5 8 0 0 0 0 1
 symversion=1.0
 T 43900 54900 5 10 1 1 0 0 1
-net=cuerda2
+net=cuerda2:1
+netname=cuerda2
 }
 C 43900 53900 1 0 0 in.sym
 {
@@ -1368,7 +1383,7 @@ footprint=none
 T 44600 55100 5 8 0 0 0 0 1
 symversion=1.0
 T 43900 53900 5 10 1 1 0 0 1
-net=cuerda3
+net=cuerda3:1
 }
 C 43900 52900 1 0 0 in.sym
 {
@@ -1379,7 +1394,7 @@ footprint=none
 T 44600 54100 5 8 0 0 0 0 1
 symversion=1.0
 T 43900 52900 5 10 1 1 0 0 1
-net=cuerda4
+net=cuerda4:1
 }
 C 43900 51900 1 0 0 in.sym
 {
@@ -1390,7 +1405,7 @@ footprint=none
 T 44600 53100 5 8 0 0 0 0 1
 symversion=1.0
 T 43900 51900 5 10 1 1 0 0 1
-net=cuerda5
+net=cuerda5:1
 }
 C 43900 50900 1 0 0 in.sym
 {
@@ -1401,7 +1416,7 @@ footprint=none
 T 44600 52100 5 8 0 0 0 0 1
 symversion=1.0
 T 43900 50900 5 10 1 1 0 0 1
-net=cuerda5
+net=cuerda6:1
 }
 C 45400 49900 1 0 0 in.sym
 {
@@ -1412,7 +1427,7 @@ footprint=none
 T 46100 51100 5 8 0 0 0 0 1
 symversion=1.0
 T 45400 49900 5 10 1 1 0 0 1
-net=traste08
+net=traste08:1
 }
 N 45300 56000 45000 56000 4
 N 45000 55000 45300 55000 4
@@ -1502,7 +1517,7 @@ footprint=none
 T 47600 57100 5 8 0 0 0 0 1
 symversion=1.0
 T 46900 55900 5 10 1 1 0 0 1
-net=cuerda1
+net=cuerda1:1
 }
 C 46900 54900 1 0 0 in.sym
 {
@@ -1513,7 +1528,8 @@ footprint=none
 T 47600 56100 5 8 0 0 0 0 1
 symversion=1.0
 T 46900 54900 5 10 1 1 0 0 1
-net=cuerda2
+net=cuerda2:1
+netname=cuerda2
 }
 C 46900 53900 1 0 0 in.sym
 {
@@ -1524,7 +1540,7 @@ footprint=none
 T 47600 55100 5 8 0 0 0 0 1
 symversion=1.0
 T 46900 53900 5 10 1 1 0 0 1
-net=cuerda3
+net=cuerda3:1
 }
 C 46900 52900 1 0 0 in.sym
 {
@@ -1535,7 +1551,7 @@ footprint=none
 T 47600 54100 5 8 0 0 0 0 1
 symversion=1.0
 T 46900 52900 5 10 1 1 0 0 1
-net=cuerda4
+net=cuerda4:1
 }
 C 46900 51900 1 0 0 in.sym
 {
@@ -1546,7 +1562,7 @@ footprint=none
 T 47600 53100 5 8 0 0 0 0 1
 symversion=1.0
 T 46900 51900 5 10 1 1 0 0 1
-net=cuerda5
+net=cuerda5:1
 }
 C 46900 50900 1 0 0 in.sym
 {
@@ -1557,7 +1573,7 @@ footprint=none
 T 47600 52100 5 8 0 0 0 0 1
 symversion=1.0
 T 46900 50900 5 10 1 1 0 0 1
-net=cuerda5
+net=cuerda6:1
 }
 C 48400 49900 1 0 0 in.sym
 {
@@ -1568,7 +1584,7 @@ footprint=none
 T 49100 51100 5 8 0 0 0 0 1
 symversion=1.0
 T 48400 49900 5 10 1 1 0 0 1
-net=traste09
+net=traste09:1
 }
 N 48300 56000 48000 56000 4
 N 48000 55000 48300 55000 4
@@ -1658,7 +1674,7 @@ footprint=none
 T 20600 49600 5 8 0 0 0 0 1
 symversion=1.0
 T 19900 48400 5 10 1 1 0 0 1
-net=cuerda1
+net=cuerda1:1
 }
 C 19900 47400 1 0 0 in.sym
 {
@@ -1669,7 +1685,8 @@ footprint=none
 T 20600 48600 5 8 0 0 0 0 1
 symversion=1.0
 T 19900 47400 5 10 1 1 0 0 1
-net=cuerda2
+net=cuerda2:1
+netname=cuerda2
 }
 C 19900 46400 1 0 0 in.sym
 {
@@ -1680,7 +1697,7 @@ footprint=none
 T 20600 47600 5 8 0 0 0 0 1
 symversion=1.0
 T 19900 46400 5 10 1 1 0 0 1
-net=cuerda3
+net=cuerda3:1
 }
 C 19900 45400 1 0 0 in.sym
 {
@@ -1691,7 +1708,7 @@ footprint=none
 T 20600 46600 5 8 0 0 0 0 1
 symversion=1.0
 T 19900 45400 5 10 1 1 0 0 1
-net=cuerda4
+net=cuerda4:1
 }
 C 19900 44400 1 0 0 in.sym
 {
@@ -1702,7 +1719,7 @@ footprint=none
 T 20600 45600 5 8 0 0 0 0 1
 symversion=1.0
 T 19900 44400 5 10 1 1 0 0 1
-net=cuerda5
+net=cuerda5:1
 }
 C 19900 43400 1 0 0 in.sym
 {
@@ -1713,7 +1730,7 @@ footprint=none
 T 20600 44600 5 8 0 0 0 0 1
 symversion=1.0
 T 19900 43400 5 10 1 1 0 0 1
-net=cuerda5
+net=cuerda6:1
 }
 C 21400 42400 1 0 0 in.sym
 {
@@ -1724,7 +1741,7 @@ footprint=none
 T 22100 43600 5 8 0 0 0 0 1
 symversion=1.0
 T 21400 42400 5 10 1 1 0 0 1
-net=traste10
+net=traste10:1
 }
 N 21300 48500 21000 48500 4
 N 21000 47500 21300 47500 4
@@ -1814,7 +1831,7 @@ footprint=none
 T 23600 49600 5 8 0 0 0 0 1
 symversion=1.0
 T 22900 48400 5 10 1 1 0 0 1
-net=cuerda1
+net=cuerda1:1
 }
 C 22900 47400 1 0 0 in.sym
 {
@@ -1825,7 +1842,8 @@ footprint=none
 T 23600 48600 5 8 0 0 0 0 1
 symversion=1.0
 T 22900 47400 5 10 1 1 0 0 1
-net=cuerda2
+net=cuerda2:1
+netname=cuerda2
 }
 C 22900 46400 1 0 0 in.sym
 {
@@ -1836,7 +1854,7 @@ footprint=none
 T 23600 47600 5 8 0 0 0 0 1
 symversion=1.0
 T 22900 46400 5 10 1 1 0 0 1
-net=cuerda3
+net=cuerda3:1
 }
 C 22900 45400 1 0 0 in.sym
 {
@@ -1847,7 +1865,7 @@ footprint=none
 T 23600 46600 5 8 0 0 0 0 1
 symversion=1.0
 T 22900 45400 5 10 1 1 0 0 1
-net=cuerda4
+net=cuerda4:1
 }
 C 22900 44400 1 0 0 in.sym
 {
@@ -1858,7 +1876,7 @@ footprint=none
 T 23600 45600 5 8 0 0 0 0 1
 symversion=1.0
 T 22900 44400 5 10 1 1 0 0 1
-net=cuerda5
+net=cuerda5:1
 }
 C 22900 43400 1 0 0 in.sym
 {
@@ -1869,7 +1887,7 @@ footprint=none
 T 23600 44600 5 8 0 0 0 0 1
 symversion=1.0
 T 22900 43400 5 10 1 1 0 0 1
-net=cuerda5
+net=cuerda6:1
 }
 C 24400 42400 1 0 0 in.sym
 {
@@ -1880,7 +1898,7 @@ footprint=none
 T 25100 43600 5 8 0 0 0 0 1
 symversion=1.0
 T 24400 42400 5 10 1 1 0 0 1
-net=traste11
+net=traste11:1
 }
 N 24300 48500 24000 48500 4
 N 24000 47500 24300 47500 4
@@ -1970,7 +1988,7 @@ footprint=none
 T 26600 49600 5 8 0 0 0 0 1
 symversion=1.0
 T 25900 48400 5 10 1 1 0 0 1
-net=cuerda1
+net=cuerda1:1
 }
 C 25900 47400 1 0 0 in.sym
 {
@@ -1981,7 +1999,8 @@ footprint=none
 T 26600 48600 5 8 0 0 0 0 1
 symversion=1.0
 T 25900 47400 5 10 1 1 0 0 1
-net=cuerda2
+net=cuerda2:1
+netname=cuerda2
 }
 C 25900 46400 1 0 0 in.sym
 {
@@ -1992,7 +2011,7 @@ footprint=none
 T 26600 47600 5 8 0 0 0 0 1
 symversion=1.0
 T 25900 46400 5 10 1 1 0 0 1
-net=cuerda3
+net=cuerda3:1
 }
 C 25900 45400 1 0 0 in.sym
 {
@@ -2003,7 +2022,7 @@ footprint=none
 T 26600 46600 5 8 0 0 0 0 1
 symversion=1.0
 T 25900 45400 5 10 1 1 0 0 1
-net=cuerda4
+net=cuerda4:1
 }
 C 25900 44400 1 0 0 in.sym
 {
@@ -2014,7 +2033,7 @@ footprint=none
 T 26600 45600 5 8 0 0 0 0 1
 symversion=1.0
 T 25900 44400 5 10 1 1 0 0 1
-net=cuerda5
+net=cuerda5:1
 }
 C 25900 43400 1 0 0 in.sym
 {
@@ -2025,7 +2044,7 @@ footprint=none
 T 26600 44600 5 8 0 0 0 0 1
 symversion=1.0
 T 25900 43400 5 10 1 1 0 0 1
-net=cuerda5
+net=cuerda6:1
 }
 C 27400 42400 1 0 0 in.sym
 {
@@ -2036,7 +2055,7 @@ footprint=none
 T 28100 43600 5 8 0 0 0 0 1
 symversion=1.0
 T 27400 42400 5 10 1 1 0 0 1
-net=traste12
+net=traste12:1
 }
 N 27300 48500 27000 48500 4
 N 27000 47500 27300 47500 4
@@ -2126,7 +2145,7 @@ footprint=none
 T 29600 49600 5 8 0 0 0 0 1
 symversion=1.0
 T 28900 48400 5 10 1 1 0 0 1
-net=cuerda1
+net=cuerda1:1
 }
 C 28900 47400 1 0 0 in.sym
 {
@@ -2137,7 +2156,8 @@ footprint=none
 T 29600 48600 5 8 0 0 0 0 1
 symversion=1.0
 T 28900 47400 5 10 1 1 0 0 1
-net=cuerda2
+net=cuerda2:1
+netname=cuerda2
 }
 C 28900 46400 1 0 0 in.sym
 {
@@ -2148,7 +2168,7 @@ footprint=none
 T 29600 47600 5 8 0 0 0 0 1
 symversion=1.0
 T 28900 46400 5 10 1 1 0 0 1
-net=cuerda3
+net=cuerda3:1
 }
 C 28900 45400 1 0 0 in.sym
 {
@@ -2159,7 +2179,7 @@ footprint=none
 T 29600 46600 5 8 0 0 0 0 1
 symversion=1.0
 T 28900 45400 5 10 1 1 0 0 1
-net=cuerda4
+net=cuerda4:1
 }
 C 28900 44400 1 0 0 in.sym
 {
@@ -2170,7 +2190,7 @@ footprint=none
 T 29600 45600 5 8 0 0 0 0 1
 symversion=1.0
 T 28900 44400 5 10 1 1 0 0 1
-net=cuerda5
+net=cuerda5:1
 }
 C 28900 43400 1 0 0 in.sym
 {
@@ -2181,7 +2201,7 @@ footprint=none
 T 29600 44600 5 8 0 0 0 0 1
 symversion=1.0
 T 28900 43400 5 10 1 1 0 0 1
-net=cuerda5
+net=cuerda6:1
 }
 C 30400 42400 1 0 0 in.sym
 {
@@ -2192,7 +2212,7 @@ footprint=none
 T 31100 43600 5 8 0 0 0 0 1
 symversion=1.0
 T 30400 42400 5 10 1 1 0 0 1
-net=traste13
+net=traste13:1
 }
 N 30300 48500 30000 48500 4
 N 30000 47500 30300 47500 4
@@ -2282,7 +2302,7 @@ footprint=none
 T 32600 49600 5 8 0 0 0 0 1
 symversion=1.0
 T 31900 48400 5 10 1 1 0 0 1
-net=cuerda1
+net=cuerda1:1
 }
 C 31900 47400 1 0 0 in.sym
 {
@@ -2293,7 +2313,8 @@ footprint=none
 T 32600 48600 5 8 0 0 0 0 1
 symversion=1.0
 T 31900 47400 5 10 1 1 0 0 1
-net=cuerda2
+net=cuerda2:1
+netname=cuerda2
 }
 C 31900 46400 1 0 0 in.sym
 {
@@ -2304,7 +2325,7 @@ footprint=none
 T 32600 47600 5 8 0 0 0 0 1
 symversion=1.0
 T 31900 46400 5 10 1 1 0 0 1
-net=cuerda3
+net=cuerda3:1
 }
 C 31900 45400 1 0 0 in.sym
 {
@@ -2315,7 +2336,7 @@ footprint=none
 T 32600 46600 5 8 0 0 0 0 1
 symversion=1.0
 T 31900 45400 5 10 1 1 0 0 1
-net=cuerda4
+net=cuerda4:1
 }
 C 31900 44400 1 0 0 in.sym
 {
@@ -2326,7 +2347,7 @@ footprint=none
 T 32600 45600 5 8 0 0 0 0 1
 symversion=1.0
 T 31900 44400 5 10 1 1 0 0 1
-net=cuerda5
+net=cuerda5:1
 }
 C 31900 43400 1 0 0 in.sym
 {
@@ -2337,7 +2358,7 @@ footprint=none
 T 32600 44600 5 8 0 0 0 0 1
 symversion=1.0
 T 31900 43400 5 10 1 1 0 0 1
-net=cuerda5
+net=cuerda6:1
 }
 C 33400 42400 1 0 0 in.sym
 {
@@ -2348,7 +2369,7 @@ footprint=none
 T 34100 43600 5 8 0 0 0 0 1
 symversion=1.0
 T 33400 42400 5 10 1 1 0 0 1
-net=traste14
+net=traste14:1
 }
 N 33300 48500 33000 48500 4
 N 33000 47500 33300 47500 4
@@ -2438,7 +2459,7 @@ footprint=none
 T 35600 49600 5 8 0 0 0 0 1
 symversion=1.0
 T 34900 48400 5 10 1 1 0 0 1
-net=cuerda1
+net=cuerda1:1
 }
 C 34900 47400 1 0 0 in.sym
 {
@@ -2449,7 +2470,8 @@ footprint=none
 T 35600 48600 5 8 0 0 0 0 1
 symversion=1.0
 T 34900 47400 5 10 1 1 0 0 1
-net=cuerda2
+net=cuerda2:1
+netname=cuerda2
 }
 C 34900 46400 1 0 0 in.sym
 {
@@ -2460,7 +2482,7 @@ footprint=none
 T 35600 47600 5 8 0 0 0 0 1
 symversion=1.0
 T 34900 46400 5 10 1 1 0 0 1
-net=cuerda3
+net=cuerda3:1
 }
 C 34900 45400 1 0 0 in.sym
 {
@@ -2471,7 +2493,7 @@ footprint=none
 T 35600 46600 5 8 0 0 0 0 1
 symversion=1.0
 T 34900 45400 5 10 1 1 0 0 1
-net=cuerda4
+net=cuerda4:1
 }
 C 34900 44400 1 0 0 in.sym
 {
@@ -2482,7 +2504,7 @@ footprint=none
 T 35600 45600 5 8 0 0 0 0 1
 symversion=1.0
 T 34900 44400 5 10 1 1 0 0 1
-net=cuerda5
+net=cuerda5:1
 }
 C 34900 43400 1 0 0 in.sym
 {
@@ -2493,7 +2515,7 @@ footprint=none
 T 35600 44600 5 8 0 0 0 0 1
 symversion=1.0
 T 34900 43400 5 10 1 1 0 0 1
-net=cuerda5
+net=cuerda6:1
 }
 C 36400 42400 1 0 0 in.sym
 {
@@ -2504,7 +2526,7 @@ footprint=none
 T 37100 43600 5 8 0 0 0 0 1
 symversion=1.0
 T 36400 42400 5 10 1 1 0 0 1
-net=traste15
+net=traste15:1
 }
 N 36300 48500 36000 48500 4
 N 36000 47500 36300 47500 4
@@ -2594,7 +2616,7 @@ footprint=none
 T 38600 49600 5 8 0 0 0 0 1
 symversion=1.0
 T 37900 48400 5 10 1 1 0 0 1
-net=cuerda1
+net=cuerda1:1
 }
 C 37900 47400 1 0 0 in.sym
 {
@@ -2605,7 +2627,8 @@ footprint=none
 T 38600 48600 5 8 0 0 0 0 1
 symversion=1.0
 T 37900 47400 5 10 1 1 0 0 1
-net=cuerda2
+net=cuerda2:1
+netname=cuerda2
 }
 C 37900 46400 1 0 0 in.sym
 {
@@ -2616,7 +2639,7 @@ footprint=none
 T 38600 47600 5 8 0 0 0 0 1
 symversion=1.0
 T 37900 46400 5 10 1 1 0 0 1
-net=cuerda3
+net=cuerda3:1
 }
 C 37900 45400 1 0 0 in.sym
 {
@@ -2627,7 +2650,7 @@ footprint=none
 T 38600 46600 5 8 0 0 0 0 1
 symversion=1.0
 T 37900 45400 5 10 1 1 0 0 1
-net=cuerda4
+net=cuerda4:1
 }
 C 37900 44400 1 0 0 in.sym
 {
@@ -2638,7 +2661,7 @@ footprint=none
 T 38600 45600 5 8 0 0 0 0 1
 symversion=1.0
 T 37900 44400 5 10 1 1 0 0 1
-net=cuerda5
+net=cuerda5:1
 }
 C 37900 43400 1 0 0 in.sym
 {
@@ -2649,7 +2672,7 @@ footprint=none
 T 38600 44600 5 8 0 0 0 0 1
 symversion=1.0
 T 37900 43400 5 10 1 1 0 0 1
-net=cuerda5
+net=cuerda6:1
 }
 C 39400 42400 1 0 0 in.sym
 {
@@ -2660,7 +2683,7 @@ footprint=none
 T 40100 43600 5 8 0 0 0 0 1
 symversion=1.0
 T 39400 42400 5 10 1 1 0 0 1
-net=traste16
+net=traste16:1
 }
 N 39300 48500 39000 48500 4
 N 39000 47500 39300 47500 4
@@ -2750,7 +2773,7 @@ footprint=none
 T 41600 49600 5 8 0 0 0 0 1
 symversion=1.0
 T 40900 48400 5 10 1 1 0 0 1
-net=cuerda1
+net=cuerda1:1
 }
 C 40900 47400 1 0 0 in.sym
 {
@@ -2761,7 +2784,8 @@ footprint=none
 T 41600 48600 5 8 0 0 0 0 1
 symversion=1.0
 T 40900 47400 5 10 1 1 0 0 1
-net=cuerda2
+net=cuerda2:1
+netname=cuerda2
 }
 C 40900 46400 1 0 0 in.sym
 {
@@ -2772,7 +2796,7 @@ footprint=none
 T 41600 47600 5 8 0 0 0 0 1
 symversion=1.0
 T 40900 46400 5 10 1 1 0 0 1
-net=cuerda3
+net=cuerda3:1
 }
 C 40900 45400 1 0 0 in.sym
 {
@@ -2783,7 +2807,7 @@ footprint=none
 T 41600 46600 5 8 0 0 0 0 1
 symversion=1.0
 T 40900 45400 5 10 1 1 0 0 1
-net=cuerda4
+net=cuerda4:1
 }
 C 40900 44400 1 0 0 in.sym
 {
@@ -2794,7 +2818,7 @@ footprint=none
 T 41600 45600 5 8 0 0 0 0 1
 symversion=1.0
 T 40900 44400 5 10 1 1 0 0 1
-net=cuerda5
+net=cuerda5:1
 }
 C 40900 43400 1 0 0 in.sym
 {
@@ -2805,7 +2829,7 @@ footprint=none
 T 41600 44600 5 8 0 0 0 0 1
 symversion=1.0
 T 40900 43400 5 10 1 1 0 0 1
-net=cuerda5
+net=cuerda6:1
 }
 C 42400 42400 1 0 0 in.sym
 {
@@ -2816,7 +2840,7 @@ footprint=none
 T 43100 43600 5 8 0 0 0 0 1
 symversion=1.0
 T 42400 42400 5 10 1 1 0 0 1
-net=traste17
+net=traste17:1
 }
 N 42300 48500 42000 48500 4
 N 42000 47500 42300 47500 4
@@ -2906,7 +2930,7 @@ footprint=none
 T 44600 49600 5 8 0 0 0 0 1
 symversion=1.0
 T 43900 48400 5 10 1 1 0 0 1
-net=cuerda1
+net=cuerda1:1
 }
 C 43900 47400 1 0 0 in.sym
 {
@@ -2917,7 +2941,8 @@ footprint=none
 T 44600 48600 5 8 0 0 0 0 1
 symversion=1.0
 T 43900 47400 5 10 1 1 0 0 1
-net=cuerda2
+net=cuerda2:1
+netname=cuerda2
 }
 C 43900 46400 1 0 0 in.sym
 {
@@ -2928,7 +2953,7 @@ footprint=none
 T 44600 47600 5 8 0 0 0 0 1
 symversion=1.0
 T 43900 46400 5 10 1 1 0 0 1
-net=cuerda3
+net=cuerda3:1
 }
 C 43900 45400 1 0 0 in.sym
 {
@@ -2939,7 +2964,7 @@ footprint=none
 T 44600 46600 5 8 0 0 0 0 1
 symversion=1.0
 T 43900 45400 5 10 1 1 0 0 1
-net=cuerda4
+net=cuerda4:1
 }
 C 43900 44400 1 0 0 in.sym
 {
@@ -2950,7 +2975,7 @@ footprint=none
 T 44600 45600 5 8 0 0 0 0 1
 symversion=1.0
 T 43900 44400 5 10 1 1 0 0 1
-net=cuerda5
+net=cuerda5:1
 }
 C 43900 43400 1 0 0 in.sym
 {
@@ -2961,7 +2986,7 @@ footprint=none
 T 44600 44600 5 8 0 0 0 0 1
 symversion=1.0
 T 43900 43400 5 10 1 1 0 0 1
-net=cuerda5
+net=cuerda6:1
 }
 C 45400 42400 1 0 0 in.sym
 {
@@ -2972,7 +2997,7 @@ footprint=none
 T 46100 43600 5 8 0 0 0 0 1
 symversion=1.0
 T 45400 42400 5 10 1 1 0 0 1
-net=traste18
+net=traste18:1
 }
 N 45300 48500 45000 48500 4
 N 45000 47500 45300 47500 4
@@ -3062,7 +3087,7 @@ footprint=none
 T 47600 49600 5 8 0 0 0 0 1
 symversion=1.0
 T 46900 48400 5 10 1 1 0 0 1
-net=cuerda1
+net=cuerda1:1
 }
 C 46900 47400 1 0 0 in.sym
 {
@@ -3073,7 +3098,8 @@ footprint=none
 T 47600 48600 5 8 0 0 0 0 1
 symversion=1.0
 T 46900 47400 5 10 1 1 0 0 1
-net=cuerda2
+net=cuerda2:1
+netname=cuerda2
 }
 C 46900 46400 1 0 0 in.sym
 {
@@ -3084,7 +3110,7 @@ footprint=none
 T 47600 47600 5 8 0 0 0 0 1
 symversion=1.0
 T 46900 46400 5 10 1 1 0 0 1
-net=cuerda3
+net=cuerda3:1
 }
 C 46900 45400 1 0 0 in.sym
 {
@@ -3095,7 +3121,7 @@ footprint=none
 T 47600 46600 5 8 0 0 0 0 1
 symversion=1.0
 T 46900 45400 5 10 1 1 0 0 1
-net=cuerda4
+net=cuerda4:1
 }
 C 46900 44400 1 0 0 in.sym
 {
@@ -3106,7 +3132,7 @@ footprint=none
 T 47600 45600 5 8 0 0 0 0 1
 symversion=1.0
 T 46900 44400 5 10 1 1 0 0 1
-net=cuerda5
+net=cuerda5:1
 }
 C 46900 43400 1 0 0 in.sym
 {
@@ -3117,7 +3143,7 @@ footprint=none
 T 47600 44600 5 8 0 0 0 0 1
 symversion=1.0
 T 46900 43400 5 10 1 1 0 0 1
-net=cuerda5
+net=cuerda6:1
 }
 C 48400 42400 1 0 0 in.sym
 {
@@ -3128,7 +3154,7 @@ footprint=none
 T 49100 43600 5 8 0 0 0 0 1
 symversion=1.0
 T 48400 42400 5 10 1 1 0 0 1
-net=traste19
+net=traste19:1
 }
 N 48300 48500 48000 48500 4
 N 48000 47500 48300 47500 4
