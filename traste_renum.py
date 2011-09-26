@@ -9,7 +9,7 @@ out = []
 
 for l in sch:
     if 'traste%i' in l:
-        out.append(l.replace('%i', '%02i' % idx))
+        out.append(l.replace('%i', '%02i:1' % idx))
         idx += 1
     else:
         out.append(l)
