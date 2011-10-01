@@ -23,7 +23,7 @@ device=LED
 T 21900 56400 5 10 1 1 180 0 1
 refdes=D1
 T 21600 56400 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 22100 56400 5 10 0 1 180 0 1
 value=XXX
 }
@@ -34,7 +34,7 @@ device=LED
 T 21900 55400 5 10 1 1 180 0 1
 refdes=D2
 T 21600 55400 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 22100 55400 5 10 0 1 180 0 1
 value=XXX
 }
@@ -45,7 +45,7 @@ device=LED
 T 21900 54400 5 10 1 1 180 0 1
 refdes=D3
 T 21600 54400 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 22100 54400 5 10 0 1 180 0 1
 value=XXX
 }
@@ -56,7 +56,7 @@ device=LED
 T 21900 53400 5 10 1 1 180 0 1
 refdes=D4
 T 21600 53400 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 22100 53400 5 10 0 1 180 0 1
 value=XXX
 }
@@ -67,7 +67,7 @@ device=LED
 T 21900 52400 5 10 1 1 180 0 1
 refdes=D5
 T 21600 52400 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 22100 52400 5 10 0 1 180 0 1
 value=XXX
 }
@@ -78,7 +78,7 @@ device=LED
 T 21900 51400 5 10 1 1 180 0 1
 refdes=D6
 T 21600 51400 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 22100 51400 5 10 0 1 180 0 1
 value=XXX
 }
@@ -182,7 +182,7 @@ device=LED
 T 24900 56400 5 10 1 1 180 0 1
 refdes=D7
 T 24600 56400 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 25100 56400 5 10 0 1 180 0 1
 value=XXX
 }
@@ -193,7 +193,7 @@ device=LED
 T 24900 55400 5 10 1 1 180 0 1
 refdes=D8
 T 24600 55400 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 25100 55400 5 10 0 1 180 0 1
 value=XXX
 }
@@ -204,7 +204,7 @@ device=LED
 T 24900 54400 5 10 1 1 180 0 1
 refdes=D9
 T 24600 54400 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 25100 54400 5 10 0 1 180 0 1
 value=XXX
 }
@@ -215,7 +215,7 @@ device=LED
 T 24900 53400 5 10 1 1 180 0 1
 refdes=D10
 T 24600 53400 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 25100 53400 5 10 0 1 180 0 1
 value=XXX
 }
@@ -226,7 +226,7 @@ device=LED
 T 24900 52400 5 10 1 1 180 0 1
 refdes=D11
 T 24600 52400 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 25100 52400 5 10 0 1 180 0 1
 value=XXX
 }
@@ -237,7 +237,7 @@ device=LED
 T 24900 51400 5 10 1 1 180 0 1
 refdes=D12
 T 24600 51400 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 25100 51400 5 10 0 1 180 0 1
 value=XXX
 }
@@ -341,7 +341,7 @@ device=LED
 T 27900 56400 5 10 1 1 180 0 1
 refdes=D13
 T 27600 56400 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 28100 56400 5 10 0 1 180 0 1
 value=XXX
 }
@@ -352,7 +352,7 @@ device=LED
 T 27900 55400 5 10 1 1 180 0 1
 refdes=D14
 T 27600 55400 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 28100 55400 5 10 0 1 180 0 1
 value=XXX
 }
@@ -363,7 +363,7 @@ device=LED
 T 27900 54400 5 10 1 1 180 0 1
 refdes=D15
 T 27600 54400 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 28100 54400 5 10 0 1 180 0 1
 value=XXX
 }
@@ -374,7 +374,7 @@ device=LED
 T 27900 53400 5 10 1 1 180 0 1
 refdes=D16
 T 27600 53400 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 28100 53400 5 10 0 1 180 0 1
 value=XXX
 }
@@ -385,7 +385,7 @@ device=LED
 T 27900 52400 5 10 1 1 180 0 1
 refdes=D17
 T 27600 52400 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 28100 52400 5 10 0 1 180 0 1
 value=XXX
 }
@@ -396,7 +396,7 @@ device=LED
 T 27900 51400 5 10 1 1 180 0 1
 refdes=D18
 T 27600 51400 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 28100 51400 5 10 0 1 180 0 1
 value=XXX
 }
@@ -500,7 +500,7 @@ device=LED
 T 30900 56400 5 10 1 1 180 0 1
 refdes=D19
 T 30600 56400 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 31100 56400 5 10 0 1 180 0 1
 value=XXX
 }
@@ -511,7 +511,7 @@ device=LED
 T 30900 55400 5 10 1 1 180 0 1
 refdes=D20
 T 30600 55400 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 31100 55400 5 10 0 1 180 0 1
 value=XXX
 }
@@ -522,7 +522,7 @@ device=LED
 T 30900 54400 5 10 1 1 180 0 1
 refdes=D21
 T 30600 54400 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 31100 54400 5 10 0 1 180 0 1
 value=XXX
 }
@@ -533,7 +533,7 @@ device=LED
 T 30900 53400 5 10 1 1 180 0 1
 refdes=D22
 T 30600 53400 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 31100 53400 5 10 0 1 180 0 1
 value=XXX
 }
@@ -544,7 +544,7 @@ device=LED
 T 30900 52400 5 10 1 1 180 0 1
 refdes=D23
 T 30600 52400 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 31100 52400 5 10 0 1 180 0 1
 value=XXX
 }
@@ -555,7 +555,7 @@ device=LED
 T 30900 51400 5 10 1 1 180 0 1
 refdes=D24
 T 30600 51400 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 31100 51400 5 10 0 1 180 0 1
 value=XXX
 }
@@ -657,7 +657,7 @@ device=LED
 T 33900 56400 5 10 1 1 180 0 1
 refdes=D25
 T 33600 56400 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 34100 56400 5 10 0 1 180 0 1
 value=XXX
 }
@@ -668,7 +668,7 @@ device=LED
 T 33900 55400 5 10 1 1 180 0 1
 refdes=D26
 T 33600 55400 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 34100 55400 5 10 0 1 180 0 1
 value=XXX
 }
@@ -679,7 +679,7 @@ device=LED
 T 33900 54400 5 10 1 1 180 0 1
 refdes=D27
 T 33600 54400 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 34100 54400 5 10 0 1 180 0 1
 value=XXX
 }
@@ -690,7 +690,7 @@ device=LED
 T 33900 53400 5 10 1 1 180 0 1
 refdes=D28
 T 33600 53400 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 34100 53400 5 10 0 1 180 0 1
 value=XXX
 }
@@ -701,7 +701,7 @@ device=LED
 T 33900 52400 5 10 1 1 180 0 1
 refdes=D29
 T 33600 52400 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 34100 52400 5 10 0 1 180 0 1
 value=XXX
 }
@@ -712,7 +712,7 @@ device=LED
 T 33900 51400 5 10 1 1 180 0 1
 refdes=D30
 T 33600 51400 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 34100 51400 5 10 0 1 180 0 1
 value=XXX
 }
@@ -814,7 +814,7 @@ device=LED
 T 36900 56400 5 10 1 1 180 0 1
 refdes=D31
 T 36600 56400 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 37100 56400 5 10 0 1 180 0 1
 value=XXX
 }
@@ -825,7 +825,7 @@ device=LED
 T 36900 55400 5 10 1 1 180 0 1
 refdes=D32
 T 36600 55400 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 37100 55400 5 10 0 1 180 0 1
 value=XXX
 }
@@ -836,7 +836,7 @@ device=LED
 T 36900 54400 5 10 1 1 180 0 1
 refdes=D33
 T 36600 54400 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 37100 54400 5 10 0 1 180 0 1
 value=XXX
 }
@@ -847,7 +847,7 @@ device=LED
 T 36900 53400 5 10 1 1 180 0 1
 refdes=D34
 T 36600 53400 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 37100 53400 5 10 0 1 180 0 1
 value=XXX
 }
@@ -858,7 +858,7 @@ device=LED
 T 36900 52400 5 10 1 1 180 0 1
 refdes=D35
 T 36600 52400 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 37100 52400 5 10 0 1 180 0 1
 value=XXX
 }
@@ -869,7 +869,7 @@ device=LED
 T 36900 51400 5 10 1 1 180 0 1
 refdes=D36
 T 36600 51400 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 37100 51400 5 10 0 1 180 0 1
 value=XXX
 }
@@ -971,7 +971,7 @@ device=LED
 T 39900 56400 5 10 1 1 180 0 1
 refdes=D37
 T 39600 56400 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 40100 56400 5 10 0 1 180 0 1
 value=XXX
 }
@@ -982,7 +982,7 @@ device=LED
 T 39900 55400 5 10 1 1 180 0 1
 refdes=D38
 T 39600 55400 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 40100 55400 5 10 0 1 180 0 1
 value=XXX
 }
@@ -993,7 +993,7 @@ device=LED
 T 39900 54400 5 10 1 1 180 0 1
 refdes=D39
 T 39600 54400 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 40100 54400 5 10 0 1 180 0 1
 value=XXX
 }
@@ -1004,7 +1004,7 @@ device=LED
 T 39900 53400 5 10 1 1 180 0 1
 refdes=D40
 T 39600 53400 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 40100 53400 5 10 0 1 180 0 1
 value=XXX
 }
@@ -1015,7 +1015,7 @@ device=LED
 T 39900 52400 5 10 1 1 180 0 1
 refdes=D41
 T 39600 52400 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 40100 52400 5 10 0 1 180 0 1
 value=XXX
 }
@@ -1026,7 +1026,7 @@ device=LED
 T 39900 51400 5 10 1 1 180 0 1
 refdes=D42
 T 39600 51400 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 40100 51400 5 10 0 1 180 0 1
 value=XXX
 }
@@ -1128,7 +1128,7 @@ device=LED
 T 42900 56400 5 10 1 1 180 0 1
 refdes=D43
 T 42600 56400 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 43100 56400 5 10 0 1 180 0 1
 value=XXX
 }
@@ -1139,7 +1139,7 @@ device=LED
 T 42900 55400 5 10 1 1 180 0 1
 refdes=D44
 T 42600 55400 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 43100 55400 5 10 0 1 180 0 1
 value=XXX
 }
@@ -1150,7 +1150,7 @@ device=LED
 T 42900 54400 5 10 1 1 180 0 1
 refdes=D45
 T 42600 54400 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 43100 54400 5 10 0 1 180 0 1
 value=XXX
 }
@@ -1161,7 +1161,7 @@ device=LED
 T 42900 53400 5 10 1 1 180 0 1
 refdes=D46
 T 42600 53400 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 43100 53400 5 10 0 1 180 0 1
 value=XXX
 }
@@ -1172,7 +1172,7 @@ device=LED
 T 42900 52400 5 10 1 1 180 0 1
 refdes=D47
 T 42600 52400 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 43100 52400 5 10 0 1 180 0 1
 value=XXX
 }
@@ -1183,7 +1183,7 @@ device=LED
 T 42900 51400 5 10 1 1 180 0 1
 refdes=D48
 T 42600 51400 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 43100 51400 5 10 0 1 180 0 1
 value=XXX
 }
@@ -1285,7 +1285,7 @@ device=LED
 T 45900 56400 5 10 1 1 180 0 1
 refdes=D49
 T 45600 56400 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 46100 56400 5 10 0 1 180 0 1
 value=XXX
 }
@@ -1296,7 +1296,7 @@ device=LED
 T 45900 55400 5 10 1 1 180 0 1
 refdes=D50
 T 45600 55400 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 46100 55400 5 10 0 1 180 0 1
 value=XXX
 }
@@ -1307,7 +1307,7 @@ device=LED
 T 45900 54400 5 10 1 1 180 0 1
 refdes=D51
 T 45600 54400 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 46100 54400 5 10 0 1 180 0 1
 value=XXX
 }
@@ -1318,7 +1318,7 @@ device=LED
 T 45900 53400 5 10 1 1 180 0 1
 refdes=D52
 T 45600 53400 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 46100 53400 5 10 0 1 180 0 1
 value=XXX
 }
@@ -1329,7 +1329,7 @@ device=LED
 T 45900 52400 5 10 1 1 180 0 1
 refdes=D53
 T 45600 52400 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 46100 52400 5 10 0 1 180 0 1
 value=XXX
 }
@@ -1340,7 +1340,7 @@ device=LED
 T 45900 51400 5 10 1 1 180 0 1
 refdes=D54
 T 45600 51400 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 46100 51400 5 10 0 1 180 0 1
 value=XXX
 }
@@ -1442,7 +1442,7 @@ device=LED
 T 48900 56400 5 10 1 1 180 0 1
 refdes=D55
 T 48600 56400 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 49100 56400 5 10 0 1 180 0 1
 value=XXX
 }
@@ -1453,7 +1453,7 @@ device=LED
 T 48900 55400 5 10 1 1 180 0 1
 refdes=D56
 T 48600 55400 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 49100 55400 5 10 0 1 180 0 1
 value=XXX
 }
@@ -1464,7 +1464,7 @@ device=LED
 T 48900 54400 5 10 1 1 180 0 1
 refdes=D57
 T 48600 54400 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 49100 54400 5 10 0 1 180 0 1
 value=XXX
 }
@@ -1475,7 +1475,7 @@ device=LED
 T 48900 53400 5 10 1 1 180 0 1
 refdes=D58
 T 48600 53400 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 49100 53400 5 10 0 1 180 0 1
 value=XXX
 }
@@ -1486,7 +1486,7 @@ device=LED
 T 48900 52400 5 10 1 1 180 0 1
 refdes=D59
 T 48600 52400 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 49100 52400 5 10 0 1 180 0 1
 value=XXX
 }
@@ -1497,7 +1497,7 @@ device=LED
 T 48900 51400 5 10 1 1 180 0 1
 refdes=D60
 T 48600 51400 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 49100 51400 5 10 0 1 180 0 1
 value=XXX
 }
@@ -1599,7 +1599,7 @@ device=LED
 T 21900 48900 5 10 1 1 180 0 1
 refdes=D61
 T 21600 48900 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 22100 48900 5 10 0 1 180 0 1
 value=XXX
 }
@@ -1610,7 +1610,7 @@ device=LED
 T 21900 47900 5 10 1 1 180 0 1
 refdes=D62
 T 21600 47900 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 22100 47900 5 10 0 1 180 0 1
 value=XXX
 }
@@ -1621,7 +1621,7 @@ device=LED
 T 21900 46900 5 10 1 1 180 0 1
 refdes=D63
 T 21600 46900 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 22100 46900 5 10 0 1 180 0 1
 value=XXX
 }
@@ -1632,7 +1632,7 @@ device=LED
 T 21900 45900 5 10 1 1 180 0 1
 refdes=D64
 T 21600 45900 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 22100 45900 5 10 0 1 180 0 1
 value=XXX
 }
@@ -1643,7 +1643,7 @@ device=LED
 T 21900 44900 5 10 1 1 180 0 1
 refdes=D65
 T 21600 44900 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 22100 44900 5 10 0 1 180 0 1
 value=XXX
 }
@@ -1654,7 +1654,7 @@ device=LED
 T 21900 43900 5 10 1 1 180 0 1
 refdes=D66
 T 21600 43900 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 22100 43900 5 10 0 1 180 0 1
 value=XXX
 }
@@ -1756,7 +1756,7 @@ device=LED
 T 24900 48900 5 10 1 1 180 0 1
 refdes=D67
 T 24600 48900 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 25100 48900 5 10 0 1 180 0 1
 value=XXX
 }
@@ -1767,7 +1767,7 @@ device=LED
 T 24900 47900 5 10 1 1 180 0 1
 refdes=D68
 T 24600 47900 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 25100 47900 5 10 0 1 180 0 1
 value=XXX
 }
@@ -1778,7 +1778,7 @@ device=LED
 T 24900 46900 5 10 1 1 180 0 1
 refdes=D69
 T 24600 46900 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 25100 46900 5 10 0 1 180 0 1
 value=XXX
 }
@@ -1789,7 +1789,7 @@ device=LED
 T 24900 45900 5 10 1 1 180 0 1
 refdes=D70
 T 24600 45900 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 25100 45900 5 10 0 1 180 0 1
 value=XXX
 }
@@ -1800,7 +1800,7 @@ device=LED
 T 24900 44900 5 10 1 1 180 0 1
 refdes=D71
 T 24600 44900 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 25100 44900 5 10 0 1 180 0 1
 value=XXX
 }
@@ -1811,7 +1811,7 @@ device=LED
 T 24900 43900 5 10 1 1 180 0 1
 refdes=D72
 T 24600 43900 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 25100 43900 5 10 0 1 180 0 1
 value=XXX
 }
@@ -1913,7 +1913,7 @@ device=LED
 T 27900 48900 5 10 1 1 180 0 1
 refdes=D73
 T 27600 48900 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 28100 48900 5 10 0 1 180 0 1
 value=XXX
 }
@@ -1924,7 +1924,7 @@ device=LED
 T 27900 47900 5 10 1 1 180 0 1
 refdes=D74
 T 27600 47900 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 28100 47900 5 10 0 1 180 0 1
 value=XXX
 }
@@ -1935,7 +1935,7 @@ device=LED
 T 27900 46900 5 10 1 1 180 0 1
 refdes=D75
 T 27600 46900 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 28100 46900 5 10 0 1 180 0 1
 value=XXX
 }
@@ -1946,7 +1946,7 @@ device=LED
 T 27900 45900 5 10 1 1 180 0 1
 refdes=D76
 T 27600 45900 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 28100 45900 5 10 0 1 180 0 1
 value=XXX
 }
@@ -1957,7 +1957,7 @@ device=LED
 T 27900 44900 5 10 1 1 180 0 1
 refdes=D77
 T 27600 44900 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 28100 44900 5 10 0 1 180 0 1
 value=XXX
 }
@@ -1968,7 +1968,7 @@ device=LED
 T 27900 43900 5 10 1 1 180 0 1
 refdes=D78
 T 27600 43900 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 28100 43900 5 10 0 1 180 0 1
 value=XXX
 }
@@ -2070,7 +2070,7 @@ device=LED
 T 30900 48900 5 10 1 1 180 0 1
 refdes=D79
 T 30600 48900 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 31100 48900 5 10 0 1 180 0 1
 value=XXX
 }
@@ -2081,7 +2081,7 @@ device=LED
 T 30900 47900 5 10 1 1 180 0 1
 refdes=D80
 T 30600 47900 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 31100 47900 5 10 0 1 180 0 1
 value=XXX
 }
@@ -2092,7 +2092,7 @@ device=LED
 T 30900 46900 5 10 1 1 180 0 1
 refdes=D81
 T 30600 46900 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 31100 46900 5 10 0 1 180 0 1
 value=XXX
 }
@@ -2103,7 +2103,7 @@ device=LED
 T 30900 45900 5 10 1 1 180 0 1
 refdes=D82
 T 30600 45900 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 31100 45900 5 10 0 1 180 0 1
 value=XXX
 }
@@ -2114,7 +2114,7 @@ device=LED
 T 30900 44900 5 10 1 1 180 0 1
 refdes=D83
 T 30600 44900 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 31100 44900 5 10 0 1 180 0 1
 value=XXX
 }
@@ -2125,7 +2125,7 @@ device=LED
 T 30900 43900 5 10 1 1 180 0 1
 refdes=D84
 T 30600 43900 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 31100 43900 5 10 0 1 180 0 1
 value=XXX
 }
@@ -2227,7 +2227,7 @@ device=LED
 T 33900 48900 5 10 1 1 180 0 1
 refdes=D85
 T 33600 48900 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 34100 48900 5 10 0 1 180 0 1
 value=XXX
 }
@@ -2238,7 +2238,7 @@ device=LED
 T 33900 47900 5 10 1 1 180 0 1
 refdes=D86
 T 33600 47900 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 34100 47900 5 10 0 1 180 0 1
 value=XXX
 }
@@ -2249,7 +2249,7 @@ device=LED
 T 33900 46900 5 10 1 1 180 0 1
 refdes=D87
 T 33600 46900 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 34100 46900 5 10 0 1 180 0 1
 value=XXX
 }
@@ -2260,7 +2260,7 @@ device=LED
 T 33900 45900 5 10 1 1 180 0 1
 refdes=D88
 T 33600 45900 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 34100 45900 5 10 0 1 180 0 1
 value=XXX
 }
@@ -2271,7 +2271,7 @@ device=LED
 T 33900 44900 5 10 1 1 180 0 1
 refdes=D89
 T 33600 44900 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 34100 44900 5 10 0 1 180 0 1
 value=XXX
 }
@@ -2282,7 +2282,7 @@ device=LED
 T 33900 43900 5 10 1 1 180 0 1
 refdes=D90
 T 33600 43900 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 34100 43900 5 10 0 1 180 0 1
 value=XXX
 }
@@ -2384,7 +2384,7 @@ device=LED
 T 36900 48900 5 10 1 1 180 0 1
 refdes=D91
 T 36600 48900 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 37100 48900 5 10 0 1 180 0 1
 value=XXX
 }
@@ -2395,7 +2395,7 @@ device=LED
 T 36900 47900 5 10 1 1 180 0 1
 refdes=D92
 T 36600 47900 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 37100 47900 5 10 0 1 180 0 1
 value=XXX
 }
@@ -2406,7 +2406,7 @@ device=LED
 T 36900 46900 5 10 1 1 180 0 1
 refdes=D93
 T 36600 46900 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 37100 46900 5 10 0 1 180 0 1
 value=XXX
 }
@@ -2417,7 +2417,7 @@ device=LED
 T 36900 45900 5 10 1 1 180 0 1
 refdes=D94
 T 36600 45900 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 37100 45900 5 10 0 1 180 0 1
 value=XXX
 }
@@ -2428,7 +2428,7 @@ device=LED
 T 36900 44900 5 10 1 1 180 0 1
 refdes=D95
 T 36600 44900 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 37100 44900 5 10 0 1 180 0 1
 value=XXX
 }
@@ -2439,7 +2439,7 @@ device=LED
 T 36900 43900 5 10 1 1 180 0 1
 refdes=D96
 T 36600 43900 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 37100 43900 5 10 0 1 180 0 1
 value=XXX
 }
@@ -2541,7 +2541,7 @@ device=LED
 T 39900 48900 5 10 1 1 180 0 1
 refdes=D97
 T 39600 48900 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 40100 48900 5 10 0 1 180 0 1
 value=XXX
 }
@@ -2552,7 +2552,7 @@ device=LED
 T 39900 47900 5 10 1 1 180 0 1
 refdes=D98
 T 39600 47900 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 40100 47900 5 10 0 1 180 0 1
 value=XXX
 }
@@ -2563,7 +2563,7 @@ device=LED
 T 39900 46900 5 10 1 1 180 0 1
 refdes=D99
 T 39600 46900 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 40100 46900 5 10 0 1 180 0 1
 value=XXX
 }
@@ -2574,7 +2574,7 @@ device=LED
 T 39900 45900 5 10 1 1 180 0 1
 refdes=D100
 T 39600 45900 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 40100 45900 5 10 0 1 180 0 1
 value=XXX
 }
@@ -2585,7 +2585,7 @@ device=LED
 T 39900 44900 5 10 1 1 180 0 1
 refdes=D101
 T 39600 44900 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 40100 44900 5 10 0 1 180 0 1
 value=XXX
 }
@@ -2596,7 +2596,7 @@ device=LED
 T 39900 43900 5 10 1 1 180 0 1
 refdes=D102
 T 39600 43900 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 40100 43900 5 10 0 1 180 0 1
 value=XXX
 }
@@ -2698,7 +2698,7 @@ device=LED
 T 42900 48900 5 10 1 1 180 0 1
 refdes=D103
 T 42600 48900 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 43100 48900 5 10 0 1 180 0 1
 value=XXX
 }
@@ -2709,7 +2709,7 @@ device=LED
 T 42900 47900 5 10 1 1 180 0 1
 refdes=D104
 T 42600 47900 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 43100 47900 5 10 0 1 180 0 1
 value=XXX
 }
@@ -2720,7 +2720,7 @@ device=LED
 T 42900 46900 5 10 1 1 180 0 1
 refdes=D105
 T 42600 46900 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 43100 46900 5 10 0 1 180 0 1
 value=XXX
 }
@@ -2731,7 +2731,7 @@ device=LED
 T 42900 45900 5 10 1 1 180 0 1
 refdes=D106
 T 42600 45900 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 43100 45900 5 10 0 1 180 0 1
 value=XXX
 }
@@ -2742,7 +2742,7 @@ device=LED
 T 42900 44900 5 10 1 1 180 0 1
 refdes=D107
 T 42600 44900 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 43100 44900 5 10 0 1 180 0 1
 value=XXX
 }
@@ -2753,7 +2753,7 @@ device=LED
 T 42900 43900 5 10 1 1 180 0 1
 refdes=D108
 T 42600 43900 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 43100 43900 5 10 0 1 180 0 1
 value=XXX
 }
@@ -2855,7 +2855,7 @@ device=LED
 T 45900 48900 5 10 1 1 180 0 1
 refdes=D109
 T 45600 48900 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 46100 48900 5 10 0 1 180 0 1
 value=XXX
 }
@@ -2866,7 +2866,7 @@ device=LED
 T 45900 47900 5 10 1 1 180 0 1
 refdes=D110
 T 45600 47900 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 46100 47900 5 10 0 1 180 0 1
 value=XXX
 }
@@ -2877,7 +2877,7 @@ device=LED
 T 45900 46900 5 10 1 1 180 0 1
 refdes=D111
 T 45600 46900 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 46100 46900 5 10 0 1 180 0 1
 value=XXX
 }
@@ -2888,7 +2888,7 @@ device=LED
 T 45900 45900 5 10 1 1 180 0 1
 refdes=D112
 T 45600 45900 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 46100 45900 5 10 0 1 180 0 1
 value=XXX
 }
@@ -2899,7 +2899,7 @@ device=LED
 T 45900 44900 5 10 1 1 180 0 1
 refdes=D113
 T 45600 44900 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 46100 44900 5 10 0 1 180 0 1
 value=XXX
 }
@@ -2910,7 +2910,7 @@ device=LED
 T 45900 43900 5 10 1 1 180 0 1
 refdes=D114
 T 45600 43900 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 46100 43900 5 10 0 1 180 0 1
 value=XXX
 }
@@ -3012,7 +3012,7 @@ device=LED
 T 48900 48900 5 10 1 1 180 0 1
 refdes=D115
 T 48600 48900 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 49100 48900 5 10 0 1 180 0 1
 value=XXX
 }
@@ -3023,7 +3023,7 @@ device=LED
 T 48900 47900 5 10 1 1 180 0 1
 refdes=D116
 T 48600 47900 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 49100 47900 5 10 0 1 180 0 1
 value=XXX
 }
@@ -3034,7 +3034,7 @@ device=LED
 T 48900 46900 5 10 1 1 180 0 1
 refdes=D117
 T 48600 46900 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 49100 46900 5 10 0 1 180 0 1
 value=XXX
 }
@@ -3045,7 +3045,7 @@ device=LED
 T 48900 45900 5 10 1 1 180 0 1
 refdes=D118
 T 48600 45900 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 49100 45900 5 10 0 1 180 0 1
 value=XXX
 }
@@ -3056,7 +3056,7 @@ device=LED
 T 48900 44900 5 10 1 1 180 0 1
 refdes=D119
 T 48600 44900 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 49100 44900 5 10 0 1 180 0 1
 value=XXX
 }
@@ -3067,7 +3067,7 @@ device=LED
 T 48900 43900 5 10 1 1 180 0 1
 refdes=D120
 T 48600 43900 5 8 1 1 180 0 1
-footprint=dio_1210
+footprint=0805
 T 49100 43900 5 10 0 1 180 0 1
 value=XXX
 }
