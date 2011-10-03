@@ -5,12 +5,12 @@ FileVersion[20070407]
 
 PCB["mastil_smd" 2400000 750000]
 
-Grid[100.000000 0 0 1]
-Cursor[1909200 283800 0.000000]
+Grid[1000.000000 0 0 1]
+Cursor[1803000 298000 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[1000 1000 1000 1000 1500 1000]
-Flags("nameonpcb,alldirection,uniquename,clearnew,snappin")
+Flags("nameonpcb,uniquename,clearnew,snappin")
 Groups("1,c:2,s:3:4:5:6:7:8")
 Styles["Signal,1000,3600,2000,1000:Power,2500,6000,3500,1000:Fat,4000,6000,3500,1000:Skinny,600,2402,1181,600"]
 
@@ -813,7 +813,6 @@ Via[157500 400200 3600 2000 0 2000 "" ""]
 Via[157500 363200 3600 2000 0 2000 "" ""]
 Via[157500 326200 3600 2000 0 2000 "" ""]
 Via[157500 289200 3600 2000 0 2000 "" ""]
-Via[1820500 430500 3600 2000 0 2000 "" ""]
 Via[1820500 257000 3600 2000 0 2000 "" ""]
 Via[1686700 432700 3600 2000 0 2000 "" ""]
 Via[1686700 254800 3600 2000 0 2000 "" ""]
@@ -839,10 +838,8 @@ Via[631500 237800 3600 2000 0 2000 "" ""]
 Via[560500 450900 3600 2000 0 2000 "" ""]
 Via[560500 236600 3600 2000 0 2000 "" ""]
 Via[493500 452000 3600 2000 0 2000 "" ""]
-Via[493500 235500 3600 2000 0 2000 "" ""]
 Via[434500 453000 3600 2000 0 2000 "" ""]
 Via[434500 234500 3600 2000 0 2000 "" ""]
-Via[326500 233000 3600 2000 0 2000 "" ""]
 Via[275500 455500 3600 2000 0 2000 "" ""]
 Via[275500 232000 3600 2000 0 2000 "" ""]
 Via[228500 231500 3600 2000 0 2000 "" ""]
@@ -857,62 +854,9 @@ Via[379500 453900 3600 2000 0 2000 "" ""]
 Via[379500 233700 3600 2000 0 2000 "" ""]
 Via[326500 454700 3600 2000 0 2000 "" ""]
 Via[228500 456300 3600 2000 0 2000 "" ""]
+Via[1821374 430500 3600 2000 0 2000 "" ""]
 
-Element["" "dio_1210" "D79" "XXX" 733878 214998 -11811 -13780 0 100 ""]
-(
-	Attribute("device" "LED")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
-	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
-	ElementLine [0 -984 0 985 800]
-	ElementLine [0 -984 984 -984 800]
-	ElementLine [0 985 984 985 800]
-	ElementLine [394 -1181 394 788 800]
-	ElementLine [-394 -787 -394 788 800]
-	ElementLine [-1969 -2362 -1969 2363 800]
-	ElementLine [-1969 0 984 -1968 800]
-	ElementLine [984 -1968 984 1969 800]
-	ElementLine [984 1969 -1969 0 800]
-	ElementLine [-1969 0 1968 0 800]
-	ElementLine [-11811 -7874 13780 -7874 800]
-	ElementLine [13780 -7874 13780 7874 800]
-	ElementLine [-13779 7874 13780 7874 800]
-	ElementLine [-13779 -5905 -13779 7874 800]
-	ElementLine [-13779 -5905 -11811 -7874 800]
-
-	)
-
-Element["" "dio_1210" "D6" "XXX" 1876122 52002 11811 13780 2 100 ""]
-(
-	Attribute("device" "LED")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[-7874 -1969 -7874 1968 8480 2404 9280 "ANODE" "2" "found,square"]
-	Pad[7874 -1969 7874 1968 8480 2404 9280 "CATHODE" "1" "square"]
-	ElementLine [0 -985 0 984 800]
-	ElementLine [-984 984 0 984 800]
-	ElementLine [-984 -985 0 -985 800]
-	ElementLine [-394 -788 -394 1181 800]
-	ElementLine [394 -788 394 787 800]
-	ElementLine [1969 -2363 1969 2362 800]
-	ElementLine [1969 0 -984 1968 800]
-	ElementLine [-984 -1969 -984 1968 800]
-	ElementLine [-984 -1969 1969 0 800]
-	ElementLine [-1968 0 1969 0 800]
-	ElementLine [-13780 7874 11811 7874 800]
-	ElementLine [-13780 -7874 -13780 7874 800]
-	ElementLine [-13780 -7874 13779 -7874 800]
-	ElementLine [13779 -7874 13779 5905 800]
-	ElementLine [13779 5905 11811 7874 800]
-
-	)
-
-Element["" "dio_1210" "D5" "XXX" 1873122 78002 11811 13780 2 100 ""]
+Element["" "dio_1210" "D89" "XXX" 578874 294001 11811 13780 2 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -939,7 +883,7 @@ Element["" "dio_1210" "D5" "XXX" 1873122 78002 11811 13780 2 100 ""]
 
 	)
 
-Element["" "dio_1210" "D4" "XXX" 1872122 113002 11811 13780 2 100 ""]
+Element["" "dio_1210" "D6" "XXX" 1935326 283001 11811 13780 2 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -966,7 +910,7 @@ Element["" "dio_1210" "D4" "XXX" 1872122 113002 11811 13780 2 100 ""]
 
 	)
 
-Element["" "dio_1210" "D3" "XXX" 1863122 150002 11811 13780 2 100 ""]
+Element["" "dio_1210" "D5" "XXX" 1935326 307001 11811 13780 2 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -993,7 +937,7 @@ Element["" "dio_1210" "D3" "XXX" 1863122 150002 11811 13780 2 100 ""]
 
 	)
 
-Element["" "dio_1210" "D2" "XXX" 1866122 190002 11811 13780 2 100 ""]
+Element["" "dio_1210" "D4" "XXX" 1935326 332001 11811 13780 2 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -1020,7 +964,7 @@ Element["" "dio_1210" "D2" "XXX" 1866122 190002 11811 13780 2 100 ""]
 
 	)
 
-Element["" "dio_1210" "D1" "XXX" 1867122 223002 11811 13780 2 100 ""]
+Element["" "dio_1210" "D3" "XXX" 1935326 356001 11811 13780 2 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -1047,196 +991,7 @@ Element["" "dio_1210" "D1" "XXX" 1867122 223002 11811 13780 2 100 ""]
 
 	)
 
-Element["" "dio_1210" "D12" "XXX" 1787126 47499 -11811 -13780 0 100 ""]
-(
-	Attribute("device" "LED")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "found,square,edge2"]
-	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
-	ElementLine [0 -984 0 985 800]
-	ElementLine [0 -984 984 -984 800]
-	ElementLine [0 985 984 985 800]
-	ElementLine [394 -1181 394 788 800]
-	ElementLine [-394 -787 -394 788 800]
-	ElementLine [-1969 -2362 -1969 2363 800]
-	ElementLine [-1969 0 984 -1968 800]
-	ElementLine [984 -1968 984 1969 800]
-	ElementLine [984 1969 -1969 0 800]
-	ElementLine [-1969 0 1968 0 800]
-	ElementLine [-11811 -7874 13780 -7874 800]
-	ElementLine [13780 -7874 13780 7874 800]
-	ElementLine [-13779 7874 13780 7874 800]
-	ElementLine [-13779 -5905 -13779 7874 800]
-	ElementLine [-13779 -5905 -11811 -7874 800]
-
-	)
-
-Element["" "dio_1210" "D11" "XXX" 1792626 73999 -11811 -13780 0 100 ""]
-(
-	Attribute("device" "LED")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
-	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
-	ElementLine [0 -984 0 985 800]
-	ElementLine [0 -984 984 -984 800]
-	ElementLine [0 985 984 985 800]
-	ElementLine [394 -1181 394 788 800]
-	ElementLine [-394 -787 -394 788 800]
-	ElementLine [-1969 -2362 -1969 2363 800]
-	ElementLine [-1969 0 984 -1968 800]
-	ElementLine [984 -1968 984 1969 800]
-	ElementLine [984 1969 -1969 0 800]
-	ElementLine [-1969 0 1968 0 800]
-	ElementLine [-11811 -7874 13780 -7874 800]
-	ElementLine [13780 -7874 13780 7874 800]
-	ElementLine [-13779 7874 13780 7874 800]
-	ElementLine [-13779 -5905 -13779 7874 800]
-	ElementLine [-13779 -5905 -11811 -7874 800]
-
-	)
-
-Element["" "dio_1210" "D10" "XXX" 1795001 116626 -11811 -13780 0 100 ""]
-(
-	Attribute("device" "LED")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
-	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
-	ElementLine [0 -984 0 985 800]
-	ElementLine [0 -984 984 -984 800]
-	ElementLine [0 985 984 985 800]
-	ElementLine [394 -1181 394 788 800]
-	ElementLine [-394 -787 -394 788 800]
-	ElementLine [-1969 -2362 -1969 2363 800]
-	ElementLine [-1969 0 984 -1968 800]
-	ElementLine [984 -1968 984 1969 800]
-	ElementLine [984 1969 -1969 0 800]
-	ElementLine [-1969 0 1968 0 800]
-	ElementLine [-11811 -7874 13780 -7874 800]
-	ElementLine [13780 -7874 13780 7874 800]
-	ElementLine [-13779 7874 13780 7874 800]
-	ElementLine [-13779 -5905 -13779 7874 800]
-	ElementLine [-13779 -5905 -11811 -7874 800]
-
-	)
-
-Element["" "dio_1210" "D9" "XXX" 1795626 151999 -11811 -13780 0 100 ""]
-(
-	Attribute("device" "LED")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
-	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
-	ElementLine [0 -984 0 985 800]
-	ElementLine [0 -984 984 -984 800]
-	ElementLine [0 985 984 985 800]
-	ElementLine [394 -1181 394 788 800]
-	ElementLine [-394 -787 -394 788 800]
-	ElementLine [-1969 -2362 -1969 2363 800]
-	ElementLine [-1969 0 984 -1968 800]
-	ElementLine [984 -1968 984 1969 800]
-	ElementLine [984 1969 -1969 0 800]
-	ElementLine [-1969 0 1968 0 800]
-	ElementLine [-11811 -7874 13780 -7874 800]
-	ElementLine [13780 -7874 13780 7874 800]
-	ElementLine [-13779 7874 13780 7874 800]
-	ElementLine [-13779 -5905 -13779 7874 800]
-	ElementLine [-13779 -5905 -11811 -7874 800]
-
-	)
-
-Element["" "dio_1210" "D8" "XXX" 1790626 188999 -11811 -13780 0 100 ""]
-(
-	Attribute("device" "LED")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
-	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
-	ElementLine [0 -984 0 985 800]
-	ElementLine [0 -984 984 -984 800]
-	ElementLine [0 985 984 985 800]
-	ElementLine [394 -1181 394 788 800]
-	ElementLine [-394 -787 -394 788 800]
-	ElementLine [-1969 -2362 -1969 2363 800]
-	ElementLine [-1969 0 984 -1968 800]
-	ElementLine [984 -1968 984 1969 800]
-	ElementLine [984 1969 -1969 0 800]
-	ElementLine [-1969 0 1968 0 800]
-	ElementLine [-11811 -7874 13780 -7874 800]
-	ElementLine [13780 -7874 13780 7874 800]
-	ElementLine [-13779 7874 13780 7874 800]
-	ElementLine [-13779 -5905 -13779 7874 800]
-	ElementLine [-13779 -5905 -11811 -7874 800]
-
-	)
-
-Element["" "dio_1210" "D7" "XXX" 1795001 231626 -11811 -13780 0 100 ""]
-(
-	Attribute("device" "LED")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
-	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
-	ElementLine [0 -984 0 985 800]
-	ElementLine [0 -984 984 -984 800]
-	ElementLine [0 985 984 985 800]
-	ElementLine [394 -1181 394 788 800]
-	ElementLine [-394 -787 -394 788 800]
-	ElementLine [-1969 -2362 -1969 2363 800]
-	ElementLine [-1969 0 984 -1968 800]
-	ElementLine [984 -1968 984 1969 800]
-	ElementLine [984 1969 -1969 0 800]
-	ElementLine [-1969 0 1968 0 800]
-	ElementLine [-11811 -7874 13780 -7874 800]
-	ElementLine [13780 -7874 13780 7874 800]
-	ElementLine [-13779 7874 13780 7874 800]
-	ElementLine [-13779 -5905 -13779 7874 800]
-	ElementLine [-13779 -5905 -11811 -7874 800]
-
-	)
-
-Element["" "dio_1210" "D18" "XXX" 1648248 40001 11811 13780 2 100 ""]
-(
-	Attribute("device" "LED")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[-7874 -1969 -7874 1968 8480 2404 9280 "ANODE" "2" "found,square"]
-	Pad[7874 -1969 7874 1968 8480 2404 9280 "CATHODE" "1" "square"]
-	ElementLine [0 -985 0 984 800]
-	ElementLine [-984 984 0 984 800]
-	ElementLine [-984 -985 0 -985 800]
-	ElementLine [-394 -788 -394 1181 800]
-	ElementLine [394 -788 394 787 800]
-	ElementLine [1969 -2363 1969 2362 800]
-	ElementLine [1969 0 -984 1968 800]
-	ElementLine [-984 -1969 -984 1968 800]
-	ElementLine [-984 -1969 1969 0 800]
-	ElementLine [-1968 0 1969 0 800]
-	ElementLine [-13780 7874 11811 7874 800]
-	ElementLine [-13780 -7874 -13780 7874 800]
-	ElementLine [-13780 -7874 13779 -7874 800]
-	ElementLine [13779 -7874 13779 5905 800]
-	ElementLine [13779 5905 11811 7874 800]
-
-	)
-
-Element["" "dio_1210" "D17" "XXX" 1652248 76001 11811 13780 2 100 ""]
+Element["" "dio_1210" "D2" "XXX" 1935000 381000 11811 13780 2 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -1263,7 +1018,7 @@ Element["" "dio_1210" "D17" "XXX" 1652248 76001 11811 13780 2 100 ""]
 
 	)
 
-Element["" "dio_1210" "D16" "XXX" 1644248 115001 11811 13780 2 100 ""]
+Element["" "dio_1210" "D1" "XXX" 1934826 405001 11811 13780 2 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -1290,7 +1045,7 @@ Element["" "dio_1210" "D16" "XXX" 1644248 115001 11811 13780 2 100 ""]
 
 	)
 
-Element["" "dio_1210" "D15" "XXX" 1640248 145001 11811 13780 2 100 ""]
+Element["" "dio_1210" "D18" "XXX" 1704248 279001 11811 13780 2 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -1317,7 +1072,7 @@ Element["" "dio_1210" "D15" "XXX" 1640248 145001 11811 13780 2 100 ""]
 
 	)
 
-Element["" "dio_1210" "D14" "XXX" 1649248 186001 11811 13780 2 100 ""]
+Element["" "dio_1210" "D17" "XXX" 1704248 305001 11811 13780 2 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -1344,7 +1099,7 @@ Element["" "dio_1210" "D14" "XXX" 1649248 186001 11811 13780 2 100 ""]
 
 	)
 
-Element["" "dio_1210" "D13" "XXX" 1650248 228001 11811 13780 2 100 ""]
+Element["" "dio_1210" "D16" "XXX" 1704000 331000 11811 13780 2 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -1371,196 +1126,7 @@ Element["" "dio_1210" "D13" "XXX" 1650248 228001 11811 13780 2 100 ""]
 
 	)
 
-Element["" "dio_1210" "D24" "XXX" 1560752 38999 -11811 -13780 0 100 ""]
-(
-	Attribute("device" "LED")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "found,square,edge2"]
-	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
-	ElementLine [0 -984 0 985 800]
-	ElementLine [0 -984 984 -984 800]
-	ElementLine [0 985 984 985 800]
-	ElementLine [394 -1181 394 788 800]
-	ElementLine [-394 -787 -394 788 800]
-	ElementLine [-1969 -2362 -1969 2363 800]
-	ElementLine [-1969 0 984 -1968 800]
-	ElementLine [984 -1968 984 1969 800]
-	ElementLine [984 1969 -1969 0 800]
-	ElementLine [-1969 0 1968 0 800]
-	ElementLine [-11811 -7874 13780 -7874 800]
-	ElementLine [13780 -7874 13780 7874 800]
-	ElementLine [-13779 7874 13780 7874 800]
-	ElementLine [-13779 -5905 -13779 7874 800]
-	ElementLine [-13779 -5905 -11811 -7874 800]
-
-	)
-
-Element["" "dio_1210" "D23" "XXX" 1564752 72999 -11811 -13780 0 100 ""]
-(
-	Attribute("device" "LED")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
-	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
-	ElementLine [0 -984 0 985 800]
-	ElementLine [0 -984 984 -984 800]
-	ElementLine [0 985 984 985 800]
-	ElementLine [394 -1181 394 788 800]
-	ElementLine [-394 -787 -394 788 800]
-	ElementLine [-1969 -2362 -1969 2363 800]
-	ElementLine [-1969 0 984 -1968 800]
-	ElementLine [984 -1968 984 1969 800]
-	ElementLine [984 1969 -1969 0 800]
-	ElementLine [-1969 0 1968 0 800]
-	ElementLine [-11811 -7874 13780 -7874 800]
-	ElementLine [13780 -7874 13780 7874 800]
-	ElementLine [-13779 7874 13780 7874 800]
-	ElementLine [-13779 -5905 -13779 7874 800]
-	ElementLine [-13779 -5905 -11811 -7874 800]
-
-	)
-
-Element["" "dio_1210" "D22" "XXX" 1569752 117999 -11811 -13780 0 100 ""]
-(
-	Attribute("device" "LED")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
-	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
-	ElementLine [0 -984 0 985 800]
-	ElementLine [0 -984 984 -984 800]
-	ElementLine [0 985 984 985 800]
-	ElementLine [394 -1181 394 788 800]
-	ElementLine [-394 -787 -394 788 800]
-	ElementLine [-1969 -2362 -1969 2363 800]
-	ElementLine [-1969 0 984 -1968 800]
-	ElementLine [984 -1968 984 1969 800]
-	ElementLine [984 1969 -1969 0 800]
-	ElementLine [-1969 0 1968 0 800]
-	ElementLine [-11811 -7874 13780 -7874 800]
-	ElementLine [13780 -7874 13780 7874 800]
-	ElementLine [-13779 7874 13780 7874 800]
-	ElementLine [-13779 -5905 -13779 7874 800]
-	ElementLine [-13779 -5905 -11811 -7874 800]
-
-	)
-
-Element["" "dio_1210" "D21" "XXX" 1567752 150999 -11811 -13780 0 100 ""]
-(
-	Attribute("device" "LED")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
-	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
-	ElementLine [0 -984 0 985 800]
-	ElementLine [0 -984 984 -984 800]
-	ElementLine [0 985 984 985 800]
-	ElementLine [394 -1181 394 788 800]
-	ElementLine [-394 -787 -394 788 800]
-	ElementLine [-1969 -2362 -1969 2363 800]
-	ElementLine [-1969 0 984 -1968 800]
-	ElementLine [984 -1968 984 1969 800]
-	ElementLine [984 1969 -1969 0 800]
-	ElementLine [-1969 0 1968 0 800]
-	ElementLine [-11811 -7874 13780 -7874 800]
-	ElementLine [13780 -7874 13780 7874 800]
-	ElementLine [-13779 7874 13780 7874 800]
-	ElementLine [-13779 -5905 -13779 7874 800]
-	ElementLine [-13779 -5905 -11811 -7874 800]
-
-	)
-
-Element["" "dio_1210" "D20" "XXX" 1556752 187999 -11811 -13780 0 100 ""]
-(
-	Attribute("device" "LED")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
-	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
-	ElementLine [0 -984 0 985 800]
-	ElementLine [0 -984 984 -984 800]
-	ElementLine [0 985 984 985 800]
-	ElementLine [394 -1181 394 788 800]
-	ElementLine [-394 -787 -394 788 800]
-	ElementLine [-1969 -2362 -1969 2363 800]
-	ElementLine [-1969 0 984 -1968 800]
-	ElementLine [984 -1968 984 1969 800]
-	ElementLine [984 1969 -1969 0 800]
-	ElementLine [-1969 0 1968 0 800]
-	ElementLine [-11811 -7874 13780 -7874 800]
-	ElementLine [13780 -7874 13780 7874 800]
-	ElementLine [-13779 7874 13780 7874 800]
-	ElementLine [-13779 -5905 -13779 7874 800]
-	ElementLine [-13779 -5905 -11811 -7874 800]
-
-	)
-
-Element["" "dio_1210" "D19" "XXX" 1559752 219999 -11811 -13780 0 100 ""]
-(
-	Attribute("device" "LED")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
-	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
-	ElementLine [0 -984 0 985 800]
-	ElementLine [0 -984 984 -984 800]
-	ElementLine [0 985 984 985 800]
-	ElementLine [394 -1181 394 788 800]
-	ElementLine [-394 -787 -394 788 800]
-	ElementLine [-1969 -2362 -1969 2363 800]
-	ElementLine [-1969 0 984 -1968 800]
-	ElementLine [984 -1968 984 1969 800]
-	ElementLine [984 1969 -1969 0 800]
-	ElementLine [-1969 0 1968 0 800]
-	ElementLine [-11811 -7874 13780 -7874 800]
-	ElementLine [13780 -7874 13780 7874 800]
-	ElementLine [-13779 7874 13780 7874 800]
-	ElementLine [-13779 -5905 -13779 7874 800]
-	ElementLine [-13779 -5905 -11811 -7874 800]
-
-	)
-
-Element["" "dio_1210" "D30" "XXX" 1495248 42001 11811 13780 2 100 ""]
-(
-	Attribute("device" "LED")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[-7874 -1969 -7874 1968 8480 2404 9280 "ANODE" "2" "found,square"]
-	Pad[7874 -1969 7874 1968 8480 2404 9280 "CATHODE" "1" "square"]
-	ElementLine [0 -985 0 984 800]
-	ElementLine [-984 984 0 984 800]
-	ElementLine [-984 -985 0 -985 800]
-	ElementLine [-394 -788 -394 1181 800]
-	ElementLine [394 -788 394 787 800]
-	ElementLine [1969 -2363 1969 2362 800]
-	ElementLine [1969 0 -984 1968 800]
-	ElementLine [-984 -1969 -984 1968 800]
-	ElementLine [-984 -1969 1969 0 800]
-	ElementLine [-1968 0 1969 0 800]
-	ElementLine [-13780 7874 11811 7874 800]
-	ElementLine [-13780 -7874 -13780 7874 800]
-	ElementLine [-13780 -7874 13779 -7874 800]
-	ElementLine [13779 -7874 13779 5905 800]
-	ElementLine [13779 5905 11811 7874 800]
-
-	)
-
-Element["" "dio_1210" "D29" "XXX" 1481248 72001 11811 13780 2 100 ""]
+Element["" "dio_1210" "D15" "XXX" 1704248 357001 11811 13780 2 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -1587,7 +1153,7 @@ Element["" "dio_1210" "D29" "XXX" 1481248 72001 11811 13780 2 100 ""]
 
 	)
 
-Element["" "dio_1210" "D28" "XXX" 1481248 108001 11811 13780 2 100 ""]
+Element["" "dio_1210" "D14" "XXX" 1705000 383000 11811 13780 2 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -1614,7 +1180,7 @@ Element["" "dio_1210" "D28" "XXX" 1481248 108001 11811 13780 2 100 ""]
 
 	)
 
-Element["" "dio_1210" "D27" "XXX" 1485248 143001 11811 13780 2 100 ""]
+Element["" "dio_1210" "D13" "XXX" 1704248 410001 11811 13780 2 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -1641,7 +1207,331 @@ Element["" "dio_1210" "D27" "XXX" 1485248 143001 11811 13780 2 100 ""]
 
 	)
 
-Element["" "dio_1210" "D26" "XXX" 1497248 191001 11811 13780 2 100 ""]
+Element["" "dio_1210" "D24" "XXX" 1577752 275999 -11811 -13780 0 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
+	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
+	ElementLine [0 -984 0 985 800]
+	ElementLine [0 -984 984 -984 800]
+	ElementLine [0 985 984 985 800]
+	ElementLine [394 -1181 394 788 800]
+	ElementLine [-394 -787 -394 788 800]
+	ElementLine [-1969 -2362 -1969 2363 800]
+	ElementLine [-1969 0 984 -1968 800]
+	ElementLine [984 -1968 984 1969 800]
+	ElementLine [984 1969 -1969 0 800]
+	ElementLine [-1969 0 1968 0 800]
+	ElementLine [-11811 -7874 13780 -7874 800]
+	ElementLine [13780 -7874 13780 7874 800]
+	ElementLine [-13779 7874 13780 7874 800]
+	ElementLine [-13779 -5905 -13779 7874 800]
+	ElementLine [-13779 -5905 -11811 -7874 800]
+
+	)
+
+Element["" "dio_1210" "D23" "XXX" 1577874 304000 -11811 -13780 0 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
+	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
+	ElementLine [0 -984 0 985 800]
+	ElementLine [0 -984 984 -984 800]
+	ElementLine [0 985 984 985 800]
+	ElementLine [394 -1181 394 788 800]
+	ElementLine [-394 -787 -394 788 800]
+	ElementLine [-1969 -2362 -1969 2363 800]
+	ElementLine [-1969 0 984 -1968 800]
+	ElementLine [984 -1968 984 1969 800]
+	ElementLine [984 1969 -1969 0 800]
+	ElementLine [-1969 0 1968 0 800]
+	ElementLine [-11811 -7874 13780 -7874 800]
+	ElementLine [13780 -7874 13780 7874 800]
+	ElementLine [-13779 7874 13780 7874 800]
+	ElementLine [-13779 -5905 -13779 7874 800]
+	ElementLine [-13779 -5905 -11811 -7874 800]
+
+	)
+
+Element["" "dio_1210" "D22" "XXX" 1577752 330999 -11811 -13780 0 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
+	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
+	ElementLine [0 -984 0 985 800]
+	ElementLine [0 -984 984 -984 800]
+	ElementLine [0 985 984 985 800]
+	ElementLine [394 -1181 394 788 800]
+	ElementLine [-394 -787 -394 788 800]
+	ElementLine [-1969 -2362 -1969 2363 800]
+	ElementLine [-1969 0 984 -1968 800]
+	ElementLine [984 -1968 984 1969 800]
+	ElementLine [984 1969 -1969 0 800]
+	ElementLine [-1969 0 1968 0 800]
+	ElementLine [-11811 -7874 13780 -7874 800]
+	ElementLine [13780 -7874 13780 7874 800]
+	ElementLine [-13779 7874 13780 7874 800]
+	ElementLine [-13779 -5905 -13779 7874 800]
+	ElementLine [-13779 -5905 -11811 -7874 800]
+
+	)
+
+Element["" "dio_1210" "D21" "XXX" 1577752 357999 -11811 -13780 0 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
+	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
+	ElementLine [0 -984 0 985 800]
+	ElementLine [0 -984 984 -984 800]
+	ElementLine [0 985 984 985 800]
+	ElementLine [394 -1181 394 788 800]
+	ElementLine [-394 -787 -394 788 800]
+	ElementLine [-1969 -2362 -1969 2363 800]
+	ElementLine [-1969 0 984 -1968 800]
+	ElementLine [984 -1968 984 1969 800]
+	ElementLine [984 1969 -1969 0 800]
+	ElementLine [-1969 0 1968 0 800]
+	ElementLine [-11811 -7874 13780 -7874 800]
+	ElementLine [13780 -7874 13780 7874 800]
+	ElementLine [-13779 7874 13780 7874 800]
+	ElementLine [-13779 -5905 -13779 7874 800]
+	ElementLine [-13779 -5905 -11811 -7874 800]
+
+	)
+
+Element["" "dio_1210" "D20" "XXX" 1577752 384999 -11811 -13780 0 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
+	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
+	ElementLine [0 -984 0 985 800]
+	ElementLine [0 -984 984 -984 800]
+	ElementLine [0 985 984 985 800]
+	ElementLine [394 -1181 394 788 800]
+	ElementLine [-394 -787 -394 788 800]
+	ElementLine [-1969 -2362 -1969 2363 800]
+	ElementLine [-1969 0 984 -1968 800]
+	ElementLine [984 -1968 984 1969 800]
+	ElementLine [984 1969 -1969 0 800]
+	ElementLine [-1969 0 1968 0 800]
+	ElementLine [-11811 -7874 13780 -7874 800]
+	ElementLine [13780 -7874 13780 7874 800]
+	ElementLine [-13779 7874 13780 7874 800]
+	ElementLine [-13779 -5905 -13779 7874 800]
+	ElementLine [-13779 -5905 -11811 -7874 800]
+
+	)
+
+Element["" "dio_1210" "D19" "XXX" 1577752 411999 -11811 -13780 0 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
+	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
+	ElementLine [0 -984 0 985 800]
+	ElementLine [0 -984 984 -984 800]
+	ElementLine [0 985 984 985 800]
+	ElementLine [394 -1181 394 788 800]
+	ElementLine [-394 -787 -394 788 800]
+	ElementLine [-1969 -2362 -1969 2363 800]
+	ElementLine [-1969 0 984 -1968 800]
+	ElementLine [984 -1968 984 1969 800]
+	ElementLine [984 1969 -1969 0 800]
+	ElementLine [-1969 0 1968 0 800]
+	ElementLine [-11811 -7874 13780 -7874 800]
+	ElementLine [13780 -7874 13780 7874 800]
+	ElementLine [-13779 7874 13780 7874 800]
+	ElementLine [-13779 -5905 -13779 7874 800]
+	ElementLine [-13779 -5905 -11811 -7874 800]
+
+	)
+
+Element["" "dio_1210" "D12" "XXX" 1837874 281000 -11811 -13780 0 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
+	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
+	ElementLine [0 -984 0 985 800]
+	ElementLine [0 -984 984 -984 800]
+	ElementLine [0 985 984 985 800]
+	ElementLine [394 -1181 394 788 800]
+	ElementLine [-394 -787 -394 788 800]
+	ElementLine [-1969 -2362 -1969 2363 800]
+	ElementLine [-1969 0 984 -1968 800]
+	ElementLine [984 -1968 984 1969 800]
+	ElementLine [984 1969 -1969 0 800]
+	ElementLine [-1969 0 1968 0 800]
+	ElementLine [-11811 -7874 13780 -7874 800]
+	ElementLine [13780 -7874 13780 7874 800]
+	ElementLine [-13779 7874 13780 7874 800]
+	ElementLine [-13779 -5905 -13779 7874 800]
+	ElementLine [-13779 -5905 -11811 -7874 800]
+
+	)
+
+Element["" "dio_1210" "D11" "XXX" 1837874 306000 -11811 -13780 0 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
+	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
+	ElementLine [0 -984 0 985 800]
+	ElementLine [0 -984 984 -984 800]
+	ElementLine [0 985 984 985 800]
+	ElementLine [394 -1181 394 788 800]
+	ElementLine [-394 -787 -394 788 800]
+	ElementLine [-1969 -2362 -1969 2363 800]
+	ElementLine [-1969 0 984 -1968 800]
+	ElementLine [984 -1968 984 1969 800]
+	ElementLine [984 1969 -1969 0 800]
+	ElementLine [-1969 0 1968 0 800]
+	ElementLine [-11811 -7874 13780 -7874 800]
+	ElementLine [13780 -7874 13780 7874 800]
+	ElementLine [-13779 7874 13780 7874 800]
+	ElementLine [-13779 -5905 -13779 7874 800]
+	ElementLine [-13779 -5905 -11811 -7874 800]
+
+	)
+
+Element["" "dio_1210" "D10" "XXX" 1837748 331000 -11811 -13780 0 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
+	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
+	ElementLine [0 -984 0 985 800]
+	ElementLine [0 -984 984 -984 800]
+	ElementLine [0 985 984 985 800]
+	ElementLine [394 -1181 394 788 800]
+	ElementLine [-394 -787 -394 788 800]
+	ElementLine [-1969 -2362 -1969 2363 800]
+	ElementLine [-1969 0 984 -1968 800]
+	ElementLine [984 -1968 984 1969 800]
+	ElementLine [984 1969 -1969 0 800]
+	ElementLine [-1969 0 1968 0 800]
+	ElementLine [-11811 -7874 13780 -7874 800]
+	ElementLine [13780 -7874 13780 7874 800]
+	ElementLine [-13779 7874 13780 7874 800]
+	ElementLine [-13779 -5905 -13779 7874 800]
+	ElementLine [-13779 -5905 -11811 -7874 800]
+
+	)
+
+Element["" "dio_1210" "D8" "XXX" 1838373 381373 -11811 -13780 0 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
+	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
+	ElementLine [0 -984 0 985 800]
+	ElementLine [0 -984 984 -984 800]
+	ElementLine [0 985 984 985 800]
+	ElementLine [394 -1181 394 788 800]
+	ElementLine [-394 -787 -394 788 800]
+	ElementLine [-1969 -2362 -1969 2363 800]
+	ElementLine [-1969 0 984 -1968 800]
+	ElementLine [984 -1968 984 1969 800]
+	ElementLine [984 1969 -1969 0 800]
+	ElementLine [-1969 0 1968 0 800]
+	ElementLine [-11811 -7874 13780 -7874 800]
+	ElementLine [13780 -7874 13780 7874 800]
+	ElementLine [-13779 7874 13780 7874 800]
+	ElementLine [-13779 -5905 -13779 7874 800]
+	ElementLine [-13779 -5905 -11811 -7874 800]
+
+	)
+
+Element["" "dio_1210" "D7" "XXX" 1837874 407000 -11811 -13780 0 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
+	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
+	ElementLine [0 -984 0 985 800]
+	ElementLine [0 -984 984 -984 800]
+	ElementLine [0 985 984 985 800]
+	ElementLine [394 -1181 394 788 800]
+	ElementLine [-394 -787 -394 788 800]
+	ElementLine [-1969 -2362 -1969 2363 800]
+	ElementLine [-1969 0 984 -1968 800]
+	ElementLine [984 -1968 984 1969 800]
+	ElementLine [984 1969 -1969 0 800]
+	ElementLine [-1969 0 1968 0 800]
+	ElementLine [-11811 -7874 13780 -7874 800]
+	ElementLine [13780 -7874 13780 7874 800]
+	ElementLine [-13779 7874 13780 7874 800]
+	ElementLine [-13779 -5905 -13779 7874 800]
+	ElementLine [-13779 -5905 -11811 -7874 800]
+
+	)
+
+Element["" "dio_1210" "D9" "XXX" 1837874 356000 -11811 -13780 0 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
+	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
+	ElementLine [0 -984 0 985 800]
+	ElementLine [0 -984 984 -984 800]
+	ElementLine [0 985 984 985 800]
+	ElementLine [394 -1181 394 788 800]
+	ElementLine [-394 -787 -394 788 800]
+	ElementLine [-1969 -2362 -1969 2363 800]
+	ElementLine [-1969 0 984 -1968 800]
+	ElementLine [984 -1968 984 1969 800]
+	ElementLine [984 1969 -1969 0 800]
+	ElementLine [-1969 0 1968 0 800]
+	ElementLine [-11811 -7874 13780 -7874 800]
+	ElementLine [13780 -7874 13780 7874 800]
+	ElementLine [-13779 7874 13780 7874 800]
+	ElementLine [-13779 -5905 -13779 7874 800]
+	ElementLine [-13779 -5905 -11811 -7874 800]
+
+	)
+
+Element["" "dio_1210" "D30" "XXX" 1460126 274001 11811 13780 2 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -1668,7 +1558,7 @@ Element["" "dio_1210" "D26" "XXX" 1497248 191001 11811 13780 2 100 ""]
 
 	)
 
-Element["" "dio_1210" "D25" "XXX" 1487248 227001 11811 13780 2 100 ""]
+Element["" "dio_1210" "D29" "XXX" 1460126 303001 11811 13780 2 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -1695,169 +1585,7 @@ Element["" "dio_1210" "D25" "XXX" 1487248 227001 11811 13780 2 100 ""]
 
 	)
 
-Element["" "dio_1210" "D36" "XXX" 1393626 40999 -11811 -13780 0 100 ""]
-(
-	Attribute("device" "LED")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "found,square,edge2"]
-	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
-	ElementLine [0 -984 0 985 800]
-	ElementLine [0 -984 984 -984 800]
-	ElementLine [0 985 984 985 800]
-	ElementLine [394 -1181 394 788 800]
-	ElementLine [-394 -787 -394 788 800]
-	ElementLine [-1969 -2362 -1969 2363 800]
-	ElementLine [-1969 0 984 -1968 800]
-	ElementLine [984 -1968 984 1969 800]
-	ElementLine [984 1969 -1969 0 800]
-	ElementLine [-1969 0 1968 0 800]
-	ElementLine [-11811 -7874 13780 -7874 800]
-	ElementLine [13780 -7874 13780 7874 800]
-	ElementLine [-13779 7874 13780 7874 800]
-	ElementLine [-13779 -5905 -13779 7874 800]
-	ElementLine [-13779 -5905 -11811 -7874 800]
-
-	)
-
-Element["" "dio_1210" "D35" "XXX" 1393626 81999 -11811 -13780 0 100 ""]
-(
-	Attribute("device" "LED")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
-	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
-	ElementLine [0 -984 0 985 800]
-	ElementLine [0 -984 984 -984 800]
-	ElementLine [0 985 984 985 800]
-	ElementLine [394 -1181 394 788 800]
-	ElementLine [-394 -787 -394 788 800]
-	ElementLine [-1969 -2362 -1969 2363 800]
-	ElementLine [-1969 0 984 -1968 800]
-	ElementLine [984 -1968 984 1969 800]
-	ElementLine [984 1969 -1969 0 800]
-	ElementLine [-1969 0 1968 0 800]
-	ElementLine [-11811 -7874 13780 -7874 800]
-	ElementLine [13780 -7874 13780 7874 800]
-	ElementLine [-13779 7874 13780 7874 800]
-	ElementLine [-13779 -5905 -13779 7874 800]
-	ElementLine [-13779 -5905 -11811 -7874 800]
-
-	)
-
-Element["" "dio_1210" "D34" "XXX" 1394626 114999 -11811 -13780 0 100 ""]
-(
-	Attribute("device" "LED")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
-	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
-	ElementLine [0 -984 0 985 800]
-	ElementLine [0 -984 984 -984 800]
-	ElementLine [0 985 984 985 800]
-	ElementLine [394 -1181 394 788 800]
-	ElementLine [-394 -787 -394 788 800]
-	ElementLine [-1969 -2362 -1969 2363 800]
-	ElementLine [-1969 0 984 -1968 800]
-	ElementLine [984 -1968 984 1969 800]
-	ElementLine [984 1969 -1969 0 800]
-	ElementLine [-1969 0 1968 0 800]
-	ElementLine [-11811 -7874 13780 -7874 800]
-	ElementLine [13780 -7874 13780 7874 800]
-	ElementLine [-13779 7874 13780 7874 800]
-	ElementLine [-13779 -5905 -13779 7874 800]
-	ElementLine [-13779 -5905 -11811 -7874 800]
-
-	)
-
-Element["" "dio_1210" "D33" "XXX" 1393626 153999 -11811 -13780 0 100 ""]
-(
-	Attribute("device" "LED")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
-	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
-	ElementLine [0 -984 0 985 800]
-	ElementLine [0 -984 984 -984 800]
-	ElementLine [0 985 984 985 800]
-	ElementLine [394 -1181 394 788 800]
-	ElementLine [-394 -787 -394 788 800]
-	ElementLine [-1969 -2362 -1969 2363 800]
-	ElementLine [-1969 0 984 -1968 800]
-	ElementLine [984 -1968 984 1969 800]
-	ElementLine [984 1969 -1969 0 800]
-	ElementLine [-1969 0 1968 0 800]
-	ElementLine [-11811 -7874 13780 -7874 800]
-	ElementLine [13780 -7874 13780 7874 800]
-	ElementLine [-13779 7874 13780 7874 800]
-	ElementLine [-13779 -5905 -13779 7874 800]
-	ElementLine [-13779 -5905 -11811 -7874 800]
-
-	)
-
-Element["" "dio_1210" "D32" "XXX" 1398874 181751 -11811 -13780 0 100 ""]
-(
-	Attribute("device" "LED")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
-	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
-	ElementLine [0 -984 0 985 800]
-	ElementLine [0 -984 984 -984 800]
-	ElementLine [0 985 984 985 800]
-	ElementLine [394 -1181 394 788 800]
-	ElementLine [-394 -787 -394 788 800]
-	ElementLine [-1969 -2362 -1969 2363 800]
-	ElementLine [-1969 0 984 -1968 800]
-	ElementLine [984 -1968 984 1969 800]
-	ElementLine [984 1969 -1969 0 800]
-	ElementLine [-1969 0 1968 0 800]
-	ElementLine [-11811 -7874 13780 -7874 800]
-	ElementLine [13780 -7874 13780 7874 800]
-	ElementLine [-13779 7874 13780 7874 800]
-	ElementLine [-13779 -5905 -13779 7874 800]
-	ElementLine [-13779 -5905 -11811 -7874 800]
-
-	)
-
-Element["" "dio_1210" "D31" "XXX" 1393626 226999 -11811 -13780 0 100 ""]
-(
-	Attribute("device" "LED")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
-	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
-	ElementLine [0 -984 0 985 800]
-	ElementLine [0 -984 984 -984 800]
-	ElementLine [0 985 984 985 800]
-	ElementLine [394 -1181 394 788 800]
-	ElementLine [-394 -787 -394 788 800]
-	ElementLine [-1969 -2362 -1969 2363 800]
-	ElementLine [-1969 0 984 -1968 800]
-	ElementLine [984 -1968 984 1969 800]
-	ElementLine [984 1969 -1969 0 800]
-	ElementLine [-1969 0 1968 0 800]
-	ElementLine [-11811 -7874 13780 -7874 800]
-	ElementLine [13780 -7874 13780 7874 800]
-	ElementLine [-13779 7874 13780 7874 800]
-	ElementLine [-13779 -5905 -13779 7874 800]
-	ElementLine [-13779 -5905 -11811 -7874 800]
-
-	)
-
-Element["" "dio_1210" "D38" "XXX" 1326122 190002 11811 13780 2 100 ""]
+Element["" "dio_1210" "D28" "XXX" 1460126 330001 11811 13780 2 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -1884,7 +1612,7 @@ Element["" "dio_1210" "D38" "XXX" 1326122 190002 11811 13780 2 100 ""]
 
 	)
 
-Element["" "dio_1210" "D37" "XXX" 1319122 221002 11811 13780 2 100 ""]
+Element["" "dio_1210" "D27" "XXX" 1460126 358001 11811 13780 2 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -1911,34 +1639,7 @@ Element["" "dio_1210" "D37" "XXX" 1319122 221002 11811 13780 2 100 ""]
 
 	)
 
-Element["" "dio_1210" "D42" "XXX" 1326248 34001 11811 13780 2 100 ""]
-(
-	Attribute("device" "LED")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[-7874 -1969 -7874 1968 8480 2404 9280 "ANODE" "2" "found,square"]
-	Pad[7874 -1969 7874 1968 8480 2404 9280 "CATHODE" "1" "square"]
-	ElementLine [0 -985 0 984 800]
-	ElementLine [-984 984 0 984 800]
-	ElementLine [-984 -985 0 -985 800]
-	ElementLine [-394 -788 -394 1181 800]
-	ElementLine [394 -788 394 787 800]
-	ElementLine [1969 -2363 1969 2362 800]
-	ElementLine [1969 0 -984 1968 800]
-	ElementLine [-984 -1969 -984 1968 800]
-	ElementLine [-984 -1969 1969 0 800]
-	ElementLine [-1968 0 1969 0 800]
-	ElementLine [-13780 7874 11811 7874 800]
-	ElementLine [-13780 -7874 -13780 7874 800]
-	ElementLine [-13780 -7874 13779 -7874 800]
-	ElementLine [13779 -7874 13779 5905 800]
-	ElementLine [13779 5905 11811 7874 800]
-
-	)
-
-Element["" "dio_1210" "D41" "XXX" 1327248 71001 11811 13780 2 100 ""]
+Element["" "dio_1210" "D26" "XXX" 1460126 386001 11811 13780 2 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -1965,7 +1666,7 @@ Element["" "dio_1210" "D41" "XXX" 1327248 71001 11811 13780 2 100 ""]
 
 	)
 
-Element["" "dio_1210" "D40" "XXX" 1326248 111001 11811 13780 2 100 ""]
+Element["" "dio_1210" "D25" "XXX" 1460000 414000 11811 13780 2 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -1992,7 +1693,169 @@ Element["" "dio_1210" "D40" "XXX" 1326248 111001 11811 13780 2 100 ""]
 
 	)
 
-Element["" "dio_1210" "D39" "XXX" 1326248 149001 11811 13780 2 100 ""]
+Element["" "dio_1210" "D36" "XXX" 1349874 272000 -11811 -13780 0 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
+	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
+	ElementLine [0 -984 0 985 800]
+	ElementLine [0 -984 984 -984 800]
+	ElementLine [0 985 984 985 800]
+	ElementLine [394 -1181 394 788 800]
+	ElementLine [-394 -787 -394 788 800]
+	ElementLine [-1969 -2362 -1969 2363 800]
+	ElementLine [-1969 0 984 -1968 800]
+	ElementLine [984 -1968 984 1969 800]
+	ElementLine [984 1969 -1969 0 800]
+	ElementLine [-1969 0 1968 0 800]
+	ElementLine [-11811 -7874 13780 -7874 800]
+	ElementLine [13780 -7874 13780 7874 800]
+	ElementLine [-13779 7874 13780 7874 800]
+	ElementLine [-13779 -5905 -13779 7874 800]
+	ElementLine [-13779 -5905 -11811 -7874 800]
+
+	)
+
+Element["" "dio_1210" "D35" "XXX" 1349874 301000 -11811 -13780 0 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
+	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
+	ElementLine [0 -984 0 985 800]
+	ElementLine [0 -984 984 -984 800]
+	ElementLine [0 985 984 985 800]
+	ElementLine [394 -1181 394 788 800]
+	ElementLine [-394 -787 -394 788 800]
+	ElementLine [-1969 -2362 -1969 2363 800]
+	ElementLine [-1969 0 984 -1968 800]
+	ElementLine [984 -1968 984 1969 800]
+	ElementLine [984 1969 -1969 0 800]
+	ElementLine [-1969 0 1968 0 800]
+	ElementLine [-11811 -7874 13780 -7874 800]
+	ElementLine [13780 -7874 13780 7874 800]
+	ElementLine [-13779 7874 13780 7874 800]
+	ElementLine [-13779 -5905 -13779 7874 800]
+	ElementLine [-13779 -5905 -11811 -7874 800]
+
+	)
+
+Element["" "dio_1210" "D34" "XXX" 1349874 330000 -11811 -13780 0 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
+	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
+	ElementLine [0 -984 0 985 800]
+	ElementLine [0 -984 984 -984 800]
+	ElementLine [0 985 984 985 800]
+	ElementLine [394 -1181 394 788 800]
+	ElementLine [-394 -787 -394 788 800]
+	ElementLine [-1969 -2362 -1969 2363 800]
+	ElementLine [-1969 0 984 -1968 800]
+	ElementLine [984 -1968 984 1969 800]
+	ElementLine [984 1969 -1969 0 800]
+	ElementLine [-1969 0 1968 0 800]
+	ElementLine [-11811 -7874 13780 -7874 800]
+	ElementLine [13780 -7874 13780 7874 800]
+	ElementLine [-13779 7874 13780 7874 800]
+	ElementLine [-13779 -5905 -13779 7874 800]
+	ElementLine [-13779 -5905 -11811 -7874 800]
+
+	)
+
+Element["" "dio_1210" "D33" "XXX" 1350874 359000 -11811 -13780 0 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
+	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
+	ElementLine [0 -984 0 985 800]
+	ElementLine [0 -984 984 -984 800]
+	ElementLine [0 985 984 985 800]
+	ElementLine [394 -1181 394 788 800]
+	ElementLine [-394 -787 -394 788 800]
+	ElementLine [-1969 -2362 -1969 2363 800]
+	ElementLine [-1969 0 984 -1968 800]
+	ElementLine [984 -1968 984 1969 800]
+	ElementLine [984 1969 -1969 0 800]
+	ElementLine [-1969 0 1968 0 800]
+	ElementLine [-11811 -7874 13780 -7874 800]
+	ElementLine [13780 -7874 13780 7874 800]
+	ElementLine [-13779 7874 13780 7874 800]
+	ElementLine [-13779 -5905 -13779 7874 800]
+	ElementLine [-13779 -5905 -11811 -7874 800]
+
+	)
+
+Element["" "dio_1210" "D32" "XXX" 1350874 387000 -11811 -13780 0 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
+	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
+	ElementLine [0 -984 0 985 800]
+	ElementLine [0 -984 984 -984 800]
+	ElementLine [0 985 984 985 800]
+	ElementLine [394 -1181 394 788 800]
+	ElementLine [-394 -787 -394 788 800]
+	ElementLine [-1969 -2362 -1969 2363 800]
+	ElementLine [-1969 0 984 -1968 800]
+	ElementLine [984 -1968 984 1969 800]
+	ElementLine [984 1969 -1969 0 800]
+	ElementLine [-1969 0 1968 0 800]
+	ElementLine [-11811 -7874 13780 -7874 800]
+	ElementLine [13780 -7874 13780 7874 800]
+	ElementLine [-13779 7874 13780 7874 800]
+	ElementLine [-13779 -5905 -13779 7874 800]
+	ElementLine [-13779 -5905 -11811 -7874 800]
+
+	)
+
+Element["" "dio_1210" "D31" "XXX" 1350874 416000 -11811 -13780 0 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
+	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
+	ElementLine [0 -984 0 985 800]
+	ElementLine [0 -984 984 -984 800]
+	ElementLine [0 985 984 985 800]
+	ElementLine [394 -1181 394 788 800]
+	ElementLine [-394 -787 -394 788 800]
+	ElementLine [-1969 -2362 -1969 2363 800]
+	ElementLine [-1969 0 984 -1968 800]
+	ElementLine [984 -1968 984 1969 800]
+	ElementLine [984 1969 -1969 0 800]
+	ElementLine [-1969 0 1968 0 800]
+	ElementLine [-11811 -7874 13780 -7874 800]
+	ElementLine [13780 -7874 13780 7874 800]
+	ElementLine [-13779 7874 13780 7874 800]
+	ElementLine [-13779 -5905 -13779 7874 800]
+	ElementLine [-13779 -5905 -11811 -7874 800]
+
+	)
+
+Element["" "dio_1210" "D38" "XXX" 1242874 389001 11811 13780 2 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -2019,196 +1882,7 @@ Element["" "dio_1210" "D39" "XXX" 1326248 149001 11811 13780 2 100 ""]
 
 	)
 
-Element["" "dio_1210" "D48" "XXX" 1242752 33999 -11811 -13780 0 100 ""]
-(
-	Attribute("device" "LED")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "found,square,edge2"]
-	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
-	ElementLine [0 -984 0 985 800]
-	ElementLine [0 -984 984 -984 800]
-	ElementLine [0 985 984 985 800]
-	ElementLine [394 -1181 394 788 800]
-	ElementLine [-394 -787 -394 788 800]
-	ElementLine [-1969 -2362 -1969 2363 800]
-	ElementLine [-1969 0 984 -1968 800]
-	ElementLine [984 -1968 984 1969 800]
-	ElementLine [984 1969 -1969 0 800]
-	ElementLine [-1969 0 1968 0 800]
-	ElementLine [-11811 -7874 13780 -7874 800]
-	ElementLine [13780 -7874 13780 7874 800]
-	ElementLine [-13779 7874 13780 7874 800]
-	ElementLine [-13779 -5905 -13779 7874 800]
-	ElementLine [-13779 -5905 -11811 -7874 800]
-
-	)
-
-Element["" "dio_1210" "D47" "XXX" 1248874 59877 -11811 -13780 0 100 ""]
-(
-	Attribute("device" "LED")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
-	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
-	ElementLine [0 -984 0 985 800]
-	ElementLine [0 -984 984 -984 800]
-	ElementLine [0 985 984 985 800]
-	ElementLine [394 -1181 394 788 800]
-	ElementLine [-394 -787 -394 788 800]
-	ElementLine [-1969 -2362 -1969 2363 800]
-	ElementLine [-1969 0 984 -1968 800]
-	ElementLine [984 -1968 984 1969 800]
-	ElementLine [984 1969 -1969 0 800]
-	ElementLine [-1969 0 1968 0 800]
-	ElementLine [-11811 -7874 13780 -7874 800]
-	ElementLine [13780 -7874 13780 7874 800]
-	ElementLine [-13779 7874 13780 7874 800]
-	ElementLine [-13779 -5905 -13779 7874 800]
-	ElementLine [-13779 -5905 -11811 -7874 800]
-
-	)
-
-Element["" "dio_1210" "D46" "XXX" 1238752 108999 -11811 -13780 0 100 ""]
-(
-	Attribute("device" "LED")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
-	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
-	ElementLine [0 -984 0 985 800]
-	ElementLine [0 -984 984 -984 800]
-	ElementLine [0 985 984 985 800]
-	ElementLine [394 -1181 394 788 800]
-	ElementLine [-394 -787 -394 788 800]
-	ElementLine [-1969 -2362 -1969 2363 800]
-	ElementLine [-1969 0 984 -1968 800]
-	ElementLine [984 -1968 984 1969 800]
-	ElementLine [984 1969 -1969 0 800]
-	ElementLine [-1969 0 1968 0 800]
-	ElementLine [-11811 -7874 13780 -7874 800]
-	ElementLine [13780 -7874 13780 7874 800]
-	ElementLine [-13779 7874 13780 7874 800]
-	ElementLine [-13779 -5905 -13779 7874 800]
-	ElementLine [-13779 -5905 -11811 -7874 800]
-
-	)
-
-Element["" "dio_1210" "D45" "XXX" 1248874 136877 -11811 -13780 0 100 ""]
-(
-	Attribute("device" "LED")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
-	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
-	ElementLine [0 -984 0 985 800]
-	ElementLine [0 -984 984 -984 800]
-	ElementLine [0 985 984 985 800]
-	ElementLine [394 -1181 394 788 800]
-	ElementLine [-394 -787 -394 788 800]
-	ElementLine [-1969 -2362 -1969 2363 800]
-	ElementLine [-1969 0 984 -1968 800]
-	ElementLine [984 -1968 984 1969 800]
-	ElementLine [984 1969 -1969 0 800]
-	ElementLine [-1969 0 1968 0 800]
-	ElementLine [-11811 -7874 13780 -7874 800]
-	ElementLine [13780 -7874 13780 7874 800]
-	ElementLine [-13779 7874 13780 7874 800]
-	ElementLine [-13779 -5905 -13779 7874 800]
-	ElementLine [-13779 -5905 -11811 -7874 800]
-
-	)
-
-Element["" "dio_1210" "D44" "XXX" 1248874 174877 -11811 -13780 0 100 ""]
-(
-	Attribute("device" "LED")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
-	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
-	ElementLine [0 -984 0 985 800]
-	ElementLine [0 -984 984 -984 800]
-	ElementLine [0 985 984 985 800]
-	ElementLine [394 -1181 394 788 800]
-	ElementLine [-394 -787 -394 788 800]
-	ElementLine [-1969 -2362 -1969 2363 800]
-	ElementLine [-1969 0 984 -1968 800]
-	ElementLine [984 -1968 984 1969 800]
-	ElementLine [984 1969 -1969 0 800]
-	ElementLine [-1969 0 1968 0 800]
-	ElementLine [-11811 -7874 13780 -7874 800]
-	ElementLine [13780 -7874 13780 7874 800]
-	ElementLine [-13779 7874 13780 7874 800]
-	ElementLine [-13779 -5905 -13779 7874 800]
-	ElementLine [-13779 -5905 -11811 -7874 800]
-
-	)
-
-Element["" "dio_1210" "D43" "XXX" 1248874 213877 -11811 -13780 0 100 ""]
-(
-	Attribute("device" "LED")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
-	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
-	ElementLine [0 -984 0 985 800]
-	ElementLine [0 -984 984 -984 800]
-	ElementLine [0 985 984 985 800]
-	ElementLine [394 -1181 394 788 800]
-	ElementLine [-394 -787 -394 788 800]
-	ElementLine [-1969 -2362 -1969 2363 800]
-	ElementLine [-1969 0 984 -1968 800]
-	ElementLine [984 -1968 984 1969 800]
-	ElementLine [984 1969 -1969 0 800]
-	ElementLine [-1969 0 1968 0 800]
-	ElementLine [-11811 -7874 13780 -7874 800]
-	ElementLine [13780 -7874 13780 7874 800]
-	ElementLine [-13779 7874 13780 7874 800]
-	ElementLine [-13779 -5905 -13779 7874 800]
-	ElementLine [-13779 -5905 -11811 -7874 800]
-
-	)
-
-Element["" "dio_1210" "D54" "XXX" 1156248 25001 11811 13780 2 100 ""]
-(
-	Attribute("device" "LED")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[-7874 -1969 -7874 1968 8480 2404 9280 "ANODE" "2" "found,square"]
-	Pad[7874 -1969 7874 1968 8480 2404 9280 "CATHODE" "1" "square"]
-	ElementLine [0 -985 0 984 800]
-	ElementLine [-984 984 0 984 800]
-	ElementLine [-984 -985 0 -985 800]
-	ElementLine [-394 -788 -394 1181 800]
-	ElementLine [394 -788 394 787 800]
-	ElementLine [1969 -2363 1969 2362 800]
-	ElementLine [1969 0 -984 1968 800]
-	ElementLine [-984 -1969 -984 1968 800]
-	ElementLine [-984 -1969 1969 0 800]
-	ElementLine [-1968 0 1969 0 800]
-	ElementLine [-13780 7874 11811 7874 800]
-	ElementLine [-13780 -7874 -13780 7874 800]
-	ElementLine [-13780 -7874 13779 -7874 800]
-	ElementLine [13779 -7874 13779 5905 800]
-	ElementLine [13779 5905 11811 7874 800]
-
-	)
-
-Element["" "dio_1210" "D53" "XXX" 1167248 78001 11811 13780 2 100 ""]
+Element["" "dio_1210" "D37" "XXX" 1242874 418001 11811 13780 2 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -2235,7 +1909,7 @@ Element["" "dio_1210" "D53" "XXX" 1167248 78001 11811 13780 2 100 ""]
 
 	)
 
-Element["" "dio_1210" "D52" "XXX" 1155248 106001 11811 13780 2 100 ""]
+Element["" "dio_1210" "D42" "XXX" 1242874 270001 11811 13780 2 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -2262,7 +1936,7 @@ Element["" "dio_1210" "D52" "XXX" 1155248 106001 11811 13780 2 100 ""]
 
 	)
 
-Element["" "dio_1210" "D51" "XXX" 1150248 144001 11811 13780 2 100 ""]
+Element["" "dio_1210" "D41" "XXX" 1242874 300001 11811 13780 2 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -2289,7 +1963,7 @@ Element["" "dio_1210" "D51" "XXX" 1150248 144001 11811 13780 2 100 ""]
 
 	)
 
-Element["" "dio_1210" "D50" "XXX" 1148248 178001 11811 13780 2 100 ""]
+Element["" "dio_1210" "D40" "XXX" 1242874 330001 11811 13780 2 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -2316,7 +1990,7 @@ Element["" "dio_1210" "D50" "XXX" 1148248 178001 11811 13780 2 100 ""]
 
 	)
 
-Element["" "dio_1210" "D49" "XXX" 1155248 221001 11811 13780 2 100 ""]
+Element["" "dio_1210" "D39" "XXX" 1242874 359001 11811 13780 2 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -2343,34 +2017,7 @@ Element["" "dio_1210" "D49" "XXX" 1155248 221001 11811 13780 2 100 ""]
 
 	)
 
-Element["" "dio_1210" "D60" "XXX" 1091752 25999 -11811 -13780 0 100 ""]
-(
-	Attribute("device" "LED")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "found,square,edge2"]
-	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
-	ElementLine [0 -984 0 985 800]
-	ElementLine [0 -984 984 -984 800]
-	ElementLine [0 985 984 985 800]
-	ElementLine [394 -1181 394 788 800]
-	ElementLine [-394 -787 -394 788 800]
-	ElementLine [-1969 -2362 -1969 2363 800]
-	ElementLine [-1969 0 984 -1968 800]
-	ElementLine [984 -1968 984 1969 800]
-	ElementLine [984 1969 -1969 0 800]
-	ElementLine [-1969 0 1968 0 800]
-	ElementLine [-11811 -7874 13780 -7874 800]
-	ElementLine [13780 -7874 13780 7874 800]
-	ElementLine [-13779 7874 13780 7874 800]
-	ElementLine [-13779 -5905 -13779 7874 800]
-	ElementLine [-13779 -5905 -11811 -7874 800]
-
-	)
-
-Element["" "dio_1210" "D59" "XXX" 1092752 66999 -11811 -13780 0 100 ""]
+Element["" "dio_1210" "D46" "XXX" 1144752 329122 -11811 -13780 0 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -2397,7 +2044,7 @@ Element["" "dio_1210" "D59" "XXX" 1092752 66999 -11811 -13780 0 100 ""]
 
 	)
 
-Element["" "dio_1210" "D58" "XXX" 1081126 112625 -11811 -13780 0 100 ""]
+Element["" "dio_1210" "D43" "XXX" 1144874 420000 -11811 -13780 0 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -2424,7 +2071,7 @@ Element["" "dio_1210" "D58" "XXX" 1081126 112625 -11811 -13780 0 100 ""]
 
 	)
 
-Element["" "dio_1210" "D57" "XXX" 1096874 135877 -11811 -13780 0 100 ""]
+Element["" "dio_1210" "D44" "XXX" 1144874 389000 -11811 -13780 0 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -2451,7 +2098,7 @@ Element["" "dio_1210" "D57" "XXX" 1096874 135877 -11811 -13780 0 100 ""]
 
 	)
 
-Element["" "dio_1210" "D56" "XXX" 1089752 182999 -11811 -13780 0 100 ""]
+Element["" "dio_1210" "D45" "XXX" 1144874 359000 -11811 -13780 0 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -2478,7 +2125,7 @@ Element["" "dio_1210" "D56" "XXX" 1089752 182999 -11811 -13780 0 100 ""]
 
 	)
 
-Element["" "dio_1210" "D55" "XXX" 1089001 219752 -11811 -13780 0 100 ""]
+Element["" "dio_1210" "D47" "XXX" 1144874 299000 -11811 -13780 0 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -2505,34 +2152,34 @@ Element["" "dio_1210" "D55" "XXX" 1089001 219752 -11811 -13780 0 100 ""]
 
 	)
 
-Element["" "dio_1210" "D66" "XXX" 1010248 31001 11811 13780 2 100 ""]
+Element["" "dio_1210" "D48" "XXX" 1144752 268122 -11811 -13780 0 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[-7874 -1969 -7874 1968 8480 2404 9280 "ANODE" "2" "found,square"]
-	Pad[7874 -1969 7874 1968 8480 2404 9280 "CATHODE" "1" "square"]
-	ElementLine [0 -985 0 984 800]
-	ElementLine [-984 984 0 984 800]
-	ElementLine [-984 -985 0 -985 800]
-	ElementLine [-394 -788 -394 1181 800]
-	ElementLine [394 -788 394 787 800]
-	ElementLine [1969 -2363 1969 2362 800]
-	ElementLine [1969 0 -984 1968 800]
-	ElementLine [-984 -1969 -984 1968 800]
-	ElementLine [-984 -1969 1969 0 800]
-	ElementLine [-1968 0 1969 0 800]
-	ElementLine [-13780 7874 11811 7874 800]
-	ElementLine [-13780 -7874 -13780 7874 800]
-	ElementLine [-13780 -7874 13779 -7874 800]
-	ElementLine [13779 -7874 13779 5905 800]
-	ElementLine [13779 5905 11811 7874 800]
+	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
+	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
+	ElementLine [0 -984 0 985 800]
+	ElementLine [0 -984 984 -984 800]
+	ElementLine [0 985 984 985 800]
+	ElementLine [394 -1181 394 788 800]
+	ElementLine [-394 -787 -394 788 800]
+	ElementLine [-1969 -2362 -1969 2363 800]
+	ElementLine [-1969 0 984 -1968 800]
+	ElementLine [984 -1968 984 1969 800]
+	ElementLine [984 1969 -1969 0 800]
+	ElementLine [-1969 0 1968 0 800]
+	ElementLine [-11811 -7874 13780 -7874 800]
+	ElementLine [13780 -7874 13780 7874 800]
+	ElementLine [-13779 7874 13780 7874 800]
+	ElementLine [-13779 -5905 -13779 7874 800]
+	ElementLine [-13779 -5905 -11811 -7874 800]
 
 	)
 
-Element["" "dio_1210" "D65" "XXX" 1011248 65001 11811 13780 2 100 ""]
+Element["" "dio_1210" "D54" "XXX" 1050000 267000 11811 13780 2 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -2559,7 +2206,7 @@ Element["" "dio_1210" "D65" "XXX" 1011248 65001 11811 13780 2 100 ""]
 
 	)
 
-Element["" "dio_1210" "D64" "XXX" 1014248 108001 11811 13780 2 100 ""]
+Element["" "dio_1210" "D53" "XXX" 1050248 298001 11811 13780 2 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -2586,7 +2233,7 @@ Element["" "dio_1210" "D64" "XXX" 1014248 108001 11811 13780 2 100 ""]
 
 	)
 
-Element["" "dio_1210" "D63" "XXX" 1004248 140001 11811 13780 2 100 ""]
+Element["" "dio_1210" "D52" "XXX" 1051248 329001 11811 13780 2 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -2613,7 +2260,7 @@ Element["" "dio_1210" "D63" "XXX" 1004248 140001 11811 13780 2 100 ""]
 
 	)
 
-Element["" "dio_1210" "D62" "XXX" 1007248 176001 11811 13780 2 100 ""]
+Element["" "dio_1210" "D50" "XXX" 1050248 391001 11811 13780 2 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -2640,7 +2287,7 @@ Element["" "dio_1210" "D62" "XXX" 1007248 176001 11811 13780 2 100 ""]
 
 	)
 
-Element["" "dio_1210" "D61" "XXX" 1013248 216001 11811 13780 2 100 ""]
+Element["" "dio_1210" "D49" "XXX" 1050248 421001 11811 13780 2 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -2667,196 +2314,7 @@ Element["" "dio_1210" "D61" "XXX" 1013248 216001 11811 13780 2 100 ""]
 
 	)
 
-Element["" "dio_1210" "D72" "XXX" 912878 25998 -11811 -13780 0 100 ""]
-(
-	Attribute("device" "LED")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "found,square,edge2"]
-	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
-	ElementLine [0 -984 0 985 800]
-	ElementLine [0 -984 984 -984 800]
-	ElementLine [0 985 984 985 800]
-	ElementLine [394 -1181 394 788 800]
-	ElementLine [-394 -787 -394 788 800]
-	ElementLine [-1969 -2362 -1969 2363 800]
-	ElementLine [-1969 0 984 -1968 800]
-	ElementLine [984 -1968 984 1969 800]
-	ElementLine [984 1969 -1969 0 800]
-	ElementLine [-1969 0 1968 0 800]
-	ElementLine [-11811 -7874 13780 -7874 800]
-	ElementLine [13780 -7874 13780 7874 800]
-	ElementLine [-13779 7874 13780 7874 800]
-	ElementLine [-13779 -5905 -13779 7874 800]
-	ElementLine [-13779 -5905 -11811 -7874 800]
-
-	)
-
-Element["" "dio_1210" "D71" "XXX" 913752 62999 -11811 -13780 0 100 ""]
-(
-	Attribute("device" "LED")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
-	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
-	ElementLine [0 -984 0 985 800]
-	ElementLine [0 -984 984 -984 800]
-	ElementLine [0 985 984 985 800]
-	ElementLine [394 -1181 394 788 800]
-	ElementLine [-394 -787 -394 788 800]
-	ElementLine [-1969 -2362 -1969 2363 800]
-	ElementLine [-1969 0 984 -1968 800]
-	ElementLine [984 -1968 984 1969 800]
-	ElementLine [984 1969 -1969 0 800]
-	ElementLine [-1969 0 1968 0 800]
-	ElementLine [-11811 -7874 13780 -7874 800]
-	ElementLine [13780 -7874 13780 7874 800]
-	ElementLine [-13779 7874 13780 7874 800]
-	ElementLine [-13779 -5905 -13779 7874 800]
-	ElementLine [-13779 -5905 -11811 -7874 800]
-
-	)
-
-Element["" "dio_1210" "D70" "XXX" 918752 101999 -11811 -13780 0 100 ""]
-(
-	Attribute("device" "LED")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
-	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
-	ElementLine [0 -984 0 985 800]
-	ElementLine [0 -984 984 -984 800]
-	ElementLine [0 985 984 985 800]
-	ElementLine [394 -1181 394 788 800]
-	ElementLine [-394 -787 -394 788 800]
-	ElementLine [-1969 -2362 -1969 2363 800]
-	ElementLine [-1969 0 984 -1968 800]
-	ElementLine [984 -1968 984 1969 800]
-	ElementLine [984 1969 -1969 0 800]
-	ElementLine [-1969 0 1968 0 800]
-	ElementLine [-11811 -7874 13780 -7874 800]
-	ElementLine [13780 -7874 13780 7874 800]
-	ElementLine [-13779 7874 13780 7874 800]
-	ElementLine [-13779 -5905 -13779 7874 800]
-	ElementLine [-13779 -5905 -11811 -7874 800]
-
-	)
-
-Element["" "dio_1210" "D69" "XXX" 911752 136999 -11811 -13780 0 100 ""]
-(
-	Attribute("device" "LED")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
-	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
-	ElementLine [0 -984 0 985 800]
-	ElementLine [0 -984 984 -984 800]
-	ElementLine [0 985 984 985 800]
-	ElementLine [394 -1181 394 788 800]
-	ElementLine [-394 -787 -394 788 800]
-	ElementLine [-1969 -2362 -1969 2363 800]
-	ElementLine [-1969 0 984 -1968 800]
-	ElementLine [984 -1968 984 1969 800]
-	ElementLine [984 1969 -1969 0 800]
-	ElementLine [-1969 0 1968 0 800]
-	ElementLine [-11811 -7874 13780 -7874 800]
-	ElementLine [13780 -7874 13780 7874 800]
-	ElementLine [-13779 7874 13780 7874 800]
-	ElementLine [-13779 -5905 -13779 7874 800]
-	ElementLine [-13779 -5905 -11811 -7874 800]
-
-	)
-
-Element["" "dio_1210" "D68" "XXX" 912752 174999 -11811 -13780 0 100 ""]
-(
-	Attribute("device" "LED")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
-	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
-	ElementLine [0 -984 0 985 800]
-	ElementLine [0 -984 984 -984 800]
-	ElementLine [0 985 984 985 800]
-	ElementLine [394 -1181 394 788 800]
-	ElementLine [-394 -787 -394 788 800]
-	ElementLine [-1969 -2362 -1969 2363 800]
-	ElementLine [-1969 0 984 -1968 800]
-	ElementLine [984 -1968 984 1969 800]
-	ElementLine [984 1969 -1969 0 800]
-	ElementLine [-1969 0 1968 0 800]
-	ElementLine [-11811 -7874 13780 -7874 800]
-	ElementLine [13780 -7874 13780 7874 800]
-	ElementLine [-13779 7874 13780 7874 800]
-	ElementLine [-13779 -5905 -13779 7874 800]
-	ElementLine [-13779 -5905 -11811 -7874 800]
-
-	)
-
-Element["" "dio_1210" "D67" "XXX" 909752 211999 -11811 -13780 0 100 ""]
-(
-	Attribute("device" "LED")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
-	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
-	ElementLine [0 -984 0 985 800]
-	ElementLine [0 -984 984 -984 800]
-	ElementLine [0 985 984 985 800]
-	ElementLine [394 -1181 394 788 800]
-	ElementLine [-394 -787 -394 788 800]
-	ElementLine [-1969 -2362 -1969 2363 800]
-	ElementLine [-1969 0 984 -1968 800]
-	ElementLine [984 -1968 984 1969 800]
-	ElementLine [984 1969 -1969 0 800]
-	ElementLine [-1969 0 1968 0 800]
-	ElementLine [-11811 -7874 13780 -7874 800]
-	ElementLine [13780 -7874 13780 7874 800]
-	ElementLine [-13779 7874 13780 7874 800]
-	ElementLine [-13779 -5905 -13779 7874 800]
-	ElementLine [-13779 -5905 -11811 -7874 800]
-
-	)
-
-Element["" "dio_1210" "D78" "XXX" 796248 22001 11811 13780 2 100 ""]
-(
-	Attribute("device" "LED")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[-7874 -1969 -7874 1968 8480 2404 9280 "ANODE" "2" "found,square"]
-	Pad[7874 -1969 7874 1968 8480 2404 9280 "CATHODE" "1" "square"]
-	ElementLine [0 -985 0 984 800]
-	ElementLine [-984 984 0 984 800]
-	ElementLine [-984 -985 0 -985 800]
-	ElementLine [-394 -788 -394 1181 800]
-	ElementLine [394 -788 394 787 800]
-	ElementLine [1969 -2363 1969 2362 800]
-	ElementLine [1969 0 -984 1968 800]
-	ElementLine [-984 -1969 -984 1968 800]
-	ElementLine [-984 -1969 1969 0 800]
-	ElementLine [-1968 0 1969 0 800]
-	ElementLine [-13780 7874 11811 7874 800]
-	ElementLine [-13780 -7874 -13780 7874 800]
-	ElementLine [-13780 -7874 13779 -7874 800]
-	ElementLine [13779 -7874 13779 5905 800]
-	ElementLine [13779 5905 11811 7874 800]
-
-	)
-
-Element["" "dio_1210" "D77" "XXX" 794248 54001 11811 13780 2 100 ""]
+Element["" "dio_1210" "D51" "XXX" 1051000 360000 11811 13780 2 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -2883,142 +2341,7 @@ Element["" "dio_1210" "D77" "XXX" 794248 54001 11811 13780 2 100 ""]
 
 	)
 
-Element["" "dio_1210" "D76" "XXX" 796248 97001 11811 13780 2 100 ""]
-(
-	Attribute("device" "LED")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[-7874 -1969 -7874 1968 8480 2404 9280 "ANODE" "2" "square"]
-	Pad[7874 -1969 7874 1968 8480 2404 9280 "CATHODE" "1" "square"]
-	ElementLine [0 -985 0 984 800]
-	ElementLine [-984 984 0 984 800]
-	ElementLine [-984 -985 0 -985 800]
-	ElementLine [-394 -788 -394 1181 800]
-	ElementLine [394 -788 394 787 800]
-	ElementLine [1969 -2363 1969 2362 800]
-	ElementLine [1969 0 -984 1968 800]
-	ElementLine [-984 -1969 -984 1968 800]
-	ElementLine [-984 -1969 1969 0 800]
-	ElementLine [-1968 0 1969 0 800]
-	ElementLine [-13780 7874 11811 7874 800]
-	ElementLine [-13780 -7874 -13780 7874 800]
-	ElementLine [-13780 -7874 13779 -7874 800]
-	ElementLine [13779 -7874 13779 5905 800]
-	ElementLine [13779 5905 11811 7874 800]
-
-	)
-
-Element["" "dio_1210" "D75" "XXX" 792248 135001 11811 13780 2 100 ""]
-(
-	Attribute("device" "LED")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[-7874 -1969 -7874 1968 8480 2404 9280 "ANODE" "2" "square"]
-	Pad[7874 -1969 7874 1968 8480 2404 9280 "CATHODE" "1" "square"]
-	ElementLine [0 -985 0 984 800]
-	ElementLine [-984 984 0 984 800]
-	ElementLine [-984 -985 0 -985 800]
-	ElementLine [-394 -788 -394 1181 800]
-	ElementLine [394 -788 394 787 800]
-	ElementLine [1969 -2363 1969 2362 800]
-	ElementLine [1969 0 -984 1968 800]
-	ElementLine [-984 -1969 -984 1968 800]
-	ElementLine [-984 -1969 1969 0 800]
-	ElementLine [-1968 0 1969 0 800]
-	ElementLine [-13780 7874 11811 7874 800]
-	ElementLine [-13780 -7874 -13780 7874 800]
-	ElementLine [-13780 -7874 13779 -7874 800]
-	ElementLine [13779 -7874 13779 5905 800]
-	ElementLine [13779 5905 11811 7874 800]
-
-	)
-
-Element["" "dio_1210" "D74" "XXX" 796248 177001 11811 13780 2 100 ""]
-(
-	Attribute("device" "LED")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[-7874 -1969 -7874 1968 8480 2404 9280 "ANODE" "2" "square"]
-	Pad[7874 -1969 7874 1968 8480 2404 9280 "CATHODE" "1" "square"]
-	ElementLine [0 -985 0 984 800]
-	ElementLine [-984 984 0 984 800]
-	ElementLine [-984 -985 0 -985 800]
-	ElementLine [-394 -788 -394 1181 800]
-	ElementLine [394 -788 394 787 800]
-	ElementLine [1969 -2363 1969 2362 800]
-	ElementLine [1969 0 -984 1968 800]
-	ElementLine [-984 -1969 -984 1968 800]
-	ElementLine [-984 -1969 1969 0 800]
-	ElementLine [-1968 0 1969 0 800]
-	ElementLine [-13780 7874 11811 7874 800]
-	ElementLine [-13780 -7874 -13780 7874 800]
-	ElementLine [-13780 -7874 13779 -7874 800]
-	ElementLine [13779 -7874 13779 5905 800]
-	ElementLine [13779 5905 11811 7874 800]
-
-	)
-
-Element["" "dio_1210" "D73" "XXX" 799248 211001 11811 13780 2 100 ""]
-(
-	Attribute("device" "LED")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[-7874 -1969 -7874 1968 8480 2404 9280 "ANODE" "2" "square"]
-	Pad[7874 -1969 7874 1968 8480 2404 9280 "CATHODE" "1" "square"]
-	ElementLine [0 -985 0 984 800]
-	ElementLine [-984 984 0 984 800]
-	ElementLine [-984 -985 0 -985 800]
-	ElementLine [-394 -788 -394 1181 800]
-	ElementLine [394 -788 394 787 800]
-	ElementLine [1969 -2363 1969 2362 800]
-	ElementLine [1969 0 -984 1968 800]
-	ElementLine [-984 -1969 -984 1968 800]
-	ElementLine [-984 -1969 1969 0 800]
-	ElementLine [-1968 0 1969 0 800]
-	ElementLine [-13780 7874 11811 7874 800]
-	ElementLine [-13780 -7874 -13780 7874 800]
-	ElementLine [-13780 -7874 13779 -7874 800]
-	ElementLine [13779 -7874 13779 5905 800]
-	ElementLine [13779 5905 11811 7874 800]
-
-	)
-
-Element["" "dio_1210" "D84" "XXX" 729001 21752 -11811 -13780 0 100 ""]
-(
-	Attribute("device" "LED")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "found,square,edge2"]
-	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
-	ElementLine [0 -984 0 985 800]
-	ElementLine [0 -984 984 -984 800]
-	ElementLine [0 985 984 985 800]
-	ElementLine [394 -1181 394 788 800]
-	ElementLine [-394 -787 -394 788 800]
-	ElementLine [-1969 -2362 -1969 2363 800]
-	ElementLine [-1969 0 984 -1968 800]
-	ElementLine [984 -1968 984 1969 800]
-	ElementLine [984 1969 -1969 0 800]
-	ElementLine [-1969 0 1968 0 800]
-	ElementLine [-11811 -7874 13780 -7874 800]
-	ElementLine [13780 -7874 13780 7874 800]
-	ElementLine [-13779 7874 13780 7874 800]
-	ElementLine [-13779 -5905 -13779 7874 800]
-	ElementLine [-13779 -5905 -11811 -7874 800]
-
-	)
-
-Element["" "dio_1210" "D83" "XXX" 729752 56999 -11811 -13780 0 100 ""]
+Element["" "dio_1210" "D60" "XXX" 962248 264749 -11811 -13780 0 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -3045,7 +2368,7 @@ Element["" "dio_1210" "D83" "XXX" 729752 56999 -11811 -13780 0 100 ""]
 
 	)
 
-Element["" "dio_1210" "D82" "XXX" 727752 100999 -11811 -13780 0 100 ""]
+Element["" "dio_1210" "D59" "XXX" 962248 296749 -11811 -13780 0 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -3072,7 +2395,7 @@ Element["" "dio_1210" "D82" "XXX" 727752 100999 -11811 -13780 0 100 ""]
 
 	)
 
-Element["" "dio_1210" "D81" "XXX" 729752 139999 -11811 -13780 0 100 ""]
+Element["" "dio_1210" "D57" "XXX" 962370 359627 -11811 -13780 0 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -3099,7 +2422,7 @@ Element["" "dio_1210" "D81" "XXX" 729752 139999 -11811 -13780 0 100 ""]
 
 	)
 
-Element["" "dio_1210" "D80" "XXX" 729001 174752 -11811 -13780 0 100 ""]
+Element["" "dio_1210" "D56" "XXX" 962248 391749 -11811 -13780 0 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -3126,34 +2449,34 @@ Element["" "dio_1210" "D80" "XXX" 729001 174752 -11811 -13780 0 100 ""]
 
 	)
 
-Element["" "dio_1210" "D90" "XXX" 631248 25001 11811 13780 2 100 ""]
+Element["" "dio_1210" "D55" "XXX" 962497 422502 -11811 -13780 0 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[-7874 -1969 -7874 1968 8480 2404 9280 "ANODE" "2" "found,square"]
-	Pad[7874 -1969 7874 1968 8480 2404 9280 "CATHODE" "1" "square"]
-	ElementLine [0 -985 0 984 800]
-	ElementLine [-984 984 0 984 800]
-	ElementLine [-984 -985 0 -985 800]
-	ElementLine [-394 -788 -394 1181 800]
-	ElementLine [394 -788 394 787 800]
-	ElementLine [1969 -2363 1969 2362 800]
-	ElementLine [1969 0 -984 1968 800]
-	ElementLine [-984 -1969 -984 1968 800]
-	ElementLine [-984 -1969 1969 0 800]
-	ElementLine [-1968 0 1969 0 800]
-	ElementLine [-13780 7874 11811 7874 800]
-	ElementLine [-13780 -7874 -13780 7874 800]
-	ElementLine [-13780 -7874 13779 -7874 800]
-	ElementLine [13779 -7874 13779 5905 800]
-	ElementLine [13779 5905 11811 7874 800]
+	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
+	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
+	ElementLine [0 -984 0 985 800]
+	ElementLine [0 -984 984 -984 800]
+	ElementLine [0 985 984 985 800]
+	ElementLine [394 -1181 394 788 800]
+	ElementLine [-394 -787 -394 788 800]
+	ElementLine [-1969 -2362 -1969 2363 800]
+	ElementLine [-1969 0 984 -1968 800]
+	ElementLine [984 -1968 984 1969 800]
+	ElementLine [984 1969 -1969 0 800]
+	ElementLine [-1969 0 1968 0 800]
+	ElementLine [-11811 -7874 13780 -7874 800]
+	ElementLine [13780 -7874 13780 7874 800]
+	ElementLine [-13779 7874 13780 7874 800]
+	ElementLine [-13779 -5905 -13779 7874 800]
+	ElementLine [-13779 -5905 -11811 -7874 800]
 
 	)
 
-Element["" "dio_1210" "D89" "XXX" 627248 60001 11811 13780 2 100 ""]
+Element["" "dio_1210" "D66" "XXX" 875874 264001 11811 13780 2 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -3180,7 +2503,7 @@ Element["" "dio_1210" "D89" "XXX" 627248 60001 11811 13780 2 100 ""]
 
 	)
 
-Element["" "dio_1210" "D88" "XXX" 638248 109001 11811 13780 2 100 ""]
+Element["" "dio_1210" "D65" "XXX" 875874 296001 11811 13780 2 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -3207,7 +2530,7 @@ Element["" "dio_1210" "D88" "XXX" 638248 109001 11811 13780 2 100 ""]
 
 	)
 
-Element["" "dio_1210" "D87" "XXX" 634248 134001 11811 13780 2 100 ""]
+Element["" "dio_1210" "D64" "XXX" 875874 330001 11811 13780 2 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -3234,7 +2557,7 @@ Element["" "dio_1210" "D87" "XXX" 634248 134001 11811 13780 2 100 ""]
 
 	)
 
-Element["" "dio_1210" "D86" "XXX" 631248 171001 11811 13780 2 100 ""]
+Element["" "dio_1210" "D63" "XXX" 875874 362001 11811 13780 2 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -3261,7 +2584,7 @@ Element["" "dio_1210" "D86" "XXX" 631248 171001 11811 13780 2 100 ""]
 
 	)
 
-Element["" "dio_1210" "D85" "XXX" 631248 217001 11811 13780 2 100 ""]
+Element["" "dio_1210" "D62" "XXX" 875874 393001 11811 13780 2 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -3288,196 +2611,7 @@ Element["" "dio_1210" "D85" "XXX" 631248 217001 11811 13780 2 100 ""]
 
 	)
 
-Element["" "dio_1210" "D96" "XXX" 575752 20999 -11811 -13780 0 100 ""]
-(
-	Attribute("device" "LED")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "found,square,edge2"]
-	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
-	ElementLine [0 -984 0 985 800]
-	ElementLine [0 -984 984 -984 800]
-	ElementLine [0 985 984 985 800]
-	ElementLine [394 -1181 394 788 800]
-	ElementLine [-394 -787 -394 788 800]
-	ElementLine [-1969 -2362 -1969 2363 800]
-	ElementLine [-1969 0 984 -1968 800]
-	ElementLine [984 -1968 984 1969 800]
-	ElementLine [984 1969 -1969 0 800]
-	ElementLine [-1969 0 1968 0 800]
-	ElementLine [-11811 -7874 13780 -7874 800]
-	ElementLine [13780 -7874 13780 7874 800]
-	ElementLine [-13779 7874 13780 7874 800]
-	ElementLine [-13779 -5905 -13779 7874 800]
-	ElementLine [-13779 -5905 -11811 -7874 800]
-
-	)
-
-Element["" "dio_1210" "D95" "XXX" 576752 68999 -11811 -13780 0 100 ""]
-(
-	Attribute("device" "LED")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
-	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
-	ElementLine [0 -984 0 985 800]
-	ElementLine [0 -984 984 -984 800]
-	ElementLine [0 985 984 985 800]
-	ElementLine [394 -1181 394 788 800]
-	ElementLine [-394 -787 -394 788 800]
-	ElementLine [-1969 -2362 -1969 2363 800]
-	ElementLine [-1969 0 984 -1968 800]
-	ElementLine [984 -1968 984 1969 800]
-	ElementLine [984 1969 -1969 0 800]
-	ElementLine [-1969 0 1968 0 800]
-	ElementLine [-11811 -7874 13780 -7874 800]
-	ElementLine [13780 -7874 13780 7874 800]
-	ElementLine [-13779 7874 13780 7874 800]
-	ElementLine [-13779 -5905 -13779 7874 800]
-	ElementLine [-13779 -5905 -11811 -7874 800]
-
-	)
-
-Element["" "dio_1210" "D94" "XXX" 580752 102999 -11811 -13780 0 100 ""]
-(
-	Attribute("device" "LED")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
-	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
-	ElementLine [0 -984 0 985 800]
-	ElementLine [0 -984 984 -984 800]
-	ElementLine [0 985 984 985 800]
-	ElementLine [394 -1181 394 788 800]
-	ElementLine [-394 -787 -394 788 800]
-	ElementLine [-1969 -2362 -1969 2363 800]
-	ElementLine [-1969 0 984 -1968 800]
-	ElementLine [984 -1968 984 1969 800]
-	ElementLine [984 1969 -1969 0 800]
-	ElementLine [-1969 0 1968 0 800]
-	ElementLine [-11811 -7874 13780 -7874 800]
-	ElementLine [13780 -7874 13780 7874 800]
-	ElementLine [-13779 7874 13780 7874 800]
-	ElementLine [-13779 -5905 -13779 7874 800]
-	ElementLine [-13779 -5905 -11811 -7874 800]
-
-	)
-
-Element["" "dio_1210" "D93" "XXX" 580752 144999 -11811 -13780 0 100 ""]
-(
-	Attribute("device" "LED")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
-	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
-	ElementLine [0 -984 0 985 800]
-	ElementLine [0 -984 984 -984 800]
-	ElementLine [0 985 984 985 800]
-	ElementLine [394 -1181 394 788 800]
-	ElementLine [-394 -787 -394 788 800]
-	ElementLine [-1969 -2362 -1969 2363 800]
-	ElementLine [-1969 0 984 -1968 800]
-	ElementLine [984 -1968 984 1969 800]
-	ElementLine [984 1969 -1969 0 800]
-	ElementLine [-1969 0 1968 0 800]
-	ElementLine [-11811 -7874 13780 -7874 800]
-	ElementLine [13780 -7874 13780 7874 800]
-	ElementLine [-13779 7874 13780 7874 800]
-	ElementLine [-13779 -5905 -13779 7874 800]
-	ElementLine [-13779 -5905 -11811 -7874 800]
-
-	)
-
-Element["" "dio_1210" "D92" "XXX" 568126 186625 -11811 -13780 0 100 ""]
-(
-	Attribute("device" "LED")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
-	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
-	ElementLine [0 -984 0 985 800]
-	ElementLine [0 -984 984 -984 800]
-	ElementLine [0 985 984 985 800]
-	ElementLine [394 -1181 394 788 800]
-	ElementLine [-394 -787 -394 788 800]
-	ElementLine [-1969 -2362 -1969 2363 800]
-	ElementLine [-1969 0 984 -1968 800]
-	ElementLine [984 -1968 984 1969 800]
-	ElementLine [984 1969 -1969 0 800]
-	ElementLine [-1969 0 1968 0 800]
-	ElementLine [-11811 -7874 13780 -7874 800]
-	ElementLine [13780 -7874 13780 7874 800]
-	ElementLine [-13779 7874 13780 7874 800]
-	ElementLine [-13779 -5905 -13779 7874 800]
-	ElementLine [-13779 -5905 -11811 -7874 800]
-
-	)
-
-Element["" "dio_1210" "D91" "XXX" 583874 208877 -11811 -13780 0 100 ""]
-(
-	Attribute("device" "LED")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
-	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
-	ElementLine [0 -984 0 985 800]
-	ElementLine [0 -984 984 -984 800]
-	ElementLine [0 985 984 985 800]
-	ElementLine [394 -1181 394 788 800]
-	ElementLine [-394 -787 -394 788 800]
-	ElementLine [-1969 -2362 -1969 2363 800]
-	ElementLine [-1969 0 984 -1968 800]
-	ElementLine [984 -1968 984 1969 800]
-	ElementLine [984 1969 -1969 0 800]
-	ElementLine [-1969 0 1968 0 800]
-	ElementLine [-11811 -7874 13780 -7874 800]
-	ElementLine [13780 -7874 13780 7874 800]
-	ElementLine [-13779 7874 13780 7874 800]
-	ElementLine [-13779 -5905 -13779 7874 800]
-	ElementLine [-13779 -5905 -11811 -7874 800]
-
-	)
-
-Element["" "dio_1210" "D102" "XXX" 529248 28001 11811 13780 2 100 ""]
-(
-	Attribute("device" "LED")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[-7874 -1969 -7874 1968 8480 2404 9280 "ANODE" "2" "found,square"]
-	Pad[7874 -1969 7874 1968 8480 2404 9280 "CATHODE" "1" "square"]
-	ElementLine [0 -985 0 984 800]
-	ElementLine [-984 984 0 984 800]
-	ElementLine [-984 -985 0 -985 800]
-	ElementLine [-394 -788 -394 1181 800]
-	ElementLine [394 -788 394 787 800]
-	ElementLine [1969 -2363 1969 2362 800]
-	ElementLine [1969 0 -984 1968 800]
-	ElementLine [-984 -1969 -984 1968 800]
-	ElementLine [-984 -1969 1969 0 800]
-	ElementLine [-1968 0 1969 0 800]
-	ElementLine [-13780 7874 11811 7874 800]
-	ElementLine [-13780 -7874 -13780 7874 800]
-	ElementLine [-13780 -7874 13779 -7874 800]
-	ElementLine [13779 -7874 13779 5905 800]
-	ElementLine [13779 5905 11811 7874 800]
-
-	)
-
-Element["" "dio_1210" "D97" "XXX" 516248 211001 11811 13780 2 100 ""]
+Element["" "dio_1210" "D61" "XXX" 875874 425001 11811 13780 2 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -3504,7 +2638,169 @@ Element["" "dio_1210" "D97" "XXX" 516248 211001 11811 13780 2 100 ""]
 
 	)
 
-Element["" "dio_1210" "D98" "XXX" 518248 175001 11811 13780 2 100 ""]
+Element["" "dio_1210" "D72" "XXX" 798000 261999 -11811 -13780 0 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
+	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
+	ElementLine [0 -984 0 985 800]
+	ElementLine [0 -984 984 -984 800]
+	ElementLine [0 985 984 985 800]
+	ElementLine [394 -1181 394 788 800]
+	ElementLine [-394 -787 -394 788 800]
+	ElementLine [-1969 -2362 -1969 2363 800]
+	ElementLine [-1969 0 984 -1968 800]
+	ElementLine [984 -1968 984 1969 800]
+	ElementLine [984 1969 -1969 0 800]
+	ElementLine [-1969 0 1968 0 800]
+	ElementLine [-11811 -7874 13780 -7874 800]
+	ElementLine [13780 -7874 13780 7874 800]
+	ElementLine [-13779 7874 13780 7874 800]
+	ElementLine [-13779 -5905 -13779 7874 800]
+	ElementLine [-13779 -5905 -11811 -7874 800]
+
+	)
+
+Element["" "dio_1210" "D71" "XXX" 797874 296000 -11811 -13780 0 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
+	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
+	ElementLine [0 -984 0 985 800]
+	ElementLine [0 -984 984 -984 800]
+	ElementLine [0 985 984 985 800]
+	ElementLine [394 -1181 394 788 800]
+	ElementLine [-394 -787 -394 788 800]
+	ElementLine [-1969 -2362 -1969 2363 800]
+	ElementLine [-1969 0 984 -1968 800]
+	ElementLine [984 -1968 984 1969 800]
+	ElementLine [984 1969 -1969 0 800]
+	ElementLine [-1969 0 1968 0 800]
+	ElementLine [-11811 -7874 13780 -7874 800]
+	ElementLine [13780 -7874 13780 7874 800]
+	ElementLine [-13779 7874 13780 7874 800]
+	ElementLine [-13779 -5905 -13779 7874 800]
+	ElementLine [-13779 -5905 -11811 -7874 800]
+
+	)
+
+Element["" "dio_1210" "D70" "XXX" 797874 328000 -11811 -13780 0 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
+	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
+	ElementLine [0 -984 0 985 800]
+	ElementLine [0 -984 984 -984 800]
+	ElementLine [0 985 984 985 800]
+	ElementLine [394 -1181 394 788 800]
+	ElementLine [-394 -787 -394 788 800]
+	ElementLine [-1969 -2362 -1969 2363 800]
+	ElementLine [-1969 0 984 -1968 800]
+	ElementLine [984 -1968 984 1969 800]
+	ElementLine [984 1969 -1969 0 800]
+	ElementLine [-1969 0 1968 0 800]
+	ElementLine [-11811 -7874 13780 -7874 800]
+	ElementLine [13780 -7874 13780 7874 800]
+	ElementLine [-13779 7874 13780 7874 800]
+	ElementLine [-13779 -5905 -13779 7874 800]
+	ElementLine [-13779 -5905 -11811 -7874 800]
+
+	)
+
+Element["" "dio_1210" "D69" "XXX" 797874 361000 -11811 -13780 0 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
+	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
+	ElementLine [0 -984 0 985 800]
+	ElementLine [0 -984 984 -984 800]
+	ElementLine [0 985 984 985 800]
+	ElementLine [394 -1181 394 788 800]
+	ElementLine [-394 -787 -394 788 800]
+	ElementLine [-1969 -2362 -1969 2363 800]
+	ElementLine [-1969 0 984 -1968 800]
+	ElementLine [984 -1968 984 1969 800]
+	ElementLine [984 1969 -1969 0 800]
+	ElementLine [-1969 0 1968 0 800]
+	ElementLine [-11811 -7874 13780 -7874 800]
+	ElementLine [13780 -7874 13780 7874 800]
+	ElementLine [-13779 7874 13780 7874 800]
+	ElementLine [-13779 -5905 -13779 7874 800]
+	ElementLine [-13779 -5905 -11811 -7874 800]
+
+	)
+
+Element["" "dio_1210" "D68" "XXX" 797874 393000 -11811 -13780 0 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
+	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
+	ElementLine [0 -984 0 985 800]
+	ElementLine [0 -984 984 -984 800]
+	ElementLine [0 985 984 985 800]
+	ElementLine [394 -1181 394 788 800]
+	ElementLine [-394 -787 -394 788 800]
+	ElementLine [-1969 -2362 -1969 2363 800]
+	ElementLine [-1969 0 984 -1968 800]
+	ElementLine [984 -1968 984 1969 800]
+	ElementLine [984 1969 -1969 0 800]
+	ElementLine [-1969 0 1968 0 800]
+	ElementLine [-11811 -7874 13780 -7874 800]
+	ElementLine [13780 -7874 13780 7874 800]
+	ElementLine [-13779 7874 13780 7874 800]
+	ElementLine [-13779 -5905 -13779 7874 800]
+	ElementLine [-13779 -5905 -11811 -7874 800]
+
+	)
+
+Element["" "dio_1210" "D67" "XXX" 797874 426000 -11811 -13780 0 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
+	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
+	ElementLine [0 -984 0 985 800]
+	ElementLine [0 -984 984 -984 800]
+	ElementLine [0 985 984 985 800]
+	ElementLine [394 -1181 394 788 800]
+	ElementLine [-394 -787 -394 788 800]
+	ElementLine [-1969 -2362 -1969 2363 800]
+	ElementLine [-1969 0 984 -1968 800]
+	ElementLine [984 -1968 984 1969 800]
+	ElementLine [984 1969 -1969 0 800]
+	ElementLine [-1969 0 1968 0 800]
+	ElementLine [-11811 -7874 13780 -7874 800]
+	ElementLine [13780 -7874 13780 7874 800]
+	ElementLine [-13779 7874 13780 7874 800]
+	ElementLine [-13779 -5905 -13779 7874 800]
+	ElementLine [-13779 -5905 -11811 -7874 800]
+
+	)
+
+Element["" "dio_1210" "D78" "XXX" 722248 261001 11811 13780 2 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -3531,7 +2827,7 @@ Element["" "dio_1210" "D98" "XXX" 518248 175001 11811 13780 2 100 ""]
 
 	)
 
-Element["" "dio_1210" "D99" "XXX" 525248 141001 11811 13780 2 100 ""]
+Element["" "dio_1210" "D77" "XXX" 722248 295001 11811 13780 2 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -3558,7 +2854,7 @@ Element["" "dio_1210" "D99" "XXX" 525248 141001 11811 13780 2 100 ""]
 
 	)
 
-Element["" "dio_1210" "D100" "XXX" 517248 99001 11811 13780 2 100 ""]
+Element["" "dio_1210" "D76" "XXX" 722248 328001 11811 13780 2 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -3585,7 +2881,7 @@ Element["" "dio_1210" "D100" "XXX" 517248 99001 11811 13780 2 100 ""]
 
 	)
 
-Element["" "dio_1210" "D101" "XXX" 531248 69001 11811 13780 2 100 ""]
+Element["" "dio_1210" "D75" "XXX" 722248 361001 11811 13780 2 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -3612,169 +2908,7 @@ Element["" "dio_1210" "D101" "XXX" 531248 69001 11811 13780 2 100 ""]
 
 	)
 
-Element["" "dio_1210" "D108" "XXX" 472752 31999 -11811 -13780 0 100 ""]
-(
-	Attribute("device" "LED")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "found,square,edge2"]
-	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
-	ElementLine [0 -984 0 985 800]
-	ElementLine [0 -984 984 -984 800]
-	ElementLine [0 985 984 985 800]
-	ElementLine [394 -1181 394 788 800]
-	ElementLine [-394 -787 -394 788 800]
-	ElementLine [-1969 -2362 -1969 2363 800]
-	ElementLine [-1969 0 984 -1968 800]
-	ElementLine [984 -1968 984 1969 800]
-	ElementLine [984 1969 -1969 0 800]
-	ElementLine [-1969 0 1968 0 800]
-	ElementLine [-11811 -7874 13780 -7874 800]
-	ElementLine [13780 -7874 13780 7874 800]
-	ElementLine [-13779 7874 13780 7874 800]
-	ElementLine [-13779 -5905 -13779 7874 800]
-	ElementLine [-13779 -5905 -11811 -7874 800]
-
-	)
-
-Element["" "dio_1210" "D107" "XXX" 467752 66999 -11811 -13780 0 100 ""]
-(
-	Attribute("device" "LED")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
-	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
-	ElementLine [0 -984 0 985 800]
-	ElementLine [0 -984 984 -984 800]
-	ElementLine [0 985 984 985 800]
-	ElementLine [394 -1181 394 788 800]
-	ElementLine [-394 -787 -394 788 800]
-	ElementLine [-1969 -2362 -1969 2363 800]
-	ElementLine [-1969 0 984 -1968 800]
-	ElementLine [984 -1968 984 1969 800]
-	ElementLine [984 1969 -1969 0 800]
-	ElementLine [-1969 0 1968 0 800]
-	ElementLine [-11811 -7874 13780 -7874 800]
-	ElementLine [13780 -7874 13780 7874 800]
-	ElementLine [-13779 7874 13780 7874 800]
-	ElementLine [-13779 -5905 -13779 7874 800]
-	ElementLine [-13779 -5905 -11811 -7874 800]
-
-	)
-
-Element["" "dio_1210" "D106" "XXX" 469752 107999 -11811 -13780 0 100 ""]
-(
-	Attribute("device" "LED")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
-	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
-	ElementLine [0 -984 0 985 800]
-	ElementLine [0 -984 984 -984 800]
-	ElementLine [0 985 984 985 800]
-	ElementLine [394 -1181 394 788 800]
-	ElementLine [-394 -787 -394 788 800]
-	ElementLine [-1969 -2362 -1969 2363 800]
-	ElementLine [-1969 0 984 -1968 800]
-	ElementLine [984 -1968 984 1969 800]
-	ElementLine [984 1969 -1969 0 800]
-	ElementLine [-1969 0 1968 0 800]
-	ElementLine [-11811 -7874 13780 -7874 800]
-	ElementLine [13780 -7874 13780 7874 800]
-	ElementLine [-13779 7874 13780 7874 800]
-	ElementLine [-13779 -5905 -13779 7874 800]
-	ElementLine [-13779 -5905 -11811 -7874 800]
-
-	)
-
-Element["" "dio_1210" "D105" "XXX" 462126 155625 -11811 -13780 0 100 ""]
-(
-	Attribute("device" "LED")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
-	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
-	ElementLine [0 -984 0 985 800]
-	ElementLine [0 -984 984 -984 800]
-	ElementLine [0 985 984 985 800]
-	ElementLine [394 -1181 394 788 800]
-	ElementLine [-394 -787 -394 788 800]
-	ElementLine [-1969 -2362 -1969 2363 800]
-	ElementLine [-1969 0 984 -1968 800]
-	ElementLine [984 -1968 984 1969 800]
-	ElementLine [984 1969 -1969 0 800]
-	ElementLine [-1969 0 1968 0 800]
-	ElementLine [-11811 -7874 13780 -7874 800]
-	ElementLine [13780 -7874 13780 7874 800]
-	ElementLine [-13779 7874 13780 7874 800]
-	ElementLine [-13779 -5905 -13779 7874 800]
-	ElementLine [-13779 -5905 -11811 -7874 800]
-
-	)
-
-Element["" "dio_1210" "D104" "XXX" 468752 186999 -11811 -13780 0 100 ""]
-(
-	Attribute("device" "LED")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
-	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
-	ElementLine [0 -984 0 985 800]
-	ElementLine [0 -984 984 -984 800]
-	ElementLine [0 985 984 985 800]
-	ElementLine [394 -1181 394 788 800]
-	ElementLine [-394 -787 -394 788 800]
-	ElementLine [-1969 -2362 -1969 2363 800]
-	ElementLine [-1969 0 984 -1968 800]
-	ElementLine [984 -1968 984 1969 800]
-	ElementLine [984 1969 -1969 0 800]
-	ElementLine [-1969 0 1968 0 800]
-	ElementLine [-11811 -7874 13780 -7874 800]
-	ElementLine [13780 -7874 13780 7874 800]
-	ElementLine [-13779 7874 13780 7874 800]
-	ElementLine [-13779 -5905 -13779 7874 800]
-	ElementLine [-13779 -5905 -11811 -7874 800]
-
-	)
-
-Element["" "dio_1210" "D103" "XXX" 464626 224247 -11811 -13780 0 100 ""]
-(
-	Attribute("device" "LED")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
-	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
-	ElementLine [0 -984 0 985 800]
-	ElementLine [0 -984 984 -984 800]
-	ElementLine [0 985 984 985 800]
-	ElementLine [394 -1181 394 788 800]
-	ElementLine [-394 -787 -394 788 800]
-	ElementLine [-1969 -2362 -1969 2363 800]
-	ElementLine [-1969 0 984 -1968 800]
-	ElementLine [984 -1968 984 1969 800]
-	ElementLine [984 1969 -1969 0 800]
-	ElementLine [-1969 0 1968 0 800]
-	ElementLine [-11811 -7874 13780 -7874 800]
-	ElementLine [13780 -7874 13780 7874 800]
-	ElementLine [-13779 7874 13780 7874 800]
-	ElementLine [-13779 -5905 -13779 7874 800]
-	ElementLine [-13779 -5905 -11811 -7874 800]
-
-	)
-
-Element["" "dio_1210" "D109" "XXX" 420126 204001 11811 13780 2 100 ""]
+Element["" "dio_1210" "D74" "XXX" 721874 394001 11811 13780 2 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -3801,61 +2935,7 @@ Element["" "dio_1210" "D109" "XXX" 420126 204001 11811 13780 2 100 ""]
 
 	)
 
-Element["" "dio_1210" "D115" "XXX" 374374 215499 -11811 -13780 0 100 ""]
-(
-	Attribute("device" "LED")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
-	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
-	ElementLine [0 -984 0 985 800]
-	ElementLine [0 -984 984 -984 800]
-	ElementLine [0 985 984 985 800]
-	ElementLine [394 -1181 394 788 800]
-	ElementLine [-394 -787 -394 788 800]
-	ElementLine [-1969 -2362 -1969 2363 800]
-	ElementLine [-1969 0 984 -1968 800]
-	ElementLine [984 -1968 984 1969 800]
-	ElementLine [984 1969 -1969 0 800]
-	ElementLine [-1969 0 1968 0 800]
-	ElementLine [-11811 -7874 13780 -7874 800]
-	ElementLine [13780 -7874 13780 7874 800]
-	ElementLine [-13779 7874 13780 7874 800]
-	ElementLine [-13779 -5905 -13779 7874 800]
-	ElementLine [-13779 -5905 -11811 -7874 800]
-
-	)
-
-Element["" "dio_1210" "D114" "XXX" 414752 25500 11811 13780 2 100 ""]
-(
-	Attribute("device" "LED")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[-7874 -1969 -7874 1968 8480 2404 9280 "ANODE" "2" "found,square"]
-	Pad[7874 -1969 7874 1968 8480 2404 9280 "CATHODE" "1" "square"]
-	ElementLine [0 -985 0 984 800]
-	ElementLine [-984 984 0 984 800]
-	ElementLine [-984 -985 0 -985 800]
-	ElementLine [-394 -788 -394 1181 800]
-	ElementLine [394 -788 394 787 800]
-	ElementLine [1969 -2363 1969 2362 800]
-	ElementLine [1969 0 -984 1968 800]
-	ElementLine [-984 -1969 -984 1968 800]
-	ElementLine [-984 -1969 1969 0 800]
-	ElementLine [-1968 0 1969 0 800]
-	ElementLine [-13780 7874 11811 7874 800]
-	ElementLine [-13780 -7874 -13780 7874 800]
-	ElementLine [-13780 -7874 13779 -7874 800]
-	ElementLine [13779 -7874 13779 5905 800]
-	ElementLine [13779 5905 11811 7874 800]
-
-	)
-
-Element["" "dio_1210" "D113" "XXX" 414752 51500 11811 13780 2 100 ""]
+Element["" "dio_1210" "D73" "XXX" 721874 428001 11811 13780 2 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -3882,7 +2962,169 @@ Element["" "dio_1210" "D113" "XXX" 414752 51500 11811 13780 2 100 ""]
 
 	)
 
-Element["" "dio_1210" "D112" "XXX" 413500 98248 11811 13780 2 100 ""]
+Element["" "dio_1210" "D79" "XXX" 650000 428000 -11811 -13780 0 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
+	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
+	ElementLine [0 -984 0 985 800]
+	ElementLine [0 -984 984 -984 800]
+	ElementLine [0 985 984 985 800]
+	ElementLine [394 -1181 394 788 800]
+	ElementLine [-394 -787 -394 788 800]
+	ElementLine [-1969 -2362 -1969 2363 800]
+	ElementLine [-1969 0 984 -1968 800]
+	ElementLine [984 -1968 984 1969 800]
+	ElementLine [984 1969 -1969 0 800]
+	ElementLine [-1969 0 1968 0 800]
+	ElementLine [-11811 -7874 13780 -7874 800]
+	ElementLine [13780 -7874 13780 7874 800]
+	ElementLine [-13779 7874 13780 7874 800]
+	ElementLine [-13779 -5905 -13779 7874 800]
+	ElementLine [-13779 -5905 -11811 -7874 800]
+
+	)
+
+Element["" "dio_1210" "D84" "XXX" 649375 259753 -11811 -13780 0 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
+	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
+	ElementLine [0 -984 0 985 800]
+	ElementLine [0 -984 984 -984 800]
+	ElementLine [0 985 984 985 800]
+	ElementLine [394 -1181 394 788 800]
+	ElementLine [-394 -787 -394 788 800]
+	ElementLine [-1969 -2362 -1969 2363 800]
+	ElementLine [-1969 0 984 -1968 800]
+	ElementLine [984 -1968 984 1969 800]
+	ElementLine [984 1969 -1969 0 800]
+	ElementLine [-1969 0 1968 0 800]
+	ElementLine [-11811 -7874 13780 -7874 800]
+	ElementLine [13780 -7874 13780 7874 800]
+	ElementLine [-13779 7874 13780 7874 800]
+	ElementLine [-13779 -5905 -13779 7874 800]
+	ElementLine [-13779 -5905 -11811 -7874 800]
+
+	)
+
+Element["" "dio_1210" "D83" "XXX" 650126 294000 -11811 -13780 0 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
+	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
+	ElementLine [0 -984 0 985 800]
+	ElementLine [0 -984 984 -984 800]
+	ElementLine [0 985 984 985 800]
+	ElementLine [394 -1181 394 788 800]
+	ElementLine [-394 -787 -394 788 800]
+	ElementLine [-1969 -2362 -1969 2363 800]
+	ElementLine [-1969 0 984 -1968 800]
+	ElementLine [984 -1968 984 1969 800]
+	ElementLine [984 1969 -1969 0 800]
+	ElementLine [-1969 0 1968 0 800]
+	ElementLine [-11811 -7874 13780 -7874 800]
+	ElementLine [13780 -7874 13780 7874 800]
+	ElementLine [-13779 7874 13780 7874 800]
+	ElementLine [-13779 -5905 -13779 7874 800]
+	ElementLine [-13779 -5905 -11811 -7874 800]
+
+	)
+
+Element["" "dio_1210" "D82" "XXX" 650126 329000 -11811 -13780 0 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
+	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
+	ElementLine [0 -984 0 985 800]
+	ElementLine [0 -984 984 -984 800]
+	ElementLine [0 985 984 985 800]
+	ElementLine [394 -1181 394 788 800]
+	ElementLine [-394 -787 -394 788 800]
+	ElementLine [-1969 -2362 -1969 2363 800]
+	ElementLine [-1969 0 984 -1968 800]
+	ElementLine [984 -1968 984 1969 800]
+	ElementLine [984 1969 -1969 0 800]
+	ElementLine [-1969 0 1968 0 800]
+	ElementLine [-11811 -7874 13780 -7874 800]
+	ElementLine [13780 -7874 13780 7874 800]
+	ElementLine [-13779 7874 13780 7874 800]
+	ElementLine [-13779 -5905 -13779 7874 800]
+	ElementLine [-13779 -5905 -11811 -7874 800]
+
+	)
+
+Element["" "dio_1210" "D81" "XXX" 650126 361000 -11811 -13780 0 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
+	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
+	ElementLine [0 -984 0 985 800]
+	ElementLine [0 -984 984 -984 800]
+	ElementLine [0 985 984 985 800]
+	ElementLine [394 -1181 394 788 800]
+	ElementLine [-394 -787 -394 788 800]
+	ElementLine [-1969 -2362 -1969 2363 800]
+	ElementLine [-1969 0 984 -1968 800]
+	ElementLine [984 -1968 984 1969 800]
+	ElementLine [984 1969 -1969 0 800]
+	ElementLine [-1969 0 1968 0 800]
+	ElementLine [-11811 -7874 13780 -7874 800]
+	ElementLine [13780 -7874 13780 7874 800]
+	ElementLine [-13779 7874 13780 7874 800]
+	ElementLine [-13779 -5905 -13779 7874 800]
+	ElementLine [-13779 -5905 -11811 -7874 800]
+
+	)
+
+Element["" "dio_1210" "D80" "XXX" 650375 394753 -11811 -13780 0 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
+	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
+	ElementLine [0 -984 0 985 800]
+	ElementLine [0 -984 984 -984 800]
+	ElementLine [0 985 984 985 800]
+	ElementLine [394 -1181 394 788 800]
+	ElementLine [-394 -787 -394 788 800]
+	ElementLine [-1969 -2362 -1969 2363 800]
+	ElementLine [-1969 0 984 -1968 800]
+	ElementLine [984 -1968 984 1969 800]
+	ElementLine [984 1969 -1969 0 800]
+	ElementLine [-1969 0 1968 0 800]
+	ElementLine [-11811 -7874 13780 -7874 800]
+	ElementLine [13780 -7874 13780 7874 800]
+	ElementLine [-13779 7874 13780 7874 800]
+	ElementLine [-13779 -5905 -13779 7874 800]
+	ElementLine [-13779 -5905 -11811 -7874 800]
+
+	)
+
+Element["" "dio_1210" "D90" "XXX" 578874 259001 11811 13780 2 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -3909,7 +3151,7 @@ Element["" "dio_1210" "D112" "XXX" 413500 98248 11811 13780 2 100 ""]
 
 	)
 
-Element["" "dio_1210" "D111" "XXX" 409752 127500 11811 13780 2 100 ""]
+Element["" "dio_1210" "D88" "XXX" 578874 328001 11811 13780 2 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -3936,7 +3178,7 @@ Element["" "dio_1210" "D111" "XXX" 409752 127500 11811 13780 2 100 ""]
 
 	)
 
-Element["" "dio_1210" "D110" "XXX" 410752 170500 11811 13780 2 100 ""]
+Element["" "dio_1210" "D87" "XXX" 578874 362001 11811 13780 2 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -3963,88 +3205,61 @@ Element["" "dio_1210" "D110" "XXX" 410752 170500 11811 13780 2 100 ""]
 
 	)
 
-Element["" "dio_1210" "D120" "XXX" 366374 22499 -11811 -13780 0 100 ""]
+Element["" "dio_1210" "D86" "XXX" 578874 396001 11811 13780 2 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "found,square,edge2"]
-	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
-	ElementLine [0 -984 0 985 800]
-	ElementLine [0 -984 984 -984 800]
-	ElementLine [0 985 984 985 800]
-	ElementLine [394 -1181 394 788 800]
-	ElementLine [-394 -787 -394 788 800]
-	ElementLine [-1969 -2362 -1969 2363 800]
-	ElementLine [-1969 0 984 -1968 800]
-	ElementLine [984 -1968 984 1969 800]
-	ElementLine [984 1969 -1969 0 800]
-	ElementLine [-1969 0 1968 0 800]
-	ElementLine [-11811 -7874 13780 -7874 800]
-	ElementLine [13780 -7874 13780 7874 800]
-	ElementLine [-13779 7874 13780 7874 800]
-	ElementLine [-13779 -5905 -13779 7874 800]
-	ElementLine [-13779 -5905 -11811 -7874 800]
+	Pad[-7874 -1969 -7874 1968 8480 2404 9280 "ANODE" "2" "square"]
+	Pad[7874 -1969 7874 1968 8480 2404 9280 "CATHODE" "1" "square"]
+	ElementLine [0 -985 0 984 800]
+	ElementLine [-984 984 0 984 800]
+	ElementLine [-984 -985 0 -985 800]
+	ElementLine [-394 -788 -394 1181 800]
+	ElementLine [394 -788 394 787 800]
+	ElementLine [1969 -2363 1969 2362 800]
+	ElementLine [1969 0 -984 1968 800]
+	ElementLine [-984 -1969 -984 1968 800]
+	ElementLine [-984 -1969 1969 0 800]
+	ElementLine [-1968 0 1969 0 800]
+	ElementLine [-13780 7874 11811 7874 800]
+	ElementLine [-13780 -7874 -13780 7874 800]
+	ElementLine [-13780 -7874 13779 -7874 800]
+	ElementLine [13779 -7874 13779 5905 800]
+	ElementLine [13779 5905 11811 7874 800]
 
 	)
 
-Element["" "dio_1210" "D119" "XXX" 366374 60499 -11811 -13780 0 100 ""]
+Element["" "dio_1210" "D85" "XXX" 578874 430001 11811 13780 2 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
-	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
-	ElementLine [0 -984 0 985 800]
-	ElementLine [0 -984 984 -984 800]
-	ElementLine [0 985 984 985 800]
-	ElementLine [394 -1181 394 788 800]
-	ElementLine [-394 -787 -394 788 800]
-	ElementLine [-1969 -2362 -1969 2363 800]
-	ElementLine [-1969 0 984 -1968 800]
-	ElementLine [984 -1968 984 1969 800]
-	ElementLine [984 1969 -1969 0 800]
-	ElementLine [-1969 0 1968 0 800]
-	ElementLine [-11811 -7874 13780 -7874 800]
-	ElementLine [13780 -7874 13780 7874 800]
-	ElementLine [-13779 7874 13780 7874 800]
-	ElementLine [-13779 -5905 -13779 7874 800]
-	ElementLine [-13779 -5905 -11811 -7874 800]
+	Pad[-7874 -1969 -7874 1968 8480 2404 9280 "ANODE" "2" "square"]
+	Pad[7874 -1969 7874 1968 8480 2404 9280 "CATHODE" "1" "square"]
+	ElementLine [0 -985 0 984 800]
+	ElementLine [-984 984 0 984 800]
+	ElementLine [-984 -985 0 -985 800]
+	ElementLine [-394 -788 -394 1181 800]
+	ElementLine [394 -788 394 787 800]
+	ElementLine [1969 -2363 1969 2362 800]
+	ElementLine [1969 0 -984 1968 800]
+	ElementLine [-984 -1969 -984 1968 800]
+	ElementLine [-984 -1969 1969 0 800]
+	ElementLine [-1968 0 1969 0 800]
+	ElementLine [-13780 7874 11811 7874 800]
+	ElementLine [-13780 -7874 -13780 7874 800]
+	ElementLine [-13780 -7874 13779 -7874 800]
+	ElementLine [13779 -7874 13779 5905 800]
+	ElementLine [13779 5905 11811 7874 800]
 
 	)
 
-Element["" "dio_1210" "D118" "XXX" 365374 91499 -11811 -13780 0 100 ""]
-(
-	Attribute("device" "LED")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
-	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
-	ElementLine [0 -984 0 985 800]
-	ElementLine [0 -984 984 -984 800]
-	ElementLine [0 985 984 985 800]
-	ElementLine [394 -1181 394 788 800]
-	ElementLine [-394 -787 -394 788 800]
-	ElementLine [-1969 -2362 -1969 2363 800]
-	ElementLine [-1969 0 984 -1968 800]
-	ElementLine [984 -1968 984 1969 800]
-	ElementLine [984 1969 -1969 0 800]
-	ElementLine [-1969 0 1968 0 800]
-	ElementLine [-11811 -7874 13780 -7874 800]
-	ElementLine [13780 -7874 13780 7874 800]
-	ElementLine [-13779 7874 13780 7874 800]
-	ElementLine [-13779 -5905 -13779 7874 800]
-	ElementLine [-13779 -5905 -11811 -7874 800]
-
-	)
-
-Element["" "dio_1210" "D117" "XXX" 368374 141499 -11811 -13780 0 100 ""]
+Element["" "dio_1210" "D96" "XXX" 511000 257000 -11811 -13780 0 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -4071,7 +3286,7 @@ Element["" "dio_1210" "D117" "XXX" 368374 141499 -11811 -13780 0 100 ""]
 
 	)
 
-Element["" "dio_1210" "D116" "XXX" 360626 184247 -11811 -13780 0 100 ""]
+Element["" "dio_1210" "D95" "XXX" 510874 292000 -11811 -13780 0 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -4097,222 +3312,930 @@ Element["" "dio_1210" "D116" "XXX" 360626 184247 -11811 -13780 0 100 ""]
 	ElementLine [-13779 -5905 -11811 -7874 800]
 
 	)
-Rat[1859248 221033 0 1802875 233595 0  ""]
-Rat[1802875 233595 0 1642374 226032 0  ""]
-Rat[1642374 226032 0 1567626 221968 0  ""]
-Rat[1567626 221968 0 1479374 225032 0  ""]
-Rat[1479374 225032 0 1401500 228968 0  ""]
-Rat[1401500 228968 0 1311248 219033 0  ""]
-Rat[1311248 219033 0 1256748 215846 0  ""]
-Rat[1256748 215846 0 1147374 219032 0  ""]
-Rat[1147374 219032 0 1096875 221721 0  ""]
-Rat[1096875 221721 0 1005374 214032 0  ""]
-Rat[1005374 214032 0 917626 213968 0  ""]
-Rat[917626 213968 0 791374 209032 0  ""]
-Rat[791374 209032 0 741752 216967 0  ""]
-Rat[741752 216967 0 623374 215032 0  ""]
-Rat[623374 215032 0 591748 210846 0  ""]
-Rat[591748 210846 0 508374 209032 0  ""]
-Rat[508374 209032 0 472500 226216 0  ""]
-Rat[472500 226216 0 412252 202032 0  ""]
-Rat[412252 202032 0 382248 217468 0  ""]
-Rat[1858248 188033 0 1798500 190968 0  ""]
-Rat[1798500 190968 0 1641374 184032 0  ""]
-Rat[1641374 184032 0 1564626 189968 0  ""]
-Rat[1564626 189968 0 1489374 189032 0  ""]
-Rat[1489374 189032 0 1406748 183720 0  ""]
-Rat[1406748 183720 0 1318248 188033 0  ""]
-Rat[1318248 188033 0 1256748 176846 0  ""]
-Rat[1256748 176846 0 1140374 176032 0  ""]
-Rat[1140374 176032 0 1097626 184968 0  ""]
-Rat[1097626 184968 0 999374 174032 0  ""]
-Rat[999374 174032 0 920626 176968 0  ""]
-Rat[920626 176968 0 788374 175032 0  ""]
-Rat[788374 175032 0 736875 176721 0  ""]
-Rat[736875 176721 0 623374 169032 0  ""]
-Rat[623374 169032 0 576000 188594 0  ""]
-Rat[576000 188594 0 510374 173032 0  ""]
-Rat[510374 173032 0 476626 188968 0  ""]
-Rat[476626 188968 0 402878 168531 0  ""]
-Rat[402878 168531 0 368500 186216 0  ""]
-Rat[1855248 148033 0 1803500 153968 0  ""]
-Rat[1803500 153968 0 1632374 143032 0  ""]
-Rat[1632374 143032 0 1575626 152968 0  ""]
-Rat[1575626 152968 0 1477374 141032 0  ""]
-Rat[1477374 141032 0 1401500 155968 0  ""]
-Rat[1401500 155968 0 1318374 147032 0  ""]
-Rat[1318374 147032 0 1256748 138846 0  ""]
-Rat[1256748 138846 0 1142374 142032 0  ""]
-Rat[1142374 142032 0 1104748 137846 0  ""]
-Rat[1104748 137846 0 996374 138032 0  ""]
-Rat[996374 138032 0 919626 138968 0  ""]
-Rat[919626 138968 0 784374 133032 0  ""]
-Rat[784374 133032 0 737626 141968 0  ""]
-Rat[737626 141968 0 626374 132032 0  ""]
-Rat[626374 132032 0 588626 146968 0  ""]
-Rat[588626 146968 0 517374 139032 0  ""]
-Rat[517374 139032 0 470000 157594 0  ""]
-Rat[470000 157594 0 401878 125531 0  ""]
-Rat[401878 125531 0 376248 143468 0  ""]
-Rat[1864248 111033 0 1802875 118595 0  ""]
-Rat[1802875 118595 0 1636374 113032 0  ""]
-Rat[1636374 113032 0 1577626 119968 0  ""]
-Rat[1577626 119968 0 1473374 106032 0  ""]
-Rat[1473374 106032 0 1402500 116968 0  ""]
-Rat[1402500 116968 0 1318374 109032 0  ""]
-Rat[1318374 109032 0 1246626 110968 0  ""]
-Rat[1246626 110968 0 1147374 104032 0  ""]
-Rat[1147374 104032 0 1089000 114594 0  ""]
-Rat[1089000 114594 0 1006374 106032 0  ""]
-Rat[1006374 106032 0 926626 103968 0  ""]
-Rat[926626 103968 0 788374 95032 0  ""]
-Rat[788374 95032 0 735626 102968 0  ""]
-Rat[735626 102968 0 630374 107032 0  ""]
-Rat[630374 107032 0 588626 104968 0  ""]
-Rat[588626 104968 0 509374 97032 0  ""]
-Rat[509374 97032 0 477626 109968 0  ""]
-Rat[477626 109968 0 405626 96279 0  ""]
-Rat[405626 96279 0 373248 93468 0  ""]
-Rat[1865248 76033 0 1800500 75968 0  ""]
-Rat[1800500 75968 0 1644374 74032 0  ""]
-Rat[1644374 74032 0 1572626 74968 0  ""]
-Rat[1572626 74968 0 1473374 70032 0  ""]
-Rat[1473374 70032 0 1401500 83968 0  ""]
-Rat[1401500 83968 0 1319374 69032 0  ""]
-Rat[1319374 69032 0 1256748 61846 0  ""]
-Rat[1256748 61846 0 1159374 76032 0  ""]
-Rat[1159374 76032 0 1100626 68968 0  ""]
-Rat[1100626 68968 0 1003374 63032 0  ""]
-Rat[1003374 63032 0 921626 64968 0  ""]
-Rat[921626 64968 0 786374 52032 0  ""]
-Rat[786374 52032 0 737626 58968 0  ""]
-Rat[737626 58968 0 619374 58032 0  ""]
-Rat[619374 58032 0 584626 70968 0  ""]
-Rat[584626 70968 0 523374 67032 0  ""]
-Rat[523374 67032 0 475626 68968 0  ""]
-Rat[475626 68968 0 406878 49531 0  ""]
-Rat[406878 49531 0 374248 62468 0  ""]
-Rat[1868248 50033 0 1795000 49468 0  "found"]
-Rat[1795000 49468 0 1640374 38032 0  "found"]
-Rat[1640374 38032 0 1568626 40968 0  "found"]
-Rat[1568626 40968 0 1487374 40032 0  "found"]
-Rat[1487374 40032 0 1401500 42968 0  "found"]
-Rat[1401500 42968 0 1318374 32032 0  "found"]
-Rat[1318374 32032 0 1250626 35968 0  "found"]
-Rat[1250626 35968 0 1148374 23032 0  "found"]
-Rat[1148374 23032 0 1099626 27968 0  "found"]
-Rat[1099626 27968 0 1002374 29032 0  "found"]
-Rat[1002374 29032 0 920752 27967 0  "found"]
-Rat[920752 27967 0 788374 20032 0  "found"]
-Rat[788374 20032 0 736875 23721 0  "found"]
-Rat[736875 23721 0 623374 23032 0  "found"]
-Rat[623374 23032 0 583626 22968 0  "found"]
-Rat[583626 22968 0 521374 26032 0  "found"]
-Rat[521374 26032 0 480626 33968 0  "found"]
-Rat[480626 33968 0 406878 23531 0  "found"]
-Rat[406878 23531 0 374248 24468 0  "found"]
-Rat[1874996 221033 0 1873996 188033 0  ""]
-Rat[1873996 188033 0 1870996 148033 0  ""]
-Rat[1870996 148033 0 1879996 111033 0  ""]
-Rat[1879996 111033 0 1880996 76033 0  ""]
-Rat[1880996 76033 0 1883996 50033 0  ""]
-Rat[1787127 233595 0 1782752 190968 0  ""]
-Rat[1782752 190968 0 1787752 153968 0  ""]
-Rat[1787752 153968 0 1787127 118595 0  ""]
-Rat[1787127 118595 0 1784752 75968 0  ""]
-Rat[1784752 75968 0 1779252 49468 0  ""]
-Rat[1658122 226032 0 1657122 184032 0  ""]
-Rat[1657122 184032 0 1648122 143032 0  ""]
-Rat[1648122 143032 0 1652122 113032 0  ""]
-Rat[1652122 113032 0 1660122 74032 0  ""]
-Rat[1660122 74032 0 1656122 38032 0  ""]
-Rat[1551878 221968 0 1548878 189968 0  ""]
-Rat[1548878 189968 0 1559878 152968 0  ""]
-Rat[1559878 152968 0 1561878 119968 0  ""]
-Rat[1561878 119968 0 1556878 74968 0  ""]
-Rat[1556878 74968 0 1552878 40968 0  ""]
-Rat[1495122 225032 0 1505122 189032 0  ""]
-Rat[1505122 189032 0 1493122 141032 0  ""]
-Rat[1493122 141032 0 1489122 106032 0  ""]
-Rat[1489122 106032 0 1489122 70032 0  ""]
-Rat[1489122 70032 0 1503122 40032 0  ""]
-Rat[1385752 228968 0 1391000 183720 0  ""]
-Rat[1391000 183720 0 1385752 155968 0  ""]
-Rat[1385752 155968 0 1386752 116968 0  ""]
-Rat[1386752 116968 0 1385752 83968 0  ""]
-Rat[1385752 83968 0 1385752 42968 0  ""]
-Rat[1326996 219033 0 1333996 188033 0  ""]
-Rat[1333996 188033 0 1334122 147032 0  ""]
-Rat[1334122 147032 0 1334122 109032 0  ""]
-Rat[1334122 109032 0 1335122 69032 0  ""]
-Rat[1335122 69032 0 1334122 32032 0  ""]
-Rat[1241000 215846 0 1241000 176846 0  ""]
-Rat[1241000 176846 0 1241000 138846 0  ""]
-Rat[1241000 138846 0 1230878 110968 0  ""]
-Rat[1230878 110968 0 1241000 61846 0  ""]
-Rat[1241000 61846 0 1234878 35968 0  ""]
-Rat[1163122 219032 0 1156122 176032 0  ""]
-Rat[1156122 176032 0 1158122 142032 0  ""]
-Rat[1158122 142032 0 1163122 104032 0  ""]
-Rat[1163122 104032 0 1175122 76032 0  ""]
-Rat[1175122 76032 0 1164122 23032 0  ""]
-Rat[1081127 221721 0 1081878 184968 0  ""]
-Rat[1081878 184968 0 1089000 137846 0  ""]
-Rat[1089000 137846 0 1073252 114594 0  ""]
-Rat[1073252 114594 0 1084878 68968 0  ""]
-Rat[1084878 68968 0 1083878 27968 0  ""]
-Rat[1021122 214032 0 1015122 174032 0  ""]
-Rat[1015122 174032 0 1012122 138032 0  ""]
-Rat[1012122 138032 0 1022122 106032 0  ""]
-Rat[1022122 106032 0 1019122 63032 0  ""]
-Rat[1019122 63032 0 1018122 29032 0  ""]
-Rat[901878 213968 0 904878 176968 0  ""]
-Rat[904878 176968 0 903878 138968 0  ""]
-Rat[903878 138968 0 910878 103968 0  ""]
-Rat[910878 103968 0 905878 64968 0  ""]
-Rat[905878 64968 0 905004 27967 0  ""]
-Rat[807122 209032 0 804122 175032 0  ""]
-Rat[804122 175032 0 800122 133032 0  ""]
-Rat[800122 133032 0 804122 95032 0  ""]
-Rat[804122 95032 0 802122 52032 0  ""]
-Rat[802122 52032 0 804122 20032 0  ""]
-Rat[726004 216967 0 721127 176721 0  ""]
-Rat[721127 176721 0 721878 141968 0  ""]
-Rat[721878 141968 0 719878 102968 0  ""]
-Rat[719878 102968 0 721878 58968 0  ""]
-Rat[721878 58968 0 721127 23721 0  ""]
-Rat[639122 215032 0 639122 169032 0  ""]
-Rat[639122 169032 0 642122 132032 0  ""]
-Rat[642122 132032 0 646122 107032 0  ""]
-Rat[646122 107032 0 635122 58032 0  ""]
-Rat[635122 58032 0 639122 23032 0  ""]
-Rat[576000 210846 0 560252 188594 0  ""]
-Rat[560252 188594 0 572878 146968 0  ""]
-Rat[572878 146968 0 572878 104968 0  ""]
-Rat[572878 104968 0 568878 70968 0  ""]
-Rat[568878 70968 0 567878 22968 0  ""]
-Rat[524122 209032 0 526122 173032 0  ""]
-Rat[526122 173032 0 533122 139032 0  ""]
-Rat[533122 139032 0 525122 97032 0  ""]
-Rat[525122 97032 0 539122 67032 0  ""]
-Rat[539122 67032 0 537122 26032 0  ""]
-Rat[456752 226216 0 460878 188968 0  ""]
-Rat[460878 188968 0 454252 157594 0  ""]
-Rat[454252 157594 0 461878 109968 0  ""]
-Rat[461878 109968 0 459878 68968 0  ""]
-Rat[459878 68968 0 464878 33968 0  ""]
-Rat[428000 202032 0 418626 168531 0  ""]
-Rat[418626 168531 0 417626 125531 0  ""]
-Rat[417626 125531 0 421374 96279 0  ""]
-Rat[421374 96279 0 422626 49531 0  ""]
-Rat[422626 49531 0 422626 23531 0  ""]
-Rat[366500 217468 0 352752 186216 0  ""]
-Rat[352752 186216 0 360500 143468 0  ""]
-Rat[360500 143468 0 357500 93468 0  ""]
-Rat[357500 93468 0 358500 62468 0  ""]
-Rat[358500 62468 0 358500 24468 0  ""]
+
+Element["" "dio_1210" "D94" "XXX" 510874 326000 -11811 -13780 0 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
+	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
+	ElementLine [0 -984 0 985 800]
+	ElementLine [0 -984 984 -984 800]
+	ElementLine [0 985 984 985 800]
+	ElementLine [394 -1181 394 788 800]
+	ElementLine [-394 -787 -394 788 800]
+	ElementLine [-1969 -2362 -1969 2363 800]
+	ElementLine [-1969 0 984 -1968 800]
+	ElementLine [984 -1968 984 1969 800]
+	ElementLine [984 1969 -1969 0 800]
+	ElementLine [-1969 0 1968 0 800]
+	ElementLine [-11811 -7874 13780 -7874 800]
+	ElementLine [13780 -7874 13780 7874 800]
+	ElementLine [-13779 7874 13780 7874 800]
+	ElementLine [-13779 -5905 -13779 7874 800]
+	ElementLine [-13779 -5905 -11811 -7874 800]
+
+	)
+
+Element["" "dio_1210" "D93" "XXX" 510874 361000 -11811 -13780 0 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
+	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
+	ElementLine [0 -984 0 985 800]
+	ElementLine [0 -984 984 -984 800]
+	ElementLine [0 985 984 985 800]
+	ElementLine [394 -1181 394 788 800]
+	ElementLine [-394 -787 -394 788 800]
+	ElementLine [-1969 -2362 -1969 2363 800]
+	ElementLine [-1969 0 984 -1968 800]
+	ElementLine [984 -1968 984 1969 800]
+	ElementLine [984 1969 -1969 0 800]
+	ElementLine [-1969 0 1968 0 800]
+	ElementLine [-11811 -7874 13780 -7874 800]
+	ElementLine [13780 -7874 13780 7874 800]
+	ElementLine [-13779 7874 13780 7874 800]
+	ElementLine [-13779 -5905 -13779 7874 800]
+	ElementLine [-13779 -5905 -11811 -7874 800]
+
+	)
+
+Element["" "dio_1210" "D92" "XXX" 512248 396626 -11811 -13780 0 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
+	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
+	ElementLine [0 -984 0 985 800]
+	ElementLine [0 -984 984 -984 800]
+	ElementLine [0 985 984 985 800]
+	ElementLine [394 -1181 394 788 800]
+	ElementLine [-394 -787 -394 788 800]
+	ElementLine [-1969 -2362 -1969 2363 800]
+	ElementLine [-1969 0 984 -1968 800]
+	ElementLine [984 -1968 984 1969 800]
+	ElementLine [984 1969 -1969 0 800]
+	ElementLine [-1969 0 1968 0 800]
+	ElementLine [-11811 -7874 13780 -7874 800]
+	ElementLine [13780 -7874 13780 7874 800]
+	ElementLine [-13779 7874 13780 7874 800]
+	ElementLine [-13779 -5905 -13779 7874 800]
+	ElementLine [-13779 -5905 -11811 -7874 800]
+
+	)
+
+Element["" "dio_1210" "D91" "XXX" 511996 430878 -11811 -13780 0 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
+	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
+	ElementLine [0 -984 0 985 800]
+	ElementLine [0 -984 984 -984 800]
+	ElementLine [0 985 984 985 800]
+	ElementLine [394 -1181 394 788 800]
+	ElementLine [-394 -787 -394 788 800]
+	ElementLine [-1969 -2362 -1969 2363 800]
+	ElementLine [-1969 0 984 -1968 800]
+	ElementLine [984 -1968 984 1969 800]
+	ElementLine [984 1969 -1969 0 800]
+	ElementLine [-1969 0 1968 0 800]
+	ElementLine [-11811 -7874 13780 -7874 800]
+	ElementLine [13780 -7874 13780 7874 800]
+	ElementLine [-13779 7874 13780 7874 800]
+	ElementLine [-13779 -5905 -13779 7874 800]
+	ElementLine [-13779 -5905 -11811 -7874 800]
+
+	)
+
+Element["" "dio_1210" "D102" "XXX" 452874 256001 11811 13780 2 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-7874 -1969 -7874 1968 8480 2404 9280 "ANODE" "2" "square"]
+	Pad[7874 -1969 7874 1968 8480 2404 9280 "CATHODE" "1" "square"]
+	ElementLine [0 -985 0 984 800]
+	ElementLine [-984 984 0 984 800]
+	ElementLine [-984 -985 0 -985 800]
+	ElementLine [-394 -788 -394 1181 800]
+	ElementLine [394 -788 394 787 800]
+	ElementLine [1969 -2363 1969 2362 800]
+	ElementLine [1969 0 -984 1968 800]
+	ElementLine [-984 -1969 -984 1968 800]
+	ElementLine [-984 -1969 1969 0 800]
+	ElementLine [-1968 0 1969 0 800]
+	ElementLine [-13780 7874 11811 7874 800]
+	ElementLine [-13780 -7874 -13780 7874 800]
+	ElementLine [-13780 -7874 13779 -7874 800]
+	ElementLine [13779 -7874 13779 5905 800]
+	ElementLine [13779 5905 11811 7874 800]
+
+	)
+
+Element["" "dio_1210" "D97" "XXX" 452874 432001 11811 13780 2 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-7874 -1969 -7874 1968 8480 2404 9280 "ANODE" "2" "square"]
+	Pad[7874 -1969 7874 1968 8480 2404 9280 "CATHODE" "1" "square"]
+	ElementLine [0 -985 0 984 800]
+	ElementLine [-984 984 0 984 800]
+	ElementLine [-984 -985 0 -985 800]
+	ElementLine [-394 -788 -394 1181 800]
+	ElementLine [394 -788 394 787 800]
+	ElementLine [1969 -2363 1969 2362 800]
+	ElementLine [1969 0 -984 1968 800]
+	ElementLine [-984 -1969 -984 1968 800]
+	ElementLine [-984 -1969 1969 0 800]
+	ElementLine [-1968 0 1969 0 800]
+	ElementLine [-13780 7874 11811 7874 800]
+	ElementLine [-13780 -7874 -13780 7874 800]
+	ElementLine [-13780 -7874 13779 -7874 800]
+	ElementLine [13779 -7874 13779 5905 800]
+	ElementLine [13779 5905 11811 7874 800]
+
+	)
+
+Element["" "dio_1210" "D98" "XXX" 452874 398001 11811 13780 2 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-7874 -1969 -7874 1968 8480 2404 9280 "ANODE" "2" "square"]
+	Pad[7874 -1969 7874 1968 8480 2404 9280 "CATHODE" "1" "square"]
+	ElementLine [0 -985 0 984 800]
+	ElementLine [-984 984 0 984 800]
+	ElementLine [-984 -985 0 -985 800]
+	ElementLine [-394 -788 -394 1181 800]
+	ElementLine [394 -788 394 787 800]
+	ElementLine [1969 -2363 1969 2362 800]
+	ElementLine [1969 0 -984 1968 800]
+	ElementLine [-984 -1969 -984 1968 800]
+	ElementLine [-984 -1969 1969 0 800]
+	ElementLine [-1968 0 1969 0 800]
+	ElementLine [-13780 7874 11811 7874 800]
+	ElementLine [-13780 -7874 -13780 7874 800]
+	ElementLine [-13780 -7874 13779 -7874 800]
+	ElementLine [13779 -7874 13779 5905 800]
+	ElementLine [13779 5905 11811 7874 800]
+
+	)
+
+Element["" "dio_1210" "D99" "XXX" 452874 362001 11811 13780 2 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-7874 -1969 -7874 1968 8480 2404 9280 "ANODE" "2" "square"]
+	Pad[7874 -1969 7874 1968 8480 2404 9280 "CATHODE" "1" "square"]
+	ElementLine [0 -985 0 984 800]
+	ElementLine [-984 984 0 984 800]
+	ElementLine [-984 -985 0 -985 800]
+	ElementLine [-394 -788 -394 1181 800]
+	ElementLine [394 -788 394 787 800]
+	ElementLine [1969 -2363 1969 2362 800]
+	ElementLine [1969 0 -984 1968 800]
+	ElementLine [-984 -1969 -984 1968 800]
+	ElementLine [-984 -1969 1969 0 800]
+	ElementLine [-1968 0 1969 0 800]
+	ElementLine [-13780 7874 11811 7874 800]
+	ElementLine [-13780 -7874 -13780 7874 800]
+	ElementLine [-13780 -7874 13779 -7874 800]
+	ElementLine [13779 -7874 13779 5905 800]
+	ElementLine [13779 5905 11811 7874 800]
+
+	)
+
+Element["" "dio_1210" "D100" "XXX" 452874 328001 11811 13780 2 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-7874 -1969 -7874 1968 8480 2404 9280 "ANODE" "2" "square"]
+	Pad[7874 -1969 7874 1968 8480 2404 9280 "CATHODE" "1" "square"]
+	ElementLine [0 -985 0 984 800]
+	ElementLine [-984 984 0 984 800]
+	ElementLine [-984 -985 0 -985 800]
+	ElementLine [-394 -788 -394 1181 800]
+	ElementLine [394 -788 394 787 800]
+	ElementLine [1969 -2363 1969 2362 800]
+	ElementLine [1969 0 -984 1968 800]
+	ElementLine [-984 -1969 -984 1968 800]
+	ElementLine [-984 -1969 1969 0 800]
+	ElementLine [-1968 0 1969 0 800]
+	ElementLine [-13780 7874 11811 7874 800]
+	ElementLine [-13780 -7874 -13780 7874 800]
+	ElementLine [-13780 -7874 13779 -7874 800]
+	ElementLine [13779 -7874 13779 5905 800]
+	ElementLine [13779 5905 11811 7874 800]
+
+	)
+
+Element["" "dio_1210" "D101" "XXX" 452874 292001 11811 13780 2 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-7874 -1969 -7874 1968 8480 2404 9280 "ANODE" "2" "square"]
+	Pad[7874 -1969 7874 1968 8480 2404 9280 "CATHODE" "1" "square"]
+	ElementLine [0 -985 0 984 800]
+	ElementLine [-984 984 0 984 800]
+	ElementLine [-984 -985 0 -985 800]
+	ElementLine [-394 -788 -394 1181 800]
+	ElementLine [394 -788 394 787 800]
+	ElementLine [1969 -2363 1969 2362 800]
+	ElementLine [1969 0 -984 1968 800]
+	ElementLine [-984 -1969 -984 1968 800]
+	ElementLine [-984 -1969 1969 0 800]
+	ElementLine [-1968 0 1969 0 800]
+	ElementLine [-13780 7874 11811 7874 800]
+	ElementLine [-13780 -7874 -13780 7874 800]
+	ElementLine [-13780 -7874 13779 -7874 800]
+	ElementLine [13779 -7874 13779 5905 800]
+	ElementLine [13779 5905 11811 7874 800]
+
+	)
+
+Element["" "dio_1210" "D108" "XXX" 397874 255000 -11811 -13780 0 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
+	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
+	ElementLine [0 -984 0 985 800]
+	ElementLine [0 -984 984 -984 800]
+	ElementLine [0 985 984 985 800]
+	ElementLine [394 -1181 394 788 800]
+	ElementLine [-394 -787 -394 788 800]
+	ElementLine [-1969 -2362 -1969 2363 800]
+	ElementLine [-1969 0 984 -1968 800]
+	ElementLine [984 -1968 984 1969 800]
+	ElementLine [984 1969 -1969 0 800]
+	ElementLine [-1969 0 1968 0 800]
+	ElementLine [-11811 -7874 13780 -7874 800]
+	ElementLine [13780 -7874 13780 7874 800]
+	ElementLine [-13779 7874 13780 7874 800]
+	ElementLine [-13779 -5905 -13779 7874 800]
+	ElementLine [-13779 -5905 -11811 -7874 800]
+
+	)
+
+Element["" "dio_1210" "D107" "XXX" 397752 289999 -11811 -13780 0 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
+	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
+	ElementLine [0 -984 0 985 800]
+	ElementLine [0 -984 984 -984 800]
+	ElementLine [0 985 984 985 800]
+	ElementLine [394 -1181 394 788 800]
+	ElementLine [-394 -787 -394 788 800]
+	ElementLine [-1969 -2362 -1969 2363 800]
+	ElementLine [-1969 0 984 -1968 800]
+	ElementLine [984 -1968 984 1969 800]
+	ElementLine [984 1969 -1969 0 800]
+	ElementLine [-1969 0 1968 0 800]
+	ElementLine [-11811 -7874 13780 -7874 800]
+	ElementLine [13780 -7874 13780 7874 800]
+	ElementLine [-13779 7874 13780 7874 800]
+	ElementLine [-13779 -5905 -13779 7874 800]
+	ElementLine [-13779 -5905 -11811 -7874 800]
+
+	)
+
+Element["" "dio_1210" "D106" "XXX" 397752 325999 -11811 -13780 0 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
+	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
+	ElementLine [0 -984 0 985 800]
+	ElementLine [0 -984 984 -984 800]
+	ElementLine [0 985 984 985 800]
+	ElementLine [394 -1181 394 788 800]
+	ElementLine [-394 -787 -394 788 800]
+	ElementLine [-1969 -2362 -1969 2363 800]
+	ElementLine [-1969 0 984 -1968 800]
+	ElementLine [984 -1968 984 1969 800]
+	ElementLine [984 1969 -1969 0 800]
+	ElementLine [-1969 0 1968 0 800]
+	ElementLine [-11811 -7874 13780 -7874 800]
+	ElementLine [13780 -7874 13780 7874 800]
+	ElementLine [-13779 7874 13780 7874 800]
+	ElementLine [-13779 -5905 -13779 7874 800]
+	ElementLine [-13779 -5905 -11811 -7874 800]
+
+	)
+
+Element["" "dio_1210" "D105" "XXX" 398126 361625 -11811 -13780 0 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
+	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
+	ElementLine [0 -984 0 985 800]
+	ElementLine [0 -984 984 -984 800]
+	ElementLine [0 985 984 985 800]
+	ElementLine [394 -1181 394 788 800]
+	ElementLine [-394 -787 -394 788 800]
+	ElementLine [-1969 -2362 -1969 2363 800]
+	ElementLine [-1969 0 984 -1968 800]
+	ElementLine [984 -1968 984 1969 800]
+	ElementLine [984 1969 -1969 0 800]
+	ElementLine [-1969 0 1968 0 800]
+	ElementLine [-11811 -7874 13780 -7874 800]
+	ElementLine [13780 -7874 13780 7874 800]
+	ElementLine [-13779 7874 13780 7874 800]
+	ElementLine [-13779 -5905 -13779 7874 800]
+	ElementLine [-13779 -5905 -11811 -7874 800]
+
+	)
+
+Element["" "dio_1210" "D104" "XXX" 397752 397999 -11811 -13780 0 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
+	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
+	ElementLine [0 -984 0 985 800]
+	ElementLine [0 -984 984 -984 800]
+	ElementLine [0 985 984 985 800]
+	ElementLine [394 -1181 394 788 800]
+	ElementLine [-394 -787 -394 788 800]
+	ElementLine [-1969 -2362 -1969 2363 800]
+	ElementLine [-1969 0 984 -1968 800]
+	ElementLine [984 -1968 984 1969 800]
+	ElementLine [984 1969 -1969 0 800]
+	ElementLine [-1969 0 1968 0 800]
+	ElementLine [-11811 -7874 13780 -7874 800]
+	ElementLine [13780 -7874 13780 7874 800]
+	ElementLine [-13779 7874 13780 7874 800]
+	ElementLine [-13779 -5905 -13779 7874 800]
+	ElementLine [-13779 -5905 -11811 -7874 800]
+
+	)
+
+Element["" "dio_1210" "D103" "XXX" 397874 433000 -11811 -13780 0 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
+	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
+	ElementLine [0 -984 0 985 800]
+	ElementLine [0 -984 984 -984 800]
+	ElementLine [0 985 984 985 800]
+	ElementLine [394 -1181 394 788 800]
+	ElementLine [-394 -787 -394 788 800]
+	ElementLine [-1969 -2362 -1969 2363 800]
+	ElementLine [-1969 0 984 -1968 800]
+	ElementLine [984 -1968 984 1969 800]
+	ElementLine [984 1969 -1969 0 800]
+	ElementLine [-1969 0 1968 0 800]
+	ElementLine [-11811 -7874 13780 -7874 800]
+	ElementLine [13780 -7874 13780 7874 800]
+	ElementLine [-13779 7874 13780 7874 800]
+	ElementLine [-13779 -5905 -13779 7874 800]
+	ElementLine [-13779 -5905 -11811 -7874 800]
+
+	)
+
+Element["" "dio_1210" "D115" "XXX" 294126 435000 -11811 -13780 0 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
+	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
+	ElementLine [0 -984 0 985 800]
+	ElementLine [0 -984 984 -984 800]
+	ElementLine [0 985 984 985 800]
+	ElementLine [394 -1181 394 788 800]
+	ElementLine [-394 -787 -394 788 800]
+	ElementLine [-1969 -2362 -1969 2363 800]
+	ElementLine [-1969 0 984 -1968 800]
+	ElementLine [984 -1968 984 1969 800]
+	ElementLine [984 1969 -1969 0 800]
+	ElementLine [-1969 0 1968 0 800]
+	ElementLine [-11811 -7874 13780 -7874 800]
+	ElementLine [13780 -7874 13780 7874 800]
+	ElementLine [-13779 7874 13780 7874 800]
+	ElementLine [-13779 -5905 -13779 7874 800]
+	ElementLine [-13779 -5905 -11811 -7874 800]
+
+	)
+
+Element["" "dio_1210" "D120" "XXX" 293374 253499 -11811 -13780 0 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
+	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
+	ElementLine [0 -984 0 985 800]
+	ElementLine [0 -984 984 -984 800]
+	ElementLine [0 985 984 985 800]
+	ElementLine [394 -1181 394 788 800]
+	ElementLine [-394 -787 -394 788 800]
+	ElementLine [-1969 -2362 -1969 2363 800]
+	ElementLine [-1969 0 984 -1968 800]
+	ElementLine [984 -1968 984 1969 800]
+	ElementLine [984 1969 -1969 0 800]
+	ElementLine [-1969 0 1968 0 800]
+	ElementLine [-11811 -7874 13780 -7874 800]
+	ElementLine [13780 -7874 13780 7874 800]
+	ElementLine [-13779 7874 13780 7874 800]
+	ElementLine [-13779 -5905 -13779 7874 800]
+	ElementLine [-13779 -5905 -11811 -7874 800]
+
+	)
+
+Element["" "dio_1210" "D119" "XXX" 293374 290499 -11811 -13780 0 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
+	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
+	ElementLine [0 -984 0 985 800]
+	ElementLine [0 -984 984 -984 800]
+	ElementLine [0 985 984 985 800]
+	ElementLine [394 -1181 394 788 800]
+	ElementLine [-394 -787 -394 788 800]
+	ElementLine [-1969 -2362 -1969 2363 800]
+	ElementLine [-1969 0 984 -1968 800]
+	ElementLine [984 -1968 984 1969 800]
+	ElementLine [984 1969 -1969 0 800]
+	ElementLine [-1969 0 1968 0 800]
+	ElementLine [-11811 -7874 13780 -7874 800]
+	ElementLine [13780 -7874 13780 7874 800]
+	ElementLine [-13779 7874 13780 7874 800]
+	ElementLine [-13779 -5905 -13779 7874 800]
+	ElementLine [-13779 -5905 -11811 -7874 800]
+
+	)
+
+Element["" "dio_1210" "D118" "XXX" 293874 326000 -11811 -13780 0 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
+	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
+	ElementLine [0 -984 0 985 800]
+	ElementLine [0 -984 984 -984 800]
+	ElementLine [0 985 984 985 800]
+	ElementLine [394 -1181 394 788 800]
+	ElementLine [-394 -787 -394 788 800]
+	ElementLine [-1969 -2362 -1969 2363 800]
+	ElementLine [-1969 0 984 -1968 800]
+	ElementLine [984 -1968 984 1969 800]
+	ElementLine [984 1969 -1969 0 800]
+	ElementLine [-1969 0 1968 0 800]
+	ElementLine [-11811 -7874 13780 -7874 800]
+	ElementLine [13780 -7874 13780 7874 800]
+	ElementLine [-13779 7874 13780 7874 800]
+	ElementLine [-13779 -5905 -13779 7874 800]
+	ElementLine [-13779 -5905 -11811 -7874 800]
+
+	)
+
+Element["" "dio_1210" "D117" "XXX" 294374 362499 -11811 -13780 0 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
+	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
+	ElementLine [0 -984 0 985 800]
+	ElementLine [0 -984 984 -984 800]
+	ElementLine [0 985 984 985 800]
+	ElementLine [394 -1181 394 788 800]
+	ElementLine [-394 -787 -394 788 800]
+	ElementLine [-1969 -2362 -1969 2363 800]
+	ElementLine [-1969 0 984 -1968 800]
+	ElementLine [984 -1968 984 1969 800]
+	ElementLine [984 1969 -1969 0 800]
+	ElementLine [-1969 0 1968 0 800]
+	ElementLine [-11811 -7874 13780 -7874 800]
+	ElementLine [13780 -7874 13780 7874 800]
+	ElementLine [-13779 7874 13780 7874 800]
+	ElementLine [-13779 -5905 -13779 7874 800]
+	ElementLine [-13779 -5905 -11811 -7874 800]
+
+	)
+
+Element["" "dio_1210" "D116" "XXX" 294000 399000 -11811 -13780 0 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
+	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
+	ElementLine [0 -984 0 985 800]
+	ElementLine [0 -984 984 -984 800]
+	ElementLine [0 985 984 985 800]
+	ElementLine [394 -1181 394 788 800]
+	ElementLine [-394 -787 -394 788 800]
+	ElementLine [-1969 -2362 -1969 2363 800]
+	ElementLine [-1969 0 984 -1968 800]
+	ElementLine [984 -1968 984 1969 800]
+	ElementLine [984 1969 -1969 0 800]
+	ElementLine [-1969 0 1968 0 800]
+	ElementLine [-11811 -7874 13780 -7874 800]
+	ElementLine [13780 -7874 13780 7874 800]
+	ElementLine [-13779 7874 13780 7874 800]
+	ElementLine [-13779 -5905 -13779 7874 800]
+	ElementLine [-13779 -5905 -11811 -7874 800]
+
+	)
+
+Element["" "dio_1210" "D109" "XXX" 344248 434502 11811 13780 2 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-7874 -1969 -7874 1968 8480 2404 9280 "ANODE" "2" "square"]
+	Pad[7874 -1969 7874 1968 8480 2404 9280 "CATHODE" "1" "square"]
+	ElementLine [0 -985 0 984 800]
+	ElementLine [-984 984 0 984 800]
+	ElementLine [-984 -985 0 -985 800]
+	ElementLine [-394 -788 -394 1181 800]
+	ElementLine [394 -788 394 787 800]
+	ElementLine [1969 -2363 1969 2362 800]
+	ElementLine [1969 0 -984 1968 800]
+	ElementLine [-984 -1969 -984 1968 800]
+	ElementLine [-984 -1969 1969 0 800]
+	ElementLine [-1968 0 1969 0 800]
+	ElementLine [-13780 7874 11811 7874 800]
+	ElementLine [-13780 -7874 -13780 7874 800]
+	ElementLine [-13780 -7874 13779 -7874 800]
+	ElementLine [13779 -7874 13779 5905 800]
+	ElementLine [13779 5905 11811 7874 800]
+
+	)
+
+Element["" "dio_1210" "D114" "XXX" 343874 254001 11811 13780 2 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-7874 -1969 -7874 1968 8480 2404 9280 "ANODE" "2" "square"]
+	Pad[7874 -1969 7874 1968 8480 2404 9280 "CATHODE" "1" "square"]
+	ElementLine [0 -985 0 984 800]
+	ElementLine [-984 984 0 984 800]
+	ElementLine [-984 -985 0 -985 800]
+	ElementLine [-394 -788 -394 1181 800]
+	ElementLine [394 -788 394 787 800]
+	ElementLine [1969 -2363 1969 2362 800]
+	ElementLine [1969 0 -984 1968 800]
+	ElementLine [-984 -1969 -984 1968 800]
+	ElementLine [-984 -1969 1969 0 800]
+	ElementLine [-1968 0 1969 0 800]
+	ElementLine [-13780 7874 11811 7874 800]
+	ElementLine [-13780 -7874 -13780 7874 800]
+	ElementLine [-13780 -7874 13779 -7874 800]
+	ElementLine [13779 -7874 13779 5905 800]
+	ElementLine [13779 5905 11811 7874 800]
+
+	)
+
+Element["" "dio_1210" "D113" "XXX" 343874 291001 11811 13780 2 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-7874 -1969 -7874 1968 8480 2404 9280 "ANODE" "2" "square"]
+	Pad[7874 -1969 7874 1968 8480 2404 9280 "CATHODE" "1" "square"]
+	ElementLine [0 -985 0 984 800]
+	ElementLine [-984 984 0 984 800]
+	ElementLine [-984 -985 0 -985 800]
+	ElementLine [-394 -788 -394 1181 800]
+	ElementLine [394 -788 394 787 800]
+	ElementLine [1969 -2363 1969 2362 800]
+	ElementLine [1969 0 -984 1968 800]
+	ElementLine [-984 -1969 -984 1968 800]
+	ElementLine [-984 -1969 1969 0 800]
+	ElementLine [-1968 0 1969 0 800]
+	ElementLine [-13780 7874 11811 7874 800]
+	ElementLine [-13780 -7874 -13780 7874 800]
+	ElementLine [-13780 -7874 13779 -7874 800]
+	ElementLine [13779 -7874 13779 5905 800]
+	ElementLine [13779 5905 11811 7874 800]
+
+	)
+
+Element["" "dio_1210" "D112" "XXX" 343622 326749 11811 13780 2 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-7874 -1969 -7874 1968 8480 2404 9280 "ANODE" "2" "square"]
+	Pad[7874 -1969 7874 1968 8480 2404 9280 "CATHODE" "1" "square"]
+	ElementLine [0 -985 0 984 800]
+	ElementLine [-984 984 0 984 800]
+	ElementLine [-984 -985 0 -985 800]
+	ElementLine [-394 -788 -394 1181 800]
+	ElementLine [394 -788 394 787 800]
+	ElementLine [1969 -2363 1969 2362 800]
+	ElementLine [1969 0 -984 1968 800]
+	ElementLine [-984 -1969 -984 1968 800]
+	ElementLine [-984 -1969 1969 0 800]
+	ElementLine [-1968 0 1969 0 800]
+	ElementLine [-13780 7874 11811 7874 800]
+	ElementLine [-13780 -7874 -13780 7874 800]
+	ElementLine [-13780 -7874 13779 -7874 800]
+	ElementLine [13779 -7874 13779 5905 800]
+	ElementLine [13779 5905 11811 7874 800]
+
+	)
+
+Element["" "dio_1210" "D111" "XXX" 343874 363001 11811 13780 2 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-7874 -1969 -7874 1968 8480 2404 9280 "ANODE" "2" "square"]
+	Pad[7874 -1969 7874 1968 8480 2404 9280 "CATHODE" "1" "square"]
+	ElementLine [0 -985 0 984 800]
+	ElementLine [-984 984 0 984 800]
+	ElementLine [-984 -985 0 -985 800]
+	ElementLine [-394 -788 -394 1181 800]
+	ElementLine [394 -788 394 787 800]
+	ElementLine [1969 -2363 1969 2362 800]
+	ElementLine [1969 0 -984 1968 800]
+	ElementLine [-984 -1969 -984 1968 800]
+	ElementLine [-984 -1969 1969 0 800]
+	ElementLine [-1968 0 1969 0 800]
+	ElementLine [-13780 7874 11811 7874 800]
+	ElementLine [-13780 -7874 -13780 7874 800]
+	ElementLine [-13780 -7874 13779 -7874 800]
+	ElementLine [13779 -7874 13779 5905 800]
+	ElementLine [13779 5905 11811 7874 800]
+
+	)
+
+Element["" "dio_1210" "D110" "XXX" 343874 399001 11811 13780 2 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-7874 -1969 -7874 1968 8480 2404 9280 "ANODE" "2" "square"]
+	Pad[7874 -1969 7874 1968 8480 2404 9280 "CATHODE" "1" "square"]
+	ElementLine [0 -985 0 984 800]
+	ElementLine [-984 984 0 984 800]
+	ElementLine [-984 -985 0 -985 800]
+	ElementLine [-394 -788 -394 1181 800]
+	ElementLine [394 -788 394 787 800]
+	ElementLine [1969 -2363 1969 2362 800]
+	ElementLine [1969 0 -984 1968 800]
+	ElementLine [-984 -1969 -984 1968 800]
+	ElementLine [-984 -1969 1969 0 800]
+	ElementLine [-1968 0 1969 0 800]
+	ElementLine [-13780 7874 11811 7874 800]
+	ElementLine [-13780 -7874 -13780 7874 800]
+	ElementLine [-13780 -7874 13779 -7874 800]
+	ElementLine [13779 -7874 13779 5905 800]
+	ElementLine [13779 5905 11811 7874 800]
+
+	)
+
+Element["" "dio_1210" "D58" "XXX" 962126 329000 -11811 -13780 0 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[7874 -1968 7874 1969 8480 2404 9280 "ANODE" "2" "square,edge2"]
+	Pad[-7874 -1968 -7874 1969 8480 2404 9280 "CATHODE" "1" "square,edge2"]
+	ElementLine [0 -984 0 985 800]
+	ElementLine [0 -984 984 -984 800]
+	ElementLine [0 985 984 985 800]
+	ElementLine [394 -1181 394 788 800]
+	ElementLine [-394 -787 -394 788 800]
+	ElementLine [-1969 -2362 -1969 2363 800]
+	ElementLine [-1969 0 984 -1968 800]
+	ElementLine [984 -1968 984 1969 800]
+	ElementLine [984 1969 -1969 0 800]
+	ElementLine [-1969 0 1968 0 800]
+	ElementLine [-11811 -7874 13780 -7874 800]
+	ElementLine [13780 -7874 13780 7874 800]
+	ElementLine [-13779 7874 13780 7874 800]
+	ElementLine [-13779 -5905 -13779 7874 800]
+	ElementLine [-13779 -5905 -11811 -7874 800]
+
+	)
 Layer(1 "component")
 (
+	Line[1943200 283000 1942700 405000 1000 2000 "clearline"]
+	Line[1844874 407000 1887000 407000 1000 2000 "clearline"]
+	Line[1887000 407000 1889000 405000 1000 2000 "clearline"]
+	Line[1889000 405000 1926952 405000 1000 2000 "clearline"]
+	Line[1845373 381373 1926752 381373 1000 2000 "clearline"]
+	Line[1926752 381373 1927126 380999 1000 2000 "clearline"]
+	Line[1844874 356000 1927452 356000 1000 2000 "clearline"]
+	Line[1844748 331000 1926452 331000 1000 2000 "clearline"]
+	Line[1926452 331000 1927452 332000 1000 2000 "clearline"]
+	Line[1844874 306000 1926452 306000 1000 2000 "clearline"]
+	Line[1926452 306000 1927452 307000 1000 2000 "clearline"]
+	Line[1844874 281000 1885000 281000 1000 2000 "clearline"]
+	Line[1885000 281000 1887000 283000 1000 2000 "clearline"]
+	Line[1887000 283000 1927452 283000 1000 2000 "clearline"]
+	Line[1712122 279000 1712122 410000 1000 2000 "clearline"]
+	Line[1830000 281000 1830000 407000 1000 2000 "clearline"]
+	Line[1569878 275999 1569878 411999 1000 2000 "clearline"]
+	Line[1585626 411999 1694375 411999 1000 2000 "clearline"]
+	Line[1694375 411999 1696374 410000 1000 2000 "clearline"]
+	Line[1697126 382999 1587626 382999 1000 2000 "clearline"]
+	Line[1587626 382999 1585626 384999 1000 2000 "clearline"]
+	Line[1585626 357999 1695375 357999 1000 2000 "clearline"]
+	Line[1695375 357999 1696374 357000 1000 2000 "clearline"]
+	Line[1696126 330999 1585626 330999 1000 2000 "clearline"]
+	Line[1585748 304000 1695374 304000 1000 2000 "clearline"]
+	Line[1695374 304000 1696374 305000 1000 2000 "clearline"]
+	Line[1696374 279000 1588627 279000 1000 2000 "clearline"]
+	Line[1588627 279000 1585626 275999 1000 2000 "clearline"]
+	Line[1467874 413999 1467874 274126 1000 2000 "clearline"]
+	Line[1467874 274126 1468000 274000 1000 2000 "clearline"]
+	Line[954374 264749 954374 422253 1000 2000 "clearline"]
+	Line[954374 422253 954623 422502 1000 2000 "clearline"]
+	Line[790000 426000 790000 262125 1000 2000 "clearline"]
+	Line[790000 262125 790126 261999 1000 2000 "clearline"]
+	Line[883748 264000 883748 425000 1000 2000 "clearline"]
+	Line[730122 261000 730122 427626 1000 2000 "clearline"]
+	Line[730122 427626 729748 428000 1000 2000 "clearline"]
+	Line[641501 259753 641501 427375 1000 2000 "clearline"]
+	Line[641501 427375 642126 428000 1000 2000 "clearline"]
+	Line[390000 433000 390000 255000 1000 2000 "clearline"]
+	Line[1342000 272000 1342000 415000 1000 2000 "clearline"]
+	Line[1342000 415000 1343000 416000 1000 2000 "clearline"]
+	Line[1250748 418000 1250748 270000 1000 2000 "clearline"]
+	Line[1136878 268122 1136878 419878 1000 2000 "clearline"]
+	Line[1136878 419878 1137000 420000 1000 2000 "clearline"]
+	Line[1058122 421000 1058122 267247 1000 2000 "clearline"]
+	Line[1058122 267247 1057874 266999 1000 2000 "clearline"]
+	Line[352122 434501 352122 254374 1000 2000 "clearline"]
+	Line[352122 254374 351748 254000 1000 2000 "clearline"]
+	Line[286252 435000 286252 254251 1000 2000 "clearline"]
+	Line[286252 254251 285500 253499 1000 2000 "clearline"]
+	Line[336000 254000 301749 254000 1000 2000 "clearline"]
+	Line[301749 254000 301248 253499 1000 2000 "clearline"]
+	Line[301248 290499 335499 290499 1000 2000 "clearline"]
+	Line[335499 290499 336000 291000 1000 2000 "clearline"]
+	Line[335748 326748 302496 326748 1000 2000 "clearline"]
+	Line[302496 326748 301748 326000 1000 2000 "clearline"]
+	Line[302248 362499 335499 362499 1000 2000 "clearline"]
+	Line[335499 362499 336000 363000 1000 2000 "clearline"]
+	Line[336000 399000 301874 399000 1000 2000 "clearline"]
+	Line[302000 435000 335875 435000 1000 2000 "clearline"]
+	Line[335875 435000 336374 434501 1000 2000 "clearline"]
+	Line[445000 256000 406748 256000 1000 2000 "clearline"]
+	Line[406748 256000 405748 255000 1000 2000 "clearline"]
+	Line[405626 289999 442999 289999 1000 2000 "clearline"]
+	Line[442999 289999 445000 292000 1000 2000 "clearline"]
+	Line[445000 328000 407627 328000 1000 2000 "clearline"]
+	Line[407627 328000 405626 325999 1000 2000 "clearline"]
+	Line[406000 361625 444625 361625 1000 2000 "clearline"]
+	Line[444625 361625 445000 362000 1000 2000 "clearline"]
+	Line[445000 398000 405627 398000 1000 2000 "clearline"]
+	Line[405627 398000 405626 397999 1000 2000 "clearline"]
+	Line[405748 433000 444000 433000 1000 2000 "clearline"]
+	Line[444000 433000 445000 432000 1000 2000 "clearline"]
+	Line[571000 259000 520874 259000 1000 2000 "clearline"]
+	Line[520874 259000 518874 257000 1000 2000 "clearline"]
+	Line[518748 292000 569000 292000 1000 2000 "clearline"]
+	Line[569000 292000 571000 294000 1000 2000 "clearline"]
+	Line[571000 328000 520748 328000 1000 2000 "clearline"]
+	Line[520748 328000 518748 326000 1000 2000 "clearline"]
+	Line[518748 361000 570000 361000 1000 2000 "clearline"]
+	Line[570000 361000 571000 362000 1000 2000 "clearline"]
+	Line[571000 396000 520748 396000 1000 2000 "clearline"]
+	Line[520748 396000 520122 396626 1000 2000 "clearline"]
+	Line[519870 430878 570122 430878 1000 2000 "clearline"]
+	Line[570122 430878 571000 430000 1000 2000 "clearline"]
+	Line[714000 428000 657874 428000 1000 2000 "clearline"]
+	Line[658249 394753 713247 394753 1000 2000 "clearline"]
+	Line[713247 394753 714000 394000 1000 2000 "clearline"]
+	Line[714374 361000 658000 361000 1000 2000 "clearline"]
+	Line[658000 329000 713374 329000 1000 2000 "clearline"]
+	Line[713374 329000 714374 328000 1000 2000 "clearline"]
+	Line[714374 295000 659000 295000 1000 2000 "clearline"]
+	Line[659000 295000 658000 294000 1000 2000 "clearline"]
+	Line[657249 259753 713127 259753 1000 2000 "clearline"]
+	Line[713127 259753 714374 261000 1000 2000 "clearline"]
+	Line[868000 264000 807875 264000 1000 2000 "clearline"]
+	Line[807875 264000 805874 261999 1000 2000 "clearline"]
+	Line[805748 296000 868000 296000 1000 2000 "clearline"]
+	Line[868000 330000 807748 330000 1000 2000 "clearline"]
+	Line[807748 330000 805748 328000 1000 2000 "clearline"]
+	Line[805748 361000 867000 361000 1000 2000 "clearline"]
+	Line[867000 361000 868000 362000 1000 2000 "clearline"]
+	Line[868000 393000 801000 393000 1000 2000 "clearline"]
+	Line[805748 393000 868000 393000 1000 2000 "clearline"]
+	Line[868000 425000 806748 425000 1000 2000 "clearline"]
+	Line[806748 425000 805748 426000 1000 2000 "clearline"]
+	Line[970122 264749 1039876 264749 1000 2000 "clearline"]
+	Line[1039876 264749 1042126 266999 1000 2000 "clearline"]
+	Line[970122 296749 1041123 296749 1000 2000 "clearline"]
+	Line[1041123 296749 1042374 298000 1000 2000 "clearline"]
+	Line[1043374 329000 970000 329000 1000 2000 "clearline"]
+	Line[970244 359627 1042754 359627 1000 2000 "clearline"]
+	Line[1042754 359627 1043126 359999 1000 2000 "clearline"]
+	Line[1042374 391000 970871 391000 1000 2000 "clearline"]
+	Line[970871 391000 970122 391749 1000 2000 "clearline"]
+	Line[970371 422502 1040872 422502 1000 2000 "clearline"]
+	Line[1040872 422502 1042374 421000 1000 2000 "clearline"]
+	Line[1152626 268122 1233122 268122 1000 2000 "clearline"]
+	Line[1233122 268122 1235000 270000 1000 2000 "clearline"]
+	Line[1235000 300000 1153748 300000 1000 2000 "clearline"]
+	Line[1153748 300000 1152748 299000 1000 2000 "clearline"]
+	Line[1152626 329122 1234122 329122 1000 2000 "clearline"]
+	Line[1234122 329122 1235000 330000 1000 2000 "clearline"]
+	Line[1235000 359000 1152748 359000 1000 2000 "clearline"]
+	Line[1152748 389000 1235000 389000 1000 2000 "clearline"]
+	Line[1235000 418000 1154748 418000 1000 2000 "clearline"]
+	Line[1154748 418000 1152748 420000 1000 2000 "clearline"]
+	Line[1357748 272000 1450252 272000 1000 2000 "clearline"]
+	Line[1450252 272000 1452252 274000 1000 2000 "clearline"]
+	Line[1452252 303000 1359748 303000 1000 2000 "clearline"]
+	Line[1359748 303000 1357748 301000 1000 2000 "clearline"]
+	Line[1357748 330000 1452252 330000 1000 2000 "clearline"]
+	Line[1452252 358000 1359748 358000 1000 2000 "clearline"]
+	Line[1359748 358000 1358748 359000 1000 2000 "clearline"]
+	Line[1358748 387000 1451252 387000 1000 2000 "clearline"]
+	Line[1451252 387000 1452252 386000 1000 2000 "clearline"]
+	Line[1452126 413999 1360749 413999 1000 2000 "clearline"]
+	Line[1360749 413999 1358748 416000 1000 2000 "clearline"]
 )
 Layer(2 "solder")
 (
